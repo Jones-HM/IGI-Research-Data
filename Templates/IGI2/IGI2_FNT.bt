@@ -1,0 +1,114 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI2_FNT.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0
+//   Purpose:
+//  Category: Game
+// File Mask: ILFF
+//  ID BYTEs:
+//   History:
+//------------------------------------------------
+
+
+#include "../COMMON/TYPES.bt";
+#include "../COMMON/ALIGNMENT.bt";
+#include "../COMMON/ILFF.bt";
+#include "../COMMON/STRINGS.bt";
+#include "../COMMON/VECTORS.bt";
+#include "../COMMON/COLORS.bt";
+
+
+LittleEndian();
+
+// FONT HEADER
+typedef struct FNTH
+{
+    ILFF_HEADER header;
+
+    U4 _0;         // 1
+    U4 char_count; // {158. 154}
+    U4 _1;         // {11, 14, 16}
+    U4 _2;         // {3, 4 ,6}
+    U4 _3;         // 1
+    U4 _4;         // {11, 14, 16}
+
+    Padding();
+};
+
+// FONT CHAR MAPPING
+typedef struct ANMF
+{
+    ILFF_HEADER header;
+
+    struct
+    {
+        U4    _0;
+        FTEXCOORD upper_left;
+        FTEXCOORD lower_right;
+        U2    _1;
+        U2    pixel_width;
+        U2    pixel_height;
+        U2    _4;
+        U4    _5;
+        U4    _6;
+        U4    _7;
+    } charmap[igi2_fnt.fnth.char_count] <optimize=true>;
+
+    Padding();
+};
+
+// FONT CHARSET
+typedef struct TRN2
+{
+    ILFF_HEADER header;
+
+    WCHAR charset[igi2_fnt.fnth.char_count];
+
+    Padding();
+};
+
+// FONT TEXTURE HEADER
+typedef struct TEXH
+{
+    ILFF_HEADER header;
+
+    U2 _0;      // 3
+    U4 _1;      // 0
+    U4 _2;      // 0
+    U4 _3;      // 0
+    U2 entry_x;
+    U2 entry_y;
+    U2 width;
+    U2 heigth;
+    U2 depth;
+
+    Padding();
+};
+
+// FONT TEXTURE
+typedef struct BODY
+{
+    ILFF_HEADER header;
+
+    RGBA_8888 pixel[igi2_fnt.texh.width * 1 * igi2_fnt.texh.heigth] <optimize=true>;
+
+    Padding();
+};
+
+
+struct
+{
+    ILFF_HEADER header;
+    CHAR formatid[4];  //FONT
+
+    FNTH fnth;
+    ANMF anmf;
+    TRN2 trn2;
+    TEXH texh;
+    BODY body;
+} igi2_fnt;
+
+
+Assert(FEof(), "Parsing error: expected end of file");

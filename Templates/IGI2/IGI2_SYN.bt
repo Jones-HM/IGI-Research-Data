@@ -1,0 +1,24 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI2_SYN.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0
+//   Purpose: 
+//  Category: Game
+// File Mask: 
+//  ID BYTEs: 
+//   History: 
+//------------------------------------------------
+
+
+LittleEndian();
+
+
+struct
+{
+	FLOAT unk[FileSize() / 4];
+} igi2_syn;
+
+
+Assert(FEof(), "Parsing error: expected end of file");

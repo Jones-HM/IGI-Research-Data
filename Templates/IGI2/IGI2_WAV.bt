@@ -1,0 +1,100 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI2_WAV.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0
+//   Purpose:
+//  Category: Game
+// File Mask: ILSF
+//  ID BYTEs:
+//   History:
+//------------------------------------------------
+
+
+#include "../COMMON/TYPES.bt";
+
+
+LittleEndian();
+
+
+typedef struct 
+{
+    
+    U1 data : 4;
+} U0 <read=Read_U0>;
+
+string Read_U0(U0 &o)
+{
+    local string s = "";
+    SPrintf("%u", o.data);
+    return s;
+};
+
+
+struct
+{
+    CH fourcc[4];       // ILSF
+    U2 mode;            // 0, 1, 2, 3
+    U2 sample_width;    // 16
+    U2 channel_count;   // {1, 2}
+    U2 skip;            // {0, 4098}
+    U4 sample_rate;     // {11025, 22050, 44100}
+    U4 sample_count;
+    
+    BitfieldDisablePadding();
+
+    if(mode == 0 || mode == 1)
+    {
+        LittleEndian();
+        S2 _00;
+        S2 _01;
+        S2 _02;
+        S2 _03;
+        S2 _04;
+        S2 _05;
+        S2 _06;
+        S2 _07;
+        S2 _08;
+        S2 _09;
+        S2 _10;
+        S2 _11;
+        S2 _12;
+        S2 _13;
+        S2 _14;
+        S2 _15;
+        S2 _16;
+        S2 _17;
+        S2 _18;
+        S2 _19;
+    }
+
+
+    if(mode == 2 || mode == 3)
+    {
+        BigEndian();
+        U1 _00 : 4;
+        U1 _01 : 4;
+        U1 _02 : 4;
+        U1 _03 : 4;
+        U1 _04 : 4;
+        U1 _05 : 4;
+        U1 _06 : 4;
+        U1 _07 : 4;
+        U1 _08 : 4;
+        U1 _09 : 4;
+        U1 _10 : 4;
+        U1 _11 : 4;
+        U1 _12 : 4;
+        U1 _13 : 4;
+        U1 _14 : 4;
+        U1 _15 : 4;
+        U1 _16 : 4;
+        U1 _17 : 4;
+        U1 _18 : 4;
+        U1 _19 : 4;
+    }
+} igi2_wav;
+
+
+

@@ -1,0 +1,72 @@
+#ifndef STRINGS_H
+#define STRINGS_H
+
+
+typedef wchar_t WCHAR;
+
+
+struct CSTRING;
+struct WSTRING;
+struct BSTRING;
+struct ISTRING;
+struct FSTRING;
+
+
+typedef struct {
+	string value;
+} CSTRING <read=Read_CSTRING>;
+
+
+typedef struct {
+	wstring value;
+} WSTRING <read=Read_WSTRING>;
+
+
+typedef struct {
+	UBYTE length;
+	CHAR value[length];
+} BSTRING <read=Read_BSTRING>;
+
+
+typedef struct {
+	UINT32 length;
+	CHAR value[length];
+} ISTRING <read=Read_ISTRING>;
+
+
+typedef struct (UINT32 length) {
+	CHAR value[length];
+} FSTRING <read=Read_FSTRING>;
+
+
+
+typedef struct CSTRING CS;
+typedef struct WSTRING WS;
+typedef struct BSTRING BS;
+typedef struct ISTRING IS;
+typedef struct FSTRING FS;
+
+
+
+string Read_CSTRING(CSTRING &o) {
+	return o.value;
+}
+
+string Read_WSTRING(WSTRING &o) {
+	return o.value;
+}
+
+string Read_BSTRING(BSTRING &o) {
+	return o.value;
+}
+
+string Read_ISTRING(ISTRING &o) {
+	return o.value;
+}
+
+string Read_FSTRING(FSTRING &o) {
+	return o.value;
+}
+
+
+#endif

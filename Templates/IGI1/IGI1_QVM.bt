@@ -1,0 +1,201 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI1_QVM.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0
+//   Purpose: 
+//  Category: Game
+// File Mask: LOOP
+//  ID BYTEs: 
+//   History: 
+//------------------------------------------------
+
+
+#include "../COMMON/TYPES.bt";
+#include "../COMMON/STRINGS.bt";
+
+
+LittleEndian();
+
+typedef CSTRING ZS;
+
+
+
+
+typedef struct
+{
+    local U4 addr = FTell() - igi1_qvm.of_ctable;
+    U1 type <format=hex>;
+
+    switch(type)
+    {
+        case 0x00:            break;  //BRK
+        case 0x01:            break;  //NOP
+        case 0x02:  U4 data;  break;  //PUSH
+        case 0x03:  S1 data;  break;  //PUSHB
+        case 0x04:  U2 data;  break;  //PUSHW
+        case 0x05:  F4 data;  break;  //PUSHF
+        case 0x06:            break;  //PUSHA
+        case 0x07:            break;  //PUSHS
+        case 0x08:  U4 data;  break;  //PUSHSI
+        case 0x09:  U1 data;  break;  //PUSHSIB
+        case 0x0a:  U2 data;  break;  //PUSHSIW
+        case 0x0b:            break;  //PUSHI
+        case 0x0c:  U4 data;  break;  //PUSHII
+        case 0x0d:  U1 data;  break;  //PUSHIIB
+        case 0x0e:  U2 data;  break;  //PUSHIIW
+        case 0x0f:            break;  //PUSH0
+        case 0x10:            break;  //PUSH1
+        case 0x11:            break;  //PUSHM
+        case 0x12:            break;  //POP
+        case 0x13:            break;  //RET
+        case 0x14:  U4 data;  break;  //BRA
+        case 0x15:  U4 data;  break;  //BF
+        case 0x16:  U4 data;  break;  //BT
+        case 0x17:            break;  //JSR
+        case 0x18:  AR data;  break;  //CALL
+        case 0x19:            break;  //ADD
+        case 0x1a:            break;  //SUB
+        case 0x1b:            break;  //MUL
+        case 0x1c:            break;  //DIV
+        case 0x1d:            break;  //SHL
+        case 0x1e:            break;  //SHR
+        case 0x1f:            break;  //AND
+        case 0x20:            break;  //OR
+        case 0x21:            break;  //XOR
+        case 0x22:            break;  //LAND
+        case 0x23:            break;  //LOR
+        case 0x24:            break;  //EQ
+        case 0x25:            break;  //NE
+        case 0x26:            break;  //LT
+        case 0x27:            break;  //LE
+        case 0x28:            break;  //GT
+        case 0x29:            break;  //GE
+        case 0x2a:            break;  //ASSIGN
+        case 0x2b:            break;  //PLUS
+        case 0x2c:            break;  //MINUS
+        case 0x2d:            break;  //INV
+        case 0x2e:            break;  //NOT
+        case 0x2f:            break;  //BLK
+        case 0x30:            break;  //ILLEGAL
+    }
+
+    local U4 size = FTell() - addr - igi1_qvm.of_ctable;
+
+} OPCODE <read=ReadOpcode>;
+
+
+string ReadOpcode(OPCODE &o) {
+    local string name = "";
+
+    switch(o.type)
+    {
+        case 0x00:  SPrintf(name, "%u  BRK",     o.addr);  break;
+        case 0x01:  SPrintf(name, "%u  NOP",     o.addr);  break;
+        case 0x02:  SPrintf(name, "%u  PUSH",    o.addr);  break;
+        case 0x03:  SPrintf(name, "%u  PUSHB",   o.addr);  break;
+        case 0x04:  SPrintf(name, "%u  PUSHW",   o.addr);  break;
+        case 0x05:  SPrintf(name, "%u  PUSHF",   o.addr);  break;
+        case 0x06:  SPrintf(name, "%u  PUSHA",   o.addr);  break;
+        case 0x07:  SPrintf(name, "%u  PUSHS",   o.addr);  break;
+        case 0x08:  SPrintf(name, "%u  PUSHSI",  o.addr);  break;
+        case 0x09:  SPrintf(name, "%u  PUSHSIB", o.addr);  break;
+        case 0x0a:  SPrintf(name, "%u  PUSHSIW", o.addr);  break;
+        case 0x0b:  SPrintf(name, "%u  PUSHI",   o.addr);  break;
+        case 0x0c:  SPrintf(name, "%u  PUSHII",  o.addr);  break;
+        case 0x0d:  SPrintf(name, "%u  PUSHIIB", o.addr);  break;
+        case 0x0e:  SPrintf(name, "%u  PUSHIIW", o.addr);  break;
+        case 0x0f:  SPrintf(name, "%u  PUSH0",   o.addr);  break;
+        case 0x10:  SPrintf(name, "%u  PUSH1",   o.addr);  break;
+        case 0x11:  SPrintf(name, "%u  PUSHM",   o.addr);  break;
+        case 0x12:  SPrintf(name, "%u  POP",     o.addr);  break;
+        case 0x13:  SPrintf(name, "%u  RET",     o.addr);  break;
+        case 0x14:  SPrintf(name, "%u  BRA",     o.addr);  break;
+        case 0x15:  SPrintf(name, "%u  BF",      o.addr);  break;
+        case 0x16:  SPrintf(name, "%u  BT",      o.addr);  break;
+        case 0x17:  SPrintf(name, "%u  JSR",     o.addr);  break;
+        case 0x18:  SPrintf(name, "%u  CALL",    o.addr);  break;
+        case 0x19:  SPrintf(name, "%u  ADD",     o.addr);  break;
+        case 0x1a:  SPrintf(name, "%u  SUB",     o.addr);  break;
+        case 0x1b:  SPrintf(name, "%u  MUL",     o.addr);  break;
+        case 0x1c:  SPrintf(name, "%u  DIV",     o.addr);  break;
+        case 0x1d:  SPrintf(name, "%u  SHL",     o.addr);  break;
+        case 0x1e:  SPrintf(name, "%u  SHR",     o.addr);  break;
+        case 0x1f:  SPrintf(name, "%u  AND",     o.addr);  break;
+        case 0x20:  SPrintf(name, "%u  OR",      o.addr);  break;
+        case 0x21:  SPrintf(name, "%u  XOR",     o.addr);  break;
+        case 0x22:  SPrintf(name, "%u  LAND",    o.addr);  break;
+        case 0x23:  SPrintf(name, "%u  LOR",     o.addr);  break;
+        case 0x24:  SPrintf(name, "%u  EQ",      o.addr);  break;
+        case 0x25:  SPrintf(name, "%u  NE",      o.addr);  break;
+        case 0x26:  SPrintf(name, "%u  LT",      o.addr);  break;
+        case 0x27:  SPrintf(name, "%u  LE",      o.addr);  break;
+        case 0x28:  SPrintf(name, "%u  GT",      o.addr);  break;
+        case 0x29:  SPrintf(name, "%u  GE",      o.addr);  break;
+        case 0x2a:  SPrintf(name, "%u  ASSIGN",  o.addr);  break;
+        case 0x2b:  SPrintf(name, "%u  PLUS",    o.addr);  break;
+        case 0x2c:  SPrintf(name, "%u  MINUS",   o.addr);  break;
+        case 0x2d:  SPrintf(name, "%u  INV",     o.addr);  break;
+        case 0x2e:  SPrintf(name, "%u  NOT",     o.addr);  break;
+        case 0x2f:  SPrintf(name, "%u  BLK",     o.addr);  break;
+        case 0x30:  SPrintf(name, "%u  ILLEGAL", o.addr);  break;
+    }
+
+    return name;
+}
+
+
+struct
+{
+    CH signature[4];  // LOOP
+    U4 ver_major;     // 8
+    U4 ver_minor;     // 5
+    U4 of_itable;
+    U4 of_ivalue;
+    U4 sz_itable;
+    U4 sz_ivalue;
+    U4 of_stable;
+    U4 of_svalue;
+    U4 sz_stable;
+    U4 sz_svalue;
+    U4 of_ctable;
+    U4 sz_ctable;
+    U4 _2;            // 0
+    U4 _3;            // 0
+
+
+    if(sz_itable > 0)
+    U4 itable[sz_itable / 4];
+
+
+    if(sz_ivalue > 0)
+    struct
+    {
+        ZS ivalue[sz_itable / 4] <optimize=false>;
+    } ivalue_segment;
+
+
+    if(sz_stable > 0)
+    U4 stable[sz_stable / 4];
+
+
+    if(sz_stable > 0)
+    struct
+    {
+        ZS svalue[sz_stable / 4] <optimize=false>;
+    } svalue_segment;
+
+
+    if(sz_ctable > 0)
+    struct
+    {
+        while(FTell() < FileSize())
+            OPCODE op;
+    } ctable;
+
+    Assert(FEof());
+} igi1_qvm;
+
+
+Assert(FEof(), "Parsing error: expected end of file");

@@ -1,0 +1,704 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI2_MEF.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0
+//   Purpose: 
+//  Category: Game
+// File Mask: ILFF
+//  ID BYTEs: 
+//   History: 
+//------------------------------------------------
+
+
+#include "../COMMON/ILFF.bt";
+#include "../COMMON/ALIGNMENT.bt";
+#include "../COMMON/STRINGS.bt";
+#include "../COMMON/VECTORS.bt";
+#include "../COMMON/DATETIME.bt";
+
+
+
+LittleEndian();
+
+
+struct HBONE;
+
+
+enum <UINT32> MODELTYPE
+{
+    MODEL_RIGID = 0,
+    MODEL_BONE = 1,
+    MODEL_LIGHTMAP = 3,
+};
+
+
+typedef struct
+{
+    UBYTE child_count;
+
+    local UBYTE boneid = id++;
+    local UBYTE i = 0;
+
+    for(i = 0; i < child_count; i++)
+        HBONE bone;
+} HBONE <read=Read_HBONE>;
+
+
+typedef struct SPHERE
+{
+    FVECTOR3 origin;
+    FLOAT radius;
+};
+
+
+
+typedef struct HSEM
+{
+    ILFF_HEADER header;
+
+    FLOAT     _0;               // 0.1599999964237213
+    DATETIME  creation;
+    MODELTYPE modeltype;        // {0, 1, 3}
+    UINT32    _1;               // 0
+    UINT32    _2;               // 0
+    UINT32    _3;               // 0
+    SPHERE    _4;
+    SPHERE    _5;
+    SPHERE    _6;
+    UINT32    r_n_face;
+    UINT32    r_n_vertex;
+    UINT32    r_s_buffer;       // d3dr, efac, dner, xtrv, pmtl
+    UINT32    c_n_face;
+    UINT32    c_n_vertex;
+    UINT32    c_s_buffer;       // xtvc0, ecfc0, tamc0, hpsc0, xtvc1, ecfc1, tamc1, hpsc1
+    FLOAT     _7;
+    UINT16    m_n_vertex;
+    UINT16    n_attachment;
+    UINT16    p_n_vertex;
+    UINT16    p_n_face;
+    UINT16    p_n_portal;
+    UINT16    n_bone;
+    UINT16    n_glow;
+    UBYTE     reserved_0[30];     // {0, 43947}
+    UBYTE     reserved_1[8];      // 0
+
+    Padding();
+};
+
+
+// BONES
+// BONE HIERARCHY
+typedef struct REIH
+{
+    ILFF_HEADER header;
+
+    local UBYTE id = 0;
+    HBONE root;
+
+    Align(4);
+
+    FVECTOR3 bone_position[id];
+
+    Padding();
+};
+
+// BONE NAMES
+typedef struct MANB
+{
+    ILFF_HEADER header;
+
+    FSTRING bone_name(16)[header.datasize / 16];
+
+    Padding();
+};
+
+
+// ATTACHMENTS
+// ATTACHMENT DEFINE
+typedef struct ATTA
+{
+    ILFF_HEADER header;
+
+    struct
+    {
+        CHAR  name[16];
+        FLOAT px;
+        FLOAT py;
+        FLOAT pz;
+        FLOAT _0;  // [-1.0 .. 1.0], 229
+        FLOAT _1;  // [-1.0 .. 1.0], 297
+        FLOAT _2;  // [-1.0 .. 1.0], 219
+        FLOAT _3;  // [-1.0 .. 1.0], 304
+        FLOAT _4;  // [-1.0 .. 1.0], 245
+        FLOAT _5;  // [-1.0 .. 1.0], 191
+        FLOAT _6;  // [-1.0 .. 1.0], 255
+        FLOAT _7;  // [-1.0 .. 1.0], 244
+        FLOAT _8;  // [-1.0 .. 1.0], 93
+        int   _9;  // {0, 2880154539}
+        int   _10;  // {0, 4, -1, 15}
+    } attachment[header.datasize / 72];
+
+    Padding();
+};
+
+
+// MAGIC VERTEX
+// MAGIC VERTICES
+typedef struct XTVM
+{
+    ILFF_HEADER header;
+
+    struct
+    {
+        FLOAT px;
+        FLOAT py;
+        FLOAT pz;
+        INT32 _0;  // {0, -1}
+    } vertex[header.datasize / 16];
+
+    Padding();
+};
+
+
+// PORTALS
+// PORTAL DEFINE
+typedef struct TROP
+{
+    ILFF_HEADER header;
+
+    struct
+    {
+        UINT32 o_vertex;
+        UINT32 n_vertex;
+        UINT32 o_face;
+        UINT32 n_face;
+        UINT32 id;
+    } portal[header.datasize / 20];
+
+    Padding();
+};
+
+// PORTAL VERTICES
+typedef struct XVTP
+{
+    ILFF_HEADER header;
+
+    struct
+    {
+        FLOAT px;
+        FLOAT py;
+        FLOAT pz;
+    } vertex[header.datasize / 12];
+
+    Padding();
+};
+
+// PORTAL FACES
+typedef struct CFTP
+{
+    ILFF_HEADER header;
+
+    struct
+    {
+        UINT32 a;
+        UINT32 b;
+        UINT32 c;
+    } face[header.datasize / 12];
+
+    Padding();
+};
+
+
+// GLOWS
+// GLOW DEFINE
+typedef struct WOLG
+{
+    ILFF_HEADER header;
+
+    struct
+    {
+        FLOAT  px;
+        FLOAT  py;
+        FLOAT  pz;
+        FLOAT  _0;  // (20.48 - 9216.0)
+        FLOAT  _1;  // (0.0 - 1.0)
+        FLOAT  _2;  // (0.0 - 1.0)
+        FLOAT  _3;  // (0.0 - 1.0)
+        BYTE   reserved[4];
+    } glow[header.datasize / 32];
+
+    Padding();
+};
+
+
+// RENDER MESH BLOCKS
+// RENDER MESH HEADER
+typedef struct D3DR
+{
+    ILFF_HEADER header;
+
+    switch(header.datasize)
+    {
+        case 36:
+            UINT32 _0;         // 4
+            UINT32 n_face;
+            UINT32 n_mesh;
+            UINT32 n_vertex;
+            UINT32 _1;         // 0
+            UINT32 _2;         // 0
+            UINT32 _3;         // 0
+            UINT32 _4;         // 0
+            UINT32 _5;         // 0
+        break;
+
+        case 40:
+            UINT32 _0;         // 4
+            UINT32 n_face;
+            UINT32 n_mesh;
+            UINT32 _1;
+            UINT32 _2;
+            UINT32 n_vertex;
+            UINT32 _3;         // 0
+            UINT32 _4;         // 0
+            UINT32 _5;         // 0
+            UINT32 _6;         // 0
+        break;
+
+        case 44:
+            UINT32 _0;         // 4
+            UINT32 n_lightmap;
+            UINT32 n_face;
+            UINT32 n_mesh;
+            UINT32 n_vertex;
+            UINT32 _1;         // 0
+            UINT32 _2;         // 0
+            UINT32 _3;         // 0
+            UINT32 _4;         // 0
+            UINT32 _5;         // 0
+            UINT32 _6;         // 0
+        break;
+    }
+
+    Padding();
+};
+
+// RENDER MESH FACES
+typedef struct ECAF
+{
+    ILFF_HEADER header;
+
+    struct
+    {
+        UINT16 a;
+        UINT16 b;
+        UINT16 c;
+    } face[parentof(this).d3dr.n_face];
+
+    Padding();
+};
+
+// RENDER MESH DEFINE
+typedef struct DNER
+{
+    ILFF_HEADER header;
+
+    switch(parentof(this).d3dr.header.datasize)
+    {
+        case 36:
+        case 40:
+            struct
+            {
+                UINT32 _0;
+                FLOAT  px;
+                FLOAT  py;
+                FLOAT  pz;
+                UINT16 o_index;
+                UINT16 n_index;
+                UINT16 o_vertex;
+                UINT16 n_vertex;
+                UINT16 id;
+                INT32  _1;
+                UINT16 _2;
+            } rendermesh[parentof(this).d3dr.n_mesh];
+        break;
+
+        case 44:
+            struct
+            {
+                UINT32 _0;
+                FLOAT  px;
+                FLOAT  py;
+                FLOAT  pz;
+                UINT16 o_index;
+                UINT16 n_index;
+                UINT16 o_vertex;
+                UINT16 n_vertex;
+                UINT32 _1;
+            } rendermesh[parentof(this).d3dr.n_mesh];
+        break;
+    }
+
+    Padding();
+};
+
+// RENDER MESH VERTICES
+typedef struct XTRV
+{
+    ILFF_HEADER header;
+
+    switch(igi2_mef.hsem.modeltype)
+    {
+        case 0:
+            struct
+            {
+                FLOAT px;
+                FLOAT py;
+                FLOAT pz;
+                FLOAT _0;
+                FLOAT _1;
+                FLOAT _2;
+                FLOAT _3;
+                FLOAT _4;
+            } vertex[parentof(this).d3dr.n_vertex];
+        break;
+
+        case 1:
+            struct
+            {
+                FLOAT px;
+                FLOAT py;
+                FLOAT pz;
+                FLOAT _0;
+                FLOAT _1;
+                FLOAT _2;
+                FLOAT _3;
+                FLOAT _4;
+                FLOAT _5;
+                FLOAT _6;
+            } vertex[parentof(this).d3dr.n_vertex];
+        break;
+
+        case 3:
+            struct
+            {
+                FLOAT px;
+                FLOAT py;
+                FLOAT pz;
+                FLOAT _0;
+                FLOAT _1;
+                FLOAT _2;
+                FLOAT _3;
+            } vertex[parentof(this).d3dr.n_vertex];
+        break;
+    }
+
+    Padding();
+};
+
+// RENDER MESH LIGHTMAPS
+typedef struct PMTL
+{
+    ILFF_HEADER header;
+
+    struct
+    {
+        UINT16 _0;  // {1 - 1024}
+        UINT16 _1;  // {1 - 904}
+        UINT16 _2;  // 0
+        UINT16 _3;  // 0
+    } unk[header.datasize / 8];
+
+    Padding();
+};
+
+
+// COLLISION MESH BLOCKS
+// COLLISION MESH HEADER
+typedef struct HSMC
+{`
+    ILFF_HEADER header;
+
+    UINT32 n_face_0;
+    UINT32 n_vertex_0;
+    UINT32 n_material_0;
+    UINT32 n_sph_0;
+    UINT32 _0;           // 0
+    UINT32 _1;           // 0
+    UINT32 _2;           // 0
+    UINT32 _3;           // 0
+    UINT32 n_face_1;
+    UINT32 n_vertex_1;
+    UINT32 n_material_1;
+    UINT32 n_sph_1;
+    UINT32 _4;           // 0
+    UINT32 _5;           // 0
+    UINT32 _6;           // 0
+    UINT32 _7;           // 0
+
+    Padding();
+};
+
+// COLLISION MESH VERTICES
+typedef struct XTVC
+{
+    ILFF_HEADER header;
+
+    struct
+    {
+        FLOAT x;
+        FLOAT y;
+        FLOAT z;
+        FLOAT _0;  // (-0.055376388 - 0.9995117)
+        FLOAT _1;  // (-17044.03 - 228048.89)
+    } vertex[header.datasize / 20];
+
+    Padding();
+};
+
+// COLLISION MESH FACES
+typedef struct ECFC
+{
+    ILFF_HEADER header;
+
+    struct
+    {
+        UINT16 a;
+        UINT16 b;
+        UINT16 c;
+        UINT16 _0;
+        UINT16 _1;
+        UINT16 _2;
+    } face[header.datasize / 12];
+
+    Padding();
+};
+
+// COLLISION MESH MATERIALS
+typedef struct TAMC
+{
+    ILFF_HEADER header;
+
+    struct
+    {
+        INT16 _0;
+        INT16 _1;
+        INT16 _2;
+        INT16 _3;
+        INT16 _4;
+        INT16 _5;
+        INT16 _6;
+        INT16 _7;
+    } unk[header.datasize / 16];
+
+    Padding();
+};
+
+// COLLISION MESH SPH
+typedef struct HPSC
+{
+    ILFF_HEADER header;
+
+    struct
+    {
+        FLOAT _0;  // -4300800.0  1645731.8  560655
+        FLOAT _1;  // -1232424.9  2430292.0  536491
+        FLOAT _2;  // -2059984.9  784330.7   499694
+        FLOAT _3;  //  0.0        4270366.5  696317
+        INT16 _4;  // -1          14794      14796
+        INT16 _5;  //  {0, 1}
+        INT16 _6;  //  0          29588      23207
+        INT16 _7;  //  0          29586      21872
+    } unk [header.datasize / 24];
+
+    Padding();
+};
+
+
+// MORPHS
+// MORPH VERTICES
+typedef struct HPRM
+{
+    ILFF_HEADER header;
+
+    UINT32 n_0;
+    UINT32 n_1;
+    BYTE   reserved[56]; // 0
+
+    struct
+    {
+        INT32 _0;  // 0           2778       928
+        FLOAT _1;  // -1271.1771  6132.9404  3144
+        FLOAT _2;  // -1940.9551  2444.2634  1027
+        FLOAT _3;  // -2217.7751  2542.4446  3161
+    } unk_0[n_0] <optimize=true>;
+
+    struct
+    {
+        INT32 _0;  // 0          2317       476
+        FLOAT _1;  // -4924.866  7188.521   2350
+        FLOAT _2;  // -7099.146  4422.246   2285
+        FLOAT _3;  // -5517.23   4856.3813  2168
+    } unk_1[n_1] <optimize=true>;
+
+    Padding();
+};
+
+
+// TXAN
+
+typedef struct TXAN
+{
+    ILFF_HEADER header;
+
+    UINT32 _00; // {25}
+    UINT32 _01; // {26}
+    UINT32 _02; // {0}
+    UINT32 _03; // {1}
+    UINT32 _04; // {2}
+    UINT32 _05; // {3}
+    UINT32 _06; // {4}
+    UINT32 _07; // {5}
+    UINT32 _08; // {6}
+    UINT32 _09; // {7}
+    UINT32 _10; // {8}
+    UINT32 _11; // {9}
+    UINT32 _12; // {10}
+    UINT32 _13; // {11}
+    UINT32 _14; // {12}
+    UINT32 _15; // {13}
+    UINT32 _16; // {14}
+    UINT32 _17; // {15}
+    UINT32 _18; // {16}
+    UINT32 _19; // {17}
+    UINT32 _20; // {18}
+    UINT32 _21; // {19}
+    UINT32 _22; // {20}
+    UINT32 _23; // {21}
+    UINT32 _24; // {22}
+    UINT32 _25; // {23}
+    UINT32 _26; // {24}
+    UINT32 _27; // {25}
+
+    Padding();
+};
+
+
+// SHADOW MESH BLOCKS
+// SHADOW MESH DEFINE
+typedef struct SEMS
+{
+    ILFF_HEADER header;
+
+    struct
+    {
+        INT32 o_face;
+        INT32 o_vertex;
+        INT32 o_edge;
+        INT32 n_face;
+        INT32 n_vertex;
+        INT32 n_edge;
+        INT32 _0;           // {-1}
+    } shadowmesh[header.datasize / 28];
+
+    Padding();
+};
+
+// SHADOW MESH VERTICES
+typedef struct XTVS
+{
+    ILFF_HEADER header;
+
+    struct
+    {
+        FLOAT px;
+        FLOAT py;
+        FLOAT pz;
+    } vertex[header.datasize / 12];
+
+    Padding();
+};
+
+// SHADOW MESH FACES
+typedef struct CAFS
+{
+    ILFF_HEADER header;
+
+    struct
+    {
+        UINT32 a;
+        UINT32 b;
+        UINT32 c;
+        UINT32 _0;
+        FLOAT  x;
+        FLOAT  y;
+        FLOAT  z;
+    } face[header.datasize / 28];
+
+    Padding();
+};
+
+// SHADOW MESH EDGES
+typedef struct EGDE
+{
+    ILFF_HEADER header;
+
+    struct
+    {
+        UINT32 a;
+        UINT32 b;
+    } edge[header.datasize / 8];
+
+    Padding();
+};
+
+
+
+struct
+{
+    ILFF_HEADER header;
+    CHAR formatid[4];  // OCEM
+
+    while(FTell() < FileSize())
+    {
+        switch(ReadString(FTell(), 4))
+        {
+            case "HSEM": HSEM hsem; break;
+            case "REIH": REIH reih; break;
+            case "MANB": MANB manb; break;
+            case "ATTA": ATTA atta; break;
+            case "XTVM": XTVM xtvm; break;
+            case "TROP": TROP trop; break;
+            case "XVTP": XVTP xvtp; break;
+            case "CFTP": CFTP cftp; break;
+            case "WOLG": WOLG wolg; break;
+            case "D3DR": D3DR d3dr; break;
+            case "ECAF": ECAF ecaf; break;
+            case "DNER": DNER dner; break;
+            case "XTRV": XTRV xtrv; break;
+            case "PMTL": PMTL pmtl; break;
+            case "HSMC": HSMC hsmc; break;
+            case "XTVC": XTVC xtvc; break;
+            case "ECFC": ECFC ecfc; break;
+            case "TAMC": TAMC tamc; break;
+            case "HPSC": HPSC hpsc; break;
+            case "HPRM": HPRM hprm; break;
+            case "TXAN": TXAN txan; break;
+            case "SEMS": SEMS sems; break;
+            case "XTVS": XTVS xtvs; break;
+            case "CAFS": CAFS cafs; break;
+            case "EGDE": EGDE egde; break;
+            default: Assert(false, "Parsing error: unhandled block type");
+        }
+    }
+} igi2_mef;
+
+
+Assert(FEof(), "Parsing error: expected end of file");
+
+
+string Read_HBONE(HBONE &o)
+{
+    return igi2_mef.manb.bone_name[o.boneid].value;
+};

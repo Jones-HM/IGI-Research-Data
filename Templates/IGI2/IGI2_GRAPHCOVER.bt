@@ -1,0 +1,90 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI2_GRAPHCOVER.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0
+//   Purpose: 
+//  Category: Game
+// File Mask: ILFF
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+
+
+#include "../COMMON/ILFF.bt";
+#include "../COMMON/ALIGNMENT.bt";
+
+
+LittleEndian();
+
+
+typedef struct AICN
+{
+	ILFF_HEADER header;
+
+	UINT32 _00;
+	UINT32 _01;
+	UINT32 _02;
+	UINT32 _03;
+	UINT32 _04;
+	UINT32 _05;
+	UINT32 _06;
+	UINT32 _07;
+	UINT32 _08;
+	UINT32 _09;
+	UINT32 _10;
+	UINT32 _11;
+	UINT32 _12;
+	UINT32 _13;
+	UINT32 _14;
+	UINT32 _15;
+	UINT32 _16;
+	UINT32 _17;
+	UINT32 _18;
+	UINT32 _19;
+	UINT32 _20;
+	UINT32 _21;
+	UINT32 _22;
+	UINT32 _23;
+	UINT32 _24;
+	UINT32 _25;
+	UINT32 _26;
+	UINT32 _27;
+	UINT32 _28;
+	UINT32 _29;
+	UINT32 _30;
+	UINT32 _31;
+	UINT32 _32;
+	UINT32 _33;
+	UINT32 _34;
+	UINT32 _35;
+
+	Padding();
+};
+
+
+typedef struct AICH
+{
+	ILFF_HEADER header;
+
+	UINT32 node_count;
+	UINT32 _0;         // 1
+
+	Padding();
+};
+
+
+struct
+{
+	ILFF_HEADER header;
+	CHAR formatid[4]; // AICC
+
+	AICH aich;
+
+	if(aich.node_count > 0)
+	AICN aicn[aich.node_count] <optimize=true>;
+} igi2_graphcover;
+
+
+Assert(FEof(), "Parsing error: expected end of file");

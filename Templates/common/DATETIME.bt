@@ -1,0 +1,20 @@
+#ifndef DATETIME_H
+#define DATETIME_H
+
+
+typedef struct DATETIME
+{
+    UINT32 year;
+    UINT32 month;
+    UINT32 day;
+    UINT32 hour;
+    UINT32 minute;
+    UINT32 second;
+    UINT32 milisecond;
+};
+
+
+typedef DATETIME DT;
+
+
+#endif

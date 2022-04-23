@@ -1,0 +1,79 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI1_CMD.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0.10
+//   Purpose: Parse IGI 1 terrain.cmd files
+//  Category: Game
+// File Mask:
+//  ID Bytes:
+//   History:
+//------------------------------------------------
+
+
+#include "../COMMON/TYPES.bt";
+
+
+typedef struct
+{
+	U1 _0;
+	U1 _1;
+	U1 _2;
+	U1 _3;
+} WITEM <read=Read_WITEM>;
+
+typedef struct
+{
+	U1 _0;
+	U1 _1;
+	U1 _2;
+	U1 _3;
+} XITEM <read=Read_XITEM>;
+
+typedef struct
+{
+	U1 _0;
+	U1 _1;
+	U1 _2;
+	U1 _3;
+} YITEM <read=Read_YITEM>;
+
+
+typedef struct ITEM
+{
+	U2 w;
+	U2 l;
+	U2 x;
+	U2 y;
+
+	WITEM wdata[w] <optimize=true>;
+    XITEM xdata[x] <optimize=true>;
+    YITEM ydata[y] <optimize=true>;
+};
+
+while(FTell() < FileSize())
+	ITEM part;
+
+
+string Read_WITEM(WITEM &o)
+{
+	local string s;
+	SPrintf(s, "%u, %u, %u, %u", o._0, o._1, o._2, o._3);
+	return s;
+}
+
+string Read_XITEM(XITEM &o)
+{
+	local string s;
+	SPrintf(s, "%u, %u, %u, %u", o._0, o._1, o._2, o._3);
+	return s;
+}
+
+string Read_YITEM(YITEM &o)
+{
+	local string s;
+	SPrintf(s, "%u, %u, %u, %u", o._0, o._1, o._2, o._3);
+	return s;
+}
+

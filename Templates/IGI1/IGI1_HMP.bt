@@ -1,0 +1,35 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI1_HMP.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0.10
+//   Purpose: Parse IGI 1 terrain.hmp files
+//  Category: Game
+// File Mask:
+//  ID Bytes:
+//   History:
+//------------------------------------------------
+
+
+#include "../COMMON/TYPES.bt";
+
+
+struct
+{
+	U4 _0;
+	U4 _1;
+	U4 side;
+} head[256];
+
+
+
+local long i = 0;
+
+
+for(i=0; i<256; i++)
+	if(head[i].side)
+	struct
+	{
+		U1 image[(head[i].side + 1) * (head[i].side + 1)];
+	} body;

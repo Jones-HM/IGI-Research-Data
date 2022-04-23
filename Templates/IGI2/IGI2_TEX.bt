@@ -1,0 +1,176 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI2_TEX.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0
+//   Purpose: 
+//  Category: Game
+// File Mask: LOOP
+//  ID BYTEs: 
+//   History: 
+//------------------------------------------------
+
+
+#include "../COMMON/TYPES.bt";
+
+
+
+LittleEndian();
+
+
+typedef struct BITMAP(long lod, long width, long height, long mode)
+{
+    local long depth = 0;
+
+    switch(mode)
+    {
+        case 2: depth = 2; break;
+        case 3: depth = 4; break;
+        case 67: depth = 4; break;
+    }
+
+    local long w = (width / (1 << lod));
+    local long h = (height / (1 << lod));
+    BYTE bitmap[w * h * depth];
+};
+
+
+
+typedef struct LOOP_02
+{
+    CH signature[4]; // LOOP
+    U4 version;      // 2
+    U4 _0;
+    U4 _1;
+    U2 width_line;
+    U2 width;
+    U2 height;
+    U2 depth;
+
+    BITMAP img(0, width, height, depth);
+};
+
+
+typedef struct LOOP_06
+{
+    CH signature[4]; // LOOP
+    U4 version;      // 6
+    U2 _0;
+    U2 _1;
+    U2 _2;
+    U2 _3;
+    U4 count_x;
+    U4 count_y;
+
+    struct
+    {
+        U4 _0;
+        U4 _1;
+        U4 _2;
+        U4 _3;
+    } item[count_x * count_y];
+};
+
+
+typedef struct LOOP_07
+{
+    CH signature[4]; // LOOP
+    U4 version;      // 7
+    U4 _0;
+    U4 _1;
+    U4 _2;
+    U4 _3;
+    U4 _4;
+    U4 offset;
+    U4 count;
+    U4 _5;
+    U4 width;
+    U4 height;
+    U4 mode;
+
+    struct
+    {
+        U4 offset;
+        U4 width_line;
+        U2 width;
+        U2 _0;
+        U2 height;
+        U1 reserved[26];
+    } item[count];
+
+    BITMAP img(0, width, height, mode)[count];
+    LOOP_06 tail;
+};
+
+
+typedef struct LOOP_09
+{
+    CH signature[4]; // LOOP
+    U4 version;      // 9
+    U4 _0;
+    U4 _1;
+    U4 _2;
+    U4 _3;
+    U4 _4;
+    U4 offset;
+    U4 count;
+    U4 _5;
+    U4 width;
+    U4 height;
+    U4 mode;
+
+    struct
+    {
+        U4 offset;
+        U4 mode;
+        U2 width_line;
+        U2 width;
+        U2 height;
+        U2 _0;
+        U4 reserved[4];
+    } item[count];
+
+    BITMAP img(0, width, height, mode)[count];
+    LOOP_06 tail;
+};
+
+
+typedef struct LOOP_11
+{
+    CH signature[4]; // LOOP
+    U4 version;      // 11
+    U4 mode;         // {2: argb1555, 67: bgra8888, 3: ?}
+    U4 multi;        // [0, 524288] 524288 for multi.tex
+    U4 _0;           // 0
+    U2 _1;           // [2, 3, 4, 5, 6, 7, 8]
+    U2 width1;
+    U2 height1;
+    U2 width;
+    U2 height;
+    U2 depth;
+
+    local long lod = 0;
+
+    while(!FEof())
+    {
+        BITMAP img(lod, width, height, mode);
+        lod = lod + 1;
+    }
+};
+
+
+switch(ReadUInt(4))
+{
+    case 2:  LOOP_02 igi2_tex; break;
+    case 7:  LOOP_07 igi2_tex; break;
+    case 9:  LOOP_09 igi2_tex; break;
+    case 11: LOOP_11 igi2_tex; break;
+}
+
+
+while(FTell() % 4 != 0)
+    UBYTE padding;
+
+
+Assert(FEof(), "Parsing error: expected end of file");

@@ -1,0 +1,73 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI2_OLM.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0
+//   Purpose: 
+//  Category: Game
+// File Mask: 
+//  ID BYTEs: 
+//   History: 
+//------------------------------------------------
+
+
+#include "../COMMON/DATETIME.bt";
+
+
+LittleEndian();
+
+
+struct
+{
+    UINT32 _00;
+    UINT32 _01;
+
+    DATETIME datetime;
+
+    UINT32 _09;
+    UINT32 _10;
+    UINT32 _11;    //count
+    UINT32 _12;
+    UINT32 _13;
+    UINT32 _14;
+
+
+    struct
+    {
+        UINT16 _00;
+        UINT16 _01;
+        UINT16 _02;
+        UINT16 _03;
+        UINT16 _04;
+        UINT16 _05;
+        UINT16 _06;
+        UINT16 _07;
+        UINT16 _08;
+        UINT16 _09;
+        UINT16 _10;
+        UINT16 _11;
+        UINT16 _12;
+        UINT16 _13;
+        UINT16 _14;
+        UINT16 _15;
+        UINT16 _16;
+        UINT16 _17;
+        UINT16 _18;
+        UINT16 _19;
+        UINT16 _20;
+        UINT16 _21;
+        UINT16 _22;
+        UINT16 _23;
+        UINT16 _24;
+        UINT16 _25;
+    } texhead [_11];
+
+
+    BYTE buffer_01[1024 * 774 * 4];
+    BYTE buffer_02[768  * 768 * 4];
+    BYTE buffer_03[512  * 512 * 4];
+} header;
+
+
+Assert(FEof());

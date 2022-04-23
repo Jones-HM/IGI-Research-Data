@@ -1,0 +1,50 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI1_IFF.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0.10
+//   Purpose: 
+//  Category: Game
+// File Mask: 
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+
+
+#include "../COMMON/TYPES.bt";
+#include "../COMMON/FORM.bt";
+
+struct FORM;
+
+
+typedef struct DFLT
+{
+	FORM_HEADER header;
+	LittleEndian();
+
+	U1 data[header.datasize];
+};
+
+
+typedef struct FORM
+{
+	FORM_HEADER header;
+	LittleEndian();
+
+	CH formatid[4];
+
+	local long end = FTell() + header.datasize - 4;
+
+	while(FTell() < end)
+	{
+		switch(ReadString(FTell(), 4))
+		{
+			case "FORM": FORM form; break;
+			default: DFLT dflt;
+		}
+	}
+};
+
+
+FORM igi1_iff;

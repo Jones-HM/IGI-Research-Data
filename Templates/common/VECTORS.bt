@@ -1,0 +1,35 @@
+#ifndef FVECTORS_H
+#define FVECTORS_H
+
+
+typedef struct
+{
+	FLOAT x;
+	FLOAT y;
+	FLOAT z;
+} FVECTOR3 <read=Read_FVECTOR3>;
+
+
+typedef struct
+{
+	FLOAT u;
+	FLOAT v;
+} FTEXCOORD <read=Read_FTEXCOORD>;
+
+
+string Read_FVECTOR3(FVECTOR3 &o) {
+	local string s = "";
+	SPrintf(s, "x %f  y %f  z %f", o.x, o.y, o.z);
+	return s;
+}
+
+
+string Read_FTEXCOORD(FTEXCOORD &o) {
+	local string s = "";
+	SPrintf(s, "u %f  v %f", o.u, o.v);
+	return s;
+}
+
+
+
+#endif

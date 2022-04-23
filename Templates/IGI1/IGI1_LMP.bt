@@ -1,0 +1,35 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI1_LMP.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0.10
+//   Purpose: Parse IGI 1 terrain.lmp files
+//  Category: Game
+// File Mask: 
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+
+
+
+#include "../common/TYPES.bt";
+
+
+typedef struct
+{
+	U4 side;
+	U1 data[side * side];
+} SQUARE <read=Read_SQUARE>;
+
+
+string Read_SQUARE(SQUARE &o)
+{
+	local string s = "";
+	SPrintf(s, "side: %u", o.side);
+	return s;
+}
+
+
+while(FTell() < FileSize())
+	SQUARE square;

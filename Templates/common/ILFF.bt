@@ -1,0 +1,14 @@
+#ifndef ILFF_H
+#define ILFF_H
+
+
+typedef struct ILFF_HEADER
+{
+	CHAR   fourcc[4];  // ILFF
+	UINT32 datasize;
+	UINT32 alignement;
+	UINT32 chunksize;
+};
+
+
+#endif

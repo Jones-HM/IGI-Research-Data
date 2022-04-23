@@ -1,0 +1,41 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI2_FOREST_DAT.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0
+//   Purpose: 
+//  Category: Game
+// File Mask: 
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+
+
+#include "../COMMON/STRINGS.bt";
+#include "../COMMON/VECTORS.bt";
+#include "../COMMON/COLORS.bt"
+
+
+LittleEndian();
+
+
+typedef struct TREE
+{
+	FVECTOR3  position;
+	FVECTOR3  rotation;
+	FVECTOR3  scale;
+	RGBA_8888 color;
+};
+
+
+struct
+{
+	ISTRING version;            // \nVer. 3.0\n
+
+	while(FTell() < FileSize())
+		TREE tree;
+} igi2_forest;
+
+
+Assert(FEof(), "Parsing error: expected end of file");

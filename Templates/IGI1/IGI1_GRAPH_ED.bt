@@ -1,0 +1,17 @@
+//------------------------------------------------
+//--- 010 Editor v12.0.1 Binary Template
+//
+//      File: IGI1_GRAPH_ED.bt
+//   Authors: Haseeb Mir
+//   Version: 0.1
+//   Purpose: Research & Analysis
+//  Category: Game
+// File Mask: 
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+
+LittleEndian();
+uint graph_sig,
+
+Assert(FEof(), "Parsing error: expected end of file");

@@ -1,0 +1,387 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI2_QVM.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0
+//   Purpose: 
+//  Category: Game
+// File Mask: LOOP
+//  ID BYTEs: 
+//   History: 
+//------------------------------------------------
+
+
+#include "../COMMON/STRINGS.bt";
+
+
+#define BRK     0x00
+#define NOP     0x01
+#define RET     0x02
+#define BRA     0x03
+#define BF      0x04
+#define BT      0x05
+#define JSR     0x06
+#define CALL    0x07
+#define PUSH    0x08
+#define PUSHB   0x09
+#define PUSHW   0x0a
+#define PUSHF   0x0b
+#define PUSHA   0x0c
+#define PUSHS   0x0d
+#define PUSHSI  0x0e
+#define PUSHSIB 0x0f
+#define PUSHSIW 0x10
+#define PUSHI   0x11
+#define PUSHII  0x12
+#define PUSHIIB 0x13
+#define PUSHIIW 0x14
+#define PUSH0   0x15
+#define PUSH1   0x16
+#define PUSHM   0x17
+#define POP     0x18
+#define ADD     0x19
+#define SUB     0x1a
+#define MUL     0x1b
+#define DIV     0x1c
+#define SHL     0x1d
+#define SHR     0x1e
+#define AND     0x1f
+#define OR      0x20
+#define XOR     0x21
+#define LAND    0x22
+#define LOR     0x23
+#define EQ      0x24
+#define NE      0x25
+#define LT      0x26
+#define LE      0x27
+#define GT      0x28
+#define GE      0x29
+#define ASSIGN  0x2a
+#define PLUS    0x2b
+#define MINUS   0x2c
+#define INV     0x2d
+#define NOT     0x2e
+#define BLK     0x2f
+#define ILLEGAL 0x30
+
+
+LittleEndian();
+
+
+typedef struct
+{
+    local long address = FTell() - igi2_qvm.start_opcodes;
+
+    UBYTE type;
+
+    switch(type)
+    {
+        case BRK:
+            break;
+        case NOP:
+            break;
+        case RET:
+            break;
+        case BRA:
+            INT32 value;
+            break;
+        case BF:
+            INT32 value;
+            break;
+        case BT:
+            INT32 value;
+        case JSR:
+            break;
+        case CALL:{
+            UINT32 count;
+            if(count > 0)
+                UINT32 value[count];
+        } break;
+        case PUSH:
+            UINT32 value;
+            break;
+        case PUSHB:
+            UBYTE value;
+            break;
+        case PUSHW:
+            UINT16 value;
+            break;
+        case PUSHF:
+            FLOAT value;
+            break;
+        case PUSHA:
+            break;
+        case PUSHS:
+            break;
+        case PUSHSI:
+            UINT32 value;
+            break;
+        case PUSHSIB:
+            UBYTE value;
+            break;
+        case PUSHSIW:
+            UINT16 value;
+            break;
+        case PUSHI:
+            break;
+        case PUSHII:
+            UINT32 value;
+            break;
+        case PUSHIIB:
+            UBYTE value;
+            break;
+        case PUSHIIW:
+            UINT16 value;
+            break;
+        case PUSH0:
+            break;
+        case PUSH1:
+            break;
+        case PUSHM:
+            break;
+        case POP:
+            break;
+        case ADD:
+            break;
+        case SUB:
+            break;
+        case MUL:
+            break;
+        case DIV:
+            break;
+        case SHL:
+            break;
+        case SHR:
+            break;
+        case AND:
+            break;
+        case OR:
+            break;
+        case XOR:
+            break;
+        case LAND:
+            break;
+        case LOR:
+            break;
+        case EQ:
+            break;
+        case NE:
+            break;
+        case LT:
+            break;
+        case LE:
+            break;
+        case GT:
+            break;
+        case GE:
+            break;
+        case ASSIGN:
+            break;
+        case PLUS:
+            break;
+        case MINUS:
+            break;
+        case INV:
+            break;
+        case NOT:
+            break;
+        case BLK:
+            break;
+        case ILLEGAL:
+            break;
+
+        default: Assert(false, "Unhandled opcode");
+    }
+} OPCODE <read=ReadOpcode>;
+
+
+string ReadOpcode(OPCODE &o) {
+    local string s = "";
+
+    switch(o.type)
+    {
+        case BRK:
+            SPrintf(s, "%u BRK", o.address); break;
+        case NOP:
+            SPrintf(s, "%u NOP", o.address); break;
+        case RET:
+            SPrintf(s, "%u RET", o.address); break;
+        case BRA:
+            SPrintf(s, "%u BRA %i", o.address, o.value + o.address + 5); break;
+        case BF:
+            SPrintf(s, "%u BF %i", o.address, o.value + o.address + 5); break;
+        case BT:
+            SPrintf(s, "%u BT %i", o.address, o.value + o.address + 5); break;
+        case JSR:
+            SPrintf(s, "%u JSR", o.address); break;
+        case CALL:
+            {
+                SPrintf(s, "%u CALL %u (", o.address, o.count);
+                local string a = "";
+                local long i = 0;
+
+                while(exists(o.value[i]))
+                {
+                    SPrintf(a, "%u, ", o.value[i]);
+                    s += a;
+                    i += 1;
+                }
+
+                s += ")";
+            } break;
+        case PUSH:
+            SPrintf(s, "%u PUSH %u", o.address, o.value); break;
+        case PUSHB:
+            SPrintf(s, "%u PUSHB %u", o.address, o.value); break;
+        case PUSHW:
+            SPrintf(s, "%u PUSHW %u", o.address, o.value); break;
+        case PUSHF:
+            SPrintf(s, "%u PUSHF %f", o.address, o.value); break;
+        case PUSHA:
+            SPrintf(s, "%u PUSHA", o.address); break;
+        case PUSHS:
+            SPrintf(s, "%u PUSHS", o.address); break;
+        case PUSHSI:
+            SPrintf(s, "%u PUSHSI \"%s\"", o.address, igi2_qvm.section_strings_values.string_value[o.value].value); break;
+        case PUSHSIB:
+            SPrintf(s, "%u PUSHSIB \"%s\"", o.address, igi2_qvm.section_strings_values.string_value[o.value].value); break;
+        case PUSHSIW:
+            SPrintf(s, "%u PUSHSIW \"%s\"", o.address, igi2_qvm.section_strings_values.string_value[o.value].value); break;
+        case PUSHI:
+            SPrintf(s, "%u PUSHI", o.address); break;
+        case PUSHII:
+            SPrintf(s, "%u PUSHII %s", o.address, igi2_qvm.section_symbols_values.symbol_value[o.value].value); break;
+        case PUSHIIB:
+            SPrintf(s, "%u PUSHIIB %s", o.address, igi2_qvm.section_symbols_values.symbol_value[o.value].value); break;
+        case PUSHIIW:
+            SPrintf(s, "%u PUSHIIW %s", o.address, igi2_qvm.section_symbols_values.symbol_value[o.value].value); break;
+        case PUSH0:
+            SPrintf(s, "%u PUSH0 0", o.address); break;
+        case PUSH1:
+            SPrintf(s, "%u PUSH1 1", o.address); break;
+        case PUSHM:
+            SPrintf(s, "%u PUSHM MAX_UINT", o.address); break;
+        case POP:
+            SPrintf(s, "%u POP", o.address); break;
+        case ADD:
+            SPrintf(s, "%u ADD +", o.address); break;
+        case SUB:
+            SPrintf(s, "%u SUB -", o.address); break;
+        case MUL:
+            SPrintf(s, "%u MUL *", o.address); break;
+        case DIV:
+            SPrintf(s, "%u DIV /", o.address); break;
+        case SHL:
+            SPrintf(s, "%u SHL <<", o.address); break;
+        case SHR:
+            SPrintf(s, "%u SHR >>", o.address); break;
+        case AND:
+            SPrintf(s, "%u AND &", o.address); break;
+        case OR:
+            SPrintf(s, "%u OR |", o.address); break;
+        case XOR:
+            SPrintf(s, "%u XOR ^", o.address); break;
+        case LAND:
+            SPrintf(s, "%u LAND &&", o.address); break;
+        case LOR:
+            SPrintf(s, "%u LOR ||", o.address); break;
+        case EQ:
+            SPrintf(s, "%u EQ ==", o.address); break;
+        case NE:
+            SPrintf(s, "%u NE !=", o.address); break;
+        case LT:
+            SPrintf(s, "%u LT <", o.address); break;
+        case LE:
+            SPrintf(s, "%u LE <=", o.address); break;
+        case GT:
+            SPrintf(s, "%u GT >", o.address); break;
+        case GE:
+            SPrintf(s, "%u GE >=", o.address); break;
+        case ASSIGN:
+            SPrintf(s, "%u ASSIGN =", o.address); break;
+        case PLUS:
+            SPrintf(s, "%u PLUS +", o.address); break;
+        case MINUS:
+            SPrintf(s, "%u MINUS -", o.address); break;
+        case INV:
+            SPrintf(s, "%u INV ~", o.address); break;
+        case NOT:
+            SPrintf(s, "%u NOT !", o.address); break;
+        case BLK:
+            SPrintf(s, "%u BLK", o.address); break;
+        case ILLEGAL: 
+            SPrintf(s, "%u ILLEGAL", o.address); break;
+    }
+
+    return s;
+}
+
+
+struct
+{
+    CHAR   signature[4];             // LOOP
+    UINT32 varsion_major;            // 7
+    UINT32 varsion_minor;            // 8
+    UINT32 start_symbols_addresses;
+    UINT32 start_symbols_values;
+    UINT32 size_symbols_addresses;
+    UINT32 size_symbols_values;
+    UINT32 start_strings_addresses;
+    UINT32 start_strings_values;
+    UINT32 size_strings_addresses;
+    UINT32 size_strings_values;
+    UINT32 start_opcodes;
+    UINT32 size_opcodes;
+    UINT32 _2;                       // 0
+    UINT32 _3;                       // 0
+    UINT32 start_tail;               // mostly 0
+
+
+    if(size_symbols_addresses > 0)
+    struct
+    {
+        UINT32 symbol_address[size_symbols_addresses / 4];
+    } section_symbols_addresses;
+
+
+    if(size_symbols_values > 0)
+    struct
+    {
+        CSTRING symbol_value[size_symbols_addresses / 4] <optimize=false>;
+    } section_symbols_values;
+
+
+    if(size_strings_addresses > 0)
+    struct
+    {
+        UINT32 string_address[size_strings_addresses / 4];
+    } section_strings_addresses;
+
+
+    if(size_strings_addresses > 0)
+    struct
+    {
+        CSTRING string_value[size_strings_addresses / 4] <optimize=false>;
+    } section_strings_values;
+
+
+    if(size_opcodes > 0)
+    struct
+    {
+        while(FTell() < start_opcodes + size_opcodes)
+            OPCODE opcode;
+    } section_opcodes;
+
+
+    if(start_tail > 0)
+    struct
+    {
+        UBYTE tail[FileSize() - start_tail];
+    } section_tail;
+
+    Assert(FEof());
+} igi2_qvm;
+
+
+Assert(FEof(), "Parsing error: expected end of file");

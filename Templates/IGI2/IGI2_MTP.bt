@@ -1,0 +1,147 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI2_MTP.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0
+//   Purpose:
+//  Category: Game
+// File Mask: FORM
+//  ID BYTEs:
+//   History:
+//------------------------------------------------
+
+#include "../COMMON/FORM.bt";
+#include "../COMMON/ALIGNEMENT.bt";
+#include "../COMMON/STRINGS.bt";
+
+
+// ANIMATIONS
+typedef struct BANM
+{
+	FORM_HEADER header;
+
+	LittleEndian();
+	UINT32 count;
+	CSTRING unk[count] <optimize=false>;
+
+	Align(4);
+};
+
+// SOUNDS
+typedef struct SNDS
+{
+	FORM_HEADER header;
+
+	LittleEndian();
+	BYTE data[header.datasize];
+
+	Align(4);
+};
+
+// SHADOW VOLUME
+typedef struct SVOL
+{
+	FORM_HEADER header;
+
+	LittleEndian();
+	UINT32 count;
+	CSTRING unk[count] <optimize=false>;
+
+	Align(4);
+};
+
+// MODELS
+typedef struct MODS
+{
+	FORM_HEADER header;
+
+	LittleEndian();
+	UINT32 count;
+	CSTRING unk[count] <optimize=false>;
+
+	Align(4);
+};
+
+
+typedef struct VNAM
+{
+	FORM_HEADER header;
+
+	LittleEndian();
+	UINT32 count;
+	UINT32 _UINT32[count];
+	CSTRING unk[count] <optimize=false>;
+
+	Align(4);
+};
+
+
+typedef struct INST
+{
+	FORM_HEADER header;
+
+	LittleEndian();
+	UINT32 unk[header.datasize / 4];
+
+	Align(4);
+};
+
+// TEXTURES
+typedef struct TEXF
+{
+	FORM_HEADER header;
+
+	LittleEndian();
+	UINT32 count;
+	CSTRING unk[count] <optimize=false>;
+
+	Align(4);
+};
+
+// PALLETES
+typedef struct PALF
+{
+	FORM_HEADER header;
+
+	LittleEndian();
+	BYTE data[header.datasize];
+
+	Align(4);
+};
+
+typedef struct GTT
+{
+	FORM_HEADER header;
+
+	LittleEndian();
+	UINT32 count;
+
+	struct
+	{
+		UINT32 _1;
+		INT32 _2;
+	} unk[count];
+
+	Align(4);
+};
+
+
+struct
+{
+	FORM_HEADER header;
+	CHAR formatid[4];  // MTP
+
+	BANM banm;
+	SNDS snds;
+	SVOL svol;
+	MODS mods;
+	VNAM vnam;
+	INST inst;
+	TEXF texf;
+	PALF palf;
+	GTT  gtt;
+} igi2_mtp;
+
+
+Assert(FEof(), "Parsing error: expected end of file");

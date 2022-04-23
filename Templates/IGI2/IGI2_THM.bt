@@ -1,0 +1,41 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI2_THM.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0
+//   Purpose:
+//  Category: Game
+// File Mask:
+//  ID BYTEs:
+//   History:
+//------------------------------------------------
+
+
+#include "../COMMON/TYPES.bt";
+#include "../COMMON/DATETIME.bt";
+#include "../COMMON/COLORS.bt";
+
+
+LittleEndian();
+
+
+struct
+{
+    U4 _1;          // 1008981770
+    DT creation;    //
+    U4 _2;          // 2
+    U4 _3;          // 0
+    U4 _4;          // 1065353216
+    U4 width;       //
+    U4 height;      //
+
+    local long i;
+
+    for(i=0; i<10; i++)
+        BITMAP bitmap(i, width, height, 4);
+
+} igi2_thm;
+
+
+Assert(FEof(), "Parsing error: expected end of file");

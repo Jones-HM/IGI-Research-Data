@@ -1,0 +1,118 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI2_GRAPH_DAT.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0
+//   Purpose: 
+//  Category: Game
+// File Mask: 
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+
+
+#include "../COMMON/STRINGS.bt";
+
+
+// node = 8 expressions
+// link = 3 expressions
+
+
+LittleEndian();
+
+
+typedef struct FLOAT6
+{
+	UINT32 a1; // <format=binary>
+	FLOAT  a2;
+	UINT32 b1; // <format=binary>
+	FLOAT  b2;
+	UINT32 c1; // <format=binary>
+	FLOAT  c2;
+};
+
+
+typedef struct
+{
+	UINT32 codeid;
+	switch(codeid)
+	{
+		case 0x0D3AE604: break;   // FL1
+		case 0x0735CE04: break;   // NODE_ID
+		case 0x1D429504: break;   // NODE_POS
+		case 0x0F7E9C04: break;   // NODE_
+		case 0x14302304: break;   // NODE_
+		case 0x1BB62904: break;   // NODE_
+		case 0x2654DE04: break;   // NODE_
+		case 0x214E0004: break;   // NODE_
+		case 0x1BD3E504: break;   // NODE_NAME
+		case 0x09104A04: break;   // LINK_A
+		case 0x0918F604: break;   // LINK_B
+		case 0x0DA92304: break;   // LINK_1
+		default: Assert(false, "UNKNOWN CODEID");
+	}
+
+
+	UINT32 typeid;
+	switch(typeid)
+	{
+		case 0x05050000: UINT32  value; break;
+		case 0x06060000: FLOAT   value; break;
+		case 0x08080000: FLOAT6  value; break;
+		case 0x09090000: BSTRING value; break;
+		default: Assert(false, "UNKNOWN TYPEID");
+	}
+} EXPRESSION <read=Read_EXPRESSION>;
+
+
+struct
+{
+	UINT32 signature;  // CC DD EE FF
+
+	while(FTell() < FileSize())
+		EXPRESSION expression;
+} igi2_graph;
+
+
+Assert(FEof(), "Parsing error: expected end of file");
+
+
+string Read_EXPRESSION(EXPRESSION &o)
+{
+	local string codeid_string;
+
+	switch(o.codeid)
+	{
+		case 0x0D3AE604: codeid_string = "FL1"; break;
+		case 0x0735CE04: codeid_string = "ND1"; break;
+		case 0x1D429504: codeid_string = "ND2"; break;
+		case 0x0F7E9C04: codeid_string = "ND3"; break;
+		case 0x14302304: codeid_string = "ND4"; break;
+		case 0x1BB62904: codeid_string = "ND5"; break;
+		case 0x2654DE04: codeid_string = "ND6"; break;
+		case 0x214E0004: codeid_string = "ND7"; break;
+		case 0x1BD3E504: codeid_string = "ND8"; break;
+		case 0x09104A04: codeid_string = "LK1"; break;
+		case 0x0918F604: codeid_string = "LK2"; break;
+		case 0x0DA92304: codeid_string = "LK3"; break;
+		default: Assert(false);
+	}
+
+	local string typeid_string;
+
+	switch(o.typeid)
+	{
+		case 0x05050000: SPrintf(typeid_string, "U1   %u", o.value); break;
+		case 0x06060000: SPrintf(typeid_string, "F1   %f", o.value); break;
+		case 0x08080000: SPrintf(typeid_string, "F6   %s", "value"); break;
+		case 0x09090000: SPrintf(typeid_string, "US   %s", o.value.value); break;
+		default: Assert(false);
+	}
+
+	local string s;
+
+	SPrintf(s, "%s   %s", codeid_string, typeid_string);
+
+	return s;
+}

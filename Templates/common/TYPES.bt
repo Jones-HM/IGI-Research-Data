@@ -1,0 +1,28 @@
+#ifndef TYPES_BT
+#define TYPES_BT
+
+
+typedef CHAR    CH;
+
+typedef UBYTE  U1;
+typedef UINT16 U2;
+typedef UINT32 U4;
+
+typedef BYTE  S1;
+typedef INT16 S2;
+typedef INT32 S4;
+
+
+typedef struct  AR
+{
+    U4 count;
+    if(count)
+    U4 data[count];
+};
+
+typedef float F4;
+
+typedef hfloat F2;
+
+
+#endif

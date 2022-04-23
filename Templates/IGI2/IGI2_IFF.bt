@@ -1,0 +1,112 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI2_IFF.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0
+//   Purpose: 
+//  Category: Game
+// File Mask: ILFF
+//  ID BYTEs: 
+//   History: 
+//------------------------------------------------
+
+
+#include "../COMMON/ILFF.bt";
+#include "../COMMON/ALIGNMENT.bt";
+#include "../COMMON/STRINGS.bt";
+#include "../COMMON/VECTORS.bt";
+
+
+LittleEndian();
+
+
+typedef struct ATTACHMENT
+{
+    CHAR   model_name[16];
+    FLOAT  _1;
+    FLOAT  _2;
+    FLOAT  _3;
+    FLOAT  _4;
+    FLOAT  _5;
+    FLOAT  _6;
+    FLOAT  _7;
+    FLOAT  _8;
+    FLOAT  _9;
+    FLOAT  _10;
+    FLOAT  _11;
+    FLOAT  _12;
+    CHAR   reserved0[4];
+    UINT32 _14;
+    UINT32 _15;
+    UINT32 _16;
+};
+
+
+typedef struct DHNA
+{
+    ILFF_HEADER header;
+
+    BYTE    reserved0[8];
+    UINT32  _0;
+    UINT32  _1;
+    UINT32  _2;
+    UINT32  bone_count;
+    BYTE    reserved1[4];
+    UINT32  _3;
+    UINT32  _4;
+    UINT32  _5;
+    UINT32  _6;
+    BYTE    reserved2[8];
+    CSTRING animation_name;
+
+    Padding();
+};
+
+
+typedef struct REIH
+{
+    ILFF_HEADER header;
+
+    BYTE bone_hierarchy[parentof(this).dhna.bone_count];
+    Align(4);
+    FVECTOR3 bone_position[parentof(this).dhna.bone_count];
+
+    Padding();
+};
+
+
+typedef struct TNVE
+{
+    ILFF_HEADER header;
+
+    FLOAT _0[header.datasize / 4];
+
+    Padding();
+};
+
+
+typedef struct ATTA
+{
+    ILFF_HEADER header;
+
+    ATTACHMENT attachment[header.datasize / 80];
+
+    Padding();
+};
+
+
+struct {
+    ILFF_HEADER header;
+    CHAR formatid[4]; // MINA
+
+    DHNA dhna;
+    REIH reih;
+    TNVE tnve;
+
+    if(!FEof())
+    ATTA atta;
+} igi2_iff;
+
+
+Assert(FEof(), "Parsing error: expected end of file");

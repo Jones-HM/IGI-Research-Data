@@ -1,0 +1,82 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.1 Binary Template
+//
+//      File: IGI2_RES.bt
+//   Authors: Rotari Artiom
+//   Version: 1.0
+//   Purpose: 
+//  Category: Game
+// File Mask: ILFF
+//  ID BYTEs: 
+//   History: 
+//------------------------------------------------
+
+
+#include "../COMMON/ILFF.bt";
+#include "../COMMON/ALIGNMENT.bt";
+
+
+LittleEndian();
+
+
+typedef struct NAME
+{
+    ILFF_HEADER header;
+
+    BYTE data[header.datasize];
+
+    Padding();
+};
+
+
+typedef struct BODY
+{
+    ILFF_HEADER header;
+
+    BYTE data[header.datasize];
+
+    Padding();
+};
+
+
+typedef struct CSTR
+{
+    ILFF_HEADER header;
+
+    BYTE data[header.datasize];
+
+    Padding();
+};
+
+
+typedef struct PATH
+{
+    ILFF_HEADER header;
+
+    BYTE data[header.datasize];
+
+    Padding();
+};
+
+
+struct
+{
+    ILFF_HEADER header;
+    CHAR formatid[4];   // IRES
+
+
+    while(FTell() < FileSize())
+    {
+        NAME name;
+
+        switch(ReadString(FTell(), 4))
+        {
+            case "BODY": BODY body; break;
+            case "CSTR": CSTR cstr; break;
+            case "PATH": PATH path; break;
+        }
+    }
+} igi2_res;
+
+
+Assert(FEof(), "Parsing error: expected end of file");
