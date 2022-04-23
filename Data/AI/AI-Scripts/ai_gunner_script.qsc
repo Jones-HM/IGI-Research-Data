@@ -1,0 +1,49 @@
+if(AIFunction_GetCurrentEventType() == AIEVENT_CREATE)
+{
+	AIFunction_DefaultHandler();
+	AIFunction_SetGunnerID(xxx);
+	AIFunction_SetViewGamma(yyy);
+}
+else
+{
+	if(AIFunction_GetCurrentEventType() == AIEVENT_IDLE)
+	{
+		AIAction_Patrol(xxxx, 0, AIACTIONFLAG_PUSHABLE);
+	}
+	else
+	{
+		if(AIFunction_GetCurrentEventType() == AIEVENT_FRIENDLYDETECTION)
+		{
+			0;
+		}
+		else
+		{
+			if(AIFunction_GetCurrentEventType() == AIEVENT_GUNSHOTMISS)
+			{
+				0;
+			}
+			else
+			{
+				if(AIFunction_GetCurrentEventType() == AIEVENT_ALARMON)
+				{
+				}
+				else
+				{
+					if(AIFunction_GetCurrentEventType() == AIEVENT_COMBAT)
+					{
+						AIFunction_DefaultHandler();
+					}
+					else
+					{
+						AIFunction_DefaultHandler();
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

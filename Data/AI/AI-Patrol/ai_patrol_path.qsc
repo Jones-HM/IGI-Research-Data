@@ -1,0 +1,8 @@
+Task_New(xxxx, "PatrolPath", "", 
+Task_New(-1, "PatrolPathCommand", "Looks to node id a", 5, a), 
+Task_New(-1, "PatrolPathCommand", "Walks at node id b", 2, b), 
+Task_New(-1, "PatrolPathCommand", "Delays the script execution for 500 ticks", 1, 500), 
+Task_New(-1, "PatrolPathCommand", "Looks to node id c", 5, c),
+Task_New(-1, "PatrolPathCommand", "Run at node id d", 3, d), 
+Task_New(-1, "PatrolPathCommand", "Delay", 1, 500), 
+Task_New(-1, "PatrolPathCommand", "Quit script", 7, 0)),

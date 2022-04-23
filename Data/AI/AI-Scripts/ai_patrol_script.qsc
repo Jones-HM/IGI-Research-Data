@@ -1,0 +1,49 @@
+if (AIFunction_GetCurrentEventType() == AIEVENT_CREATE)
+{
+    AIFunction_SetEventPriority(AIEVENT_COMBAT);
+    AIFunction_DefaultHandler();
+}
+
+else
+{
+    if (AIFunction_GetCurrentEventType() == AIEVENT_IDLE)
+    {
+        AIAction_Patrol(xxxx, 0, AIACTIONFLAG_NONE);
+    }
+    else if (AIFunction_GetCurrentEventType() == AIEVENT_FLASHBANG)
+    {
+        AIAction_SetCombat(AIACTIONFLAG_PUSHABLE);
+    }
+    else if (AIFunction_GetCurrentEventType() == AIEVENT_GRENADETHROWN)
+    {
+        AIAction_SetCombat(AIACTIONFLAG_PUSHABLE);
+    }
+    else if (AIFunction_GetCurrentEventType() == AIEVENT_GRENADELAND)
+    {
+        AIAction_SetCombat(AIACTIONFLAG_PUSHABLE);
+    }
+    else
+    {
+        if (AIFunction_GetCurrentEventType() == AIEVENT_ALARMON)
+        {
+            AIAction_SetCombat(AIACTIONFLAG_PUSHABLE);
+        }
+		
+		else if (AIFunction_GetCurrentEventType() == AIEVENT_ALARMOFF)
+        {
+            AIAction_SetCombat(AIACTIONFLAG_PUSHABLE);
+        }
+		
+        else
+        {
+            if (AIFunction_GetCurrentEventType() == AIEVENT_COMBAT)
+            {
+                AIFunction_DefaultHandler();
+            }
+            else
+            {
+                AIFunction_DefaultHandler();
+            }
+        }
+    }
+}

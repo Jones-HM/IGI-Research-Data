@@ -1,0 +1,7 @@
+digraph {
+node [shape=doublecircle,color=black,style=filled,fillcolor=yellow]
+2 -> 1
+3 -> 2
+4 -> 3
+4 -> 1
+}

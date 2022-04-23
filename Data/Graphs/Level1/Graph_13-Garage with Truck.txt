@@ -1,0 +1,10 @@
+Graph_13-Garage with Truck
+Graph 'graph13.dat' Max Nodes '100'
+Id '1' X: -17771.3 Y: -58335.8 Z: -31978.7' Gamma: 0	Radius: 0.5 Material '6'	''
+Id '2' X: 2058.8 Y: -60042.3 Z: -31978.7' Gamma: 0	Radius: 0.5 Material '6'	''
+Id '3' X: 14633.4 Y: -61033.9 Z: -31978.7' Gamma: 0	Radius: 0.5 Material '6'	''
+Id '4' X: 37460.9 Y: -59448.3 Z: -31978.7' Gamma: 0	Radius: 0.5 Material '6'	''
+Edge1 -> '2'	Edge2 -> '1'	Type '1'
+Edge1 -> '3'	Edge2 -> '2'	Type '1'
+Edge1 -> '4'	Edge2 -> '3'	Type '1'
+Edge1 -> '4'	Edge2 -> '1'	Type '1'

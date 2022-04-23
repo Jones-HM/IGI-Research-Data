@@ -1,0 +1,790 @@
+Phh_h
+Htp_^
+OffscreenBufferSprite_RenderSprite() : Texture type not supported.
+SplinePathGuide_SetRunning
+RotateAttachment_SetTargetSpeed
+GraphNode_StartsEnterHandlerEvent
+TerrainRender_nNumEdges < TERRAINRENDER_MAX_EDGES
+MenuItem_Move() called with illegal direction parameter.
+AIGraph_NodeLinkCheck
+AreaActivate_IdInArea
+Spline_Initialize: Emergency fix. t0 was %d. Set to 1
+Spline_Initialize: Emergency fix. a was %d. Set to 1.
+LOCAL:../qed/TerrainEditIcon_FlattenLine.spr
+LOCAL:../qed/TerrainEditIcon_Drop.spr
+LOCAL:../qed/TerrainEditIcon_Flatten.spr
+LOCAL:../qed/TerrainEditIcon_Soften.spr
+LOCAL:../qed/TerrainEditIcon_Lower.spr
+LOCAL:../qed/TerrainEditIcon_Lift.spr
+LOCAL:../qed/TerrainEditIcon_Pointer.spr
+Serialize_DeSerialize() : File not found: '%s'
+Serialize_Serialize() : Couldn't save file: '%s'
+Mem_Alloc() failed to allocate %d bytes.
+Total by Mem_Alloc():%d.
+Task_DeclareParameters
+Task_DeclareParameters("%s"
+Level_Load(): Couldn't load script: %s
+Task_New(%d, "%s", 
+ConveyorBelt_SetSpeed
+Door_AttachToPortal
+Door_OpenClose
+HumanplayerInput_ReadChannels: Radio and num active
+Consoled_ConfigListMessage: Console eval observed
+LevelFlow_SetTimeOfDay
+LevelFlow_IsCountryUSA
+LevelFlow_LevelFailed
+LevelFlow_GetBreakCutSceneKey
+Weapon_PositionOverlay
+Weapon_CreateProjectile
+Weapon_GetParentParameters
+Weapon_DeActivate
+Weapon_Activate
+Weapon_Zoom
+Weapon_Reload
+Weapon_Release
+Weapon_GetPrecision
+Weapon_Fire
+Weapon_ListCarriedWeapons
+Weapon_SingleActivateHandler: weapontypeitem not active
+Weapon_SingleActivateHandler: weapontypeitem not found
+Client_Pong: Skipping round trip value out of range: %d ms
+Client_EquipHandler[%d] got pickuptype=%d, pickupid=%d,ammo=%d
+Client_DeleteHandler: Tried removed but not found in network queues,id=%d
+Client_DeleteHandler: Removed from network queues,id=%d
+Client_Deletehandler: Removing [%d]%s
+Client_FreeDR: Found DR data on a client host
+Client_FreeDR: Found DR data to self[%d]
+Human_GetCutSceneDeltaTime
+Human_PopPosition
+Human_AddAmmoForWeapon
+Human_AddAmmo
+Human_AddWeapon
+ASEQuery_check() error: '%s'
+RadioCom_SayText
+RadioCom_Say
+RadioCom_Broadcast
+RadioCom_Activate
+RadioCom_Say(%d,%d,%d)
+RadioCom_Broadcast(%d)
+RadioCom_Broadcast: Not on server
+RadioCom_Broadcast: Invalid parameters
+RadioCom_Say(%d,%d,0)
+RadioCom_Say: Invalid parameters
+RadioCom_ActivateCB
+ColumnView_Sort
+ControlsMenu_ConvertOffsetFromFloat
+ControlsMenu_ConvertFloatFromOffset
+Computer_nZoomLevel
+NetObjective_NotifyWhoDidIt
+NetMission_eCurrentObjective
+Network_Objective
+Network_Mission
+GfxOptions_ConfigSetTextureFilteringMode
+GfxOptions_SetTextureFilteringMode
+GfxOptions_GetTextureFilteringMode
+GfxOptions_FillTextureFilteringModeListBox
+GfxOptions_ConfigSetAntialiasingMode
+GfxOptions_SetAntialiasingMode
+GfxOptions_GetAntialiasingMode
+GfxOptions_FillAntialiasingModeListBox
+GfxOptions_SetTerrainDetailLevel
+GfxOptions_GetTerrainDetailLevel
+GfxOptions_GetWaterQualityLevel
+GfxOptions_SetWaterQualityLevel
+GfxOptions_FillWaterQualityLevelListBox
+GfxOptions_GetModelDetail
+GfxOptions_SetModelDetail
+GfxOptions_SetLODBias
+GfxOptions_GetTextureDetailFromScript
+GfxOptions_SetTextureDetailFromScript
+GfxOptions_FillTextureDetailListBox
+GfxOptions_GetDetailLevelFromScript
+GfxOptions_SetDetailLevelFromConfigFile
+GfxOptions_SetDetailLevelFromScript
+GfxOptions_FillDetailLevelListBox
+GfxOptions_SetBulletHitEffects
+GfxOptions_IsBulletHitEffects
+GfxOptions_SetLensFlares
+GfxOptions_IsLensFlares
+GfxOptions_SetWindOnForests
+GfxOptions_IsWindOnForests
+GfxOptions_SetHighQualityForests
+GfxOptions_IsHighQualityForests
+GfxOptions_SetTextureCompression
+GfxOptions_IsTextureCompression
+GfxOptions_SetStencilShadows
+GfxOptions_IsStencilShadows
+GfxOptions_GetGfxOptionsFromActivePlayerProfile
+GfxOptions_ApplyCurrentOptionsToLastPlayerProfile
+GfxOptions_ApplyCurrentOptions
+GfxOptions_IsCustomDetail
+GfxOptions_ApplyCurrentOptionsToLastPlayerProfile();
+GfxOptions_ConfigSetTextureFilteringMode(%s);
+GfxOptions_ConfigSetAntialiasingMode(%s);
+GfxOptions_SetTerrainDetailLevel(%.02f);
+GfxOptions_SetWaterQualityLevel(%s);
+GfxOptions_SetBulletHitEffects(%s);
+GfxOptions_SetLensFlares(%s);
+GfxOptions_SetWindOnForests(%s);
+GfxOptions_SetHighQualityForests(%s);
+GfxOptions_SetTextureCompression(%s);
+GfxOptions_SetStencilShadows(%s);
+GfxOptions_SetModelDetail(%.02f);
+GfxOptions_SetTextureDetailFromScript(%s);
+GfxOptions_SetDetailLevelFromConfigFile(%s);
+NetworkCommand_ParseEval: Could not find command
+NetworkCommand_ParseEval: Local console evaluation from %s:'%s'
+NetworkCommand_Textlist_Response: Received console redirect message
+NetworkCommand_Eval_Response: Received answer to eval by console %s
+NetworkCommand_Eval_ProcessRequest: Clearing remote console
+NetworkCommand_Eval_ProcessRequest: Got console message, but on client
+NetworkCommand_Eval_ProcessRequest: Setting remote console
+HumanPlayer_GetPrimaryWeaponID
+HumanPlayer_GetPrimaryWeaponModel
+HumanPlayer_EnableWeapon
+HumanPlayer_DisableAllWeapons
+HumanPlayer_isDead
+HumanPlayer_isInPlay
+HumanPlayer_LockActivate
+HumanPlayer_Activate
+AISquad_nEvent
+AISquad_nSquadState
+AISquad_TriggerEvent
+AISquad_PlaySoundAtReceiversPos
+AISquad_ReceiverHasTarget
+AISquad_DefaultHandler
+AISquad_GetDistanceToEvent
+AISquad_GetEventSpecificInt32
+AISquad_GetCurrentPatrolID
+AISquad_ThrowGrenade
+AISquad_Patrol
+AISquad_MoveToNode
+AISquad_ManStationaryGun
+AISquad_TriggerAlarm
+AISquad_ReceiverLookInApproxEventDirection
+AISquad_ReceiverLookAtEvent
+AISquad_HasTarget
+AISquad_GetSquadType
+AISquad_SwitchState
+AISquad_GetEvent
+AISquad_GetState
+AIVoice_ManDown
+AIVoice_FalseAlarm
+AIVoice_BackToIdle
+AIVoice_Stop
+AIVoice_TakeCover
+AIVoice_LostTarget
+AIVoice_Grenade
+AIVoice_Engaging
+AIVoice_WhatsThat
+AIVoice_GunShotHeard
+AIVoice_EnemyDetected
+AIVoice_EnemyFound
+AIVoice_EnemySpotted
+AIVoice_ManStationaryGun
+AIVoice_RaiseAlarm
+AIVoice_SearchArea
+AIVoice_HoldArea
+AIVoice_Acknowledge
+AIVoice_HurryUp
+AISquadState_Danger
+AISquadState_LookSearchInDirection
+AISquadState_MoveSearchInDirection
+AISquadState_Patrol
+AISquadState_Leapfrog
+AISquadState_Move
+AISquadState_SearchArea
+AISquadState_Inquire
+AISquadState_HoldArea
+AISquadState_Idle
+AIType_OnVehicle
+AIType_Defensive
+AIType_Offensive
+MISSION:AI/Squad_%d.qsc
+SequenceCommand_SetCommand
+MenuStatsScreen_FillListBox
+MenuStatsScreen_GetActiveMissionID
+MenuStatsScreen_SetActiveMissionID
+SpyBrowser_GetMaxPing
+SpyBrowser_SetMaxPing
+SpyBrowser_IsSearchError
+SpyBrowser_PWText
+SpyBrowser_DEText
+SpyBrowser_FFText
+SpyBrowser_ServerDetails
+SpyBrowser_SearchStatus
+SpyBrowser_ServersOnline
+SpyBrowser_PlayersOnline
+SpyBrowser_Sort
+SpyBrowser_IsItemEnabled
+SpyBrowser_SetSelected
+SpyBrowser_GetSelected
+SpyBrowser_FillColumnView
+SpyBrowser_IsManualSocketValidCB
+SpyBrowser_SetManualSocket
+SpyBrowser_SetSocket
+SpyBrowser_SearchLanSessions
+SpyBrowser_MasterList
+SoundGenerator_StopSound
+SoundGenerator_PlaySound
+SlotSelector_Deactivate
+SlotSelector_ItemClicked
+SlotSelector_SetActiveCategory
+SlotSelector_isCategoryEmpty
+SlotSelector_isThisCategorySelected
+SlotSelector_isCategorySelected
+SlotSelector_isSlotVisible
+SlotSelector_isSlotEnabled
+SlotSelector_SetSlotCategoryName
+SlotSelector_SetSlotText
+SlotSelector_BasicClickHandler(): cat=%d,slot=%d
+LaserDesignator_GetTicksHeldOnTask
+AIDetection_eGetAIDetectionEvent
+AIDetection_GetDetectionInfo
+AIDetection_LineOfSight
+LaserDesignatorOverlay_SetLockedOnStatus
+AIFunction_PassEventOnToSquad
+AIFunction_SendResponse
+AIFunction_GetAnimationToPlay
+AIFunction_AddAnimationEntry
+AIFunction_SetAnimationInterval
+AIFunction_GetEventDistance
+AIFunction_GetRandomValue
+AIFunction_GetScriptRealValue
+AIFunction_IsEventBehind
+AIFunction_GetCurrentEventType
+AIFunction_GetScriptIntegerValue
+AIFunction_GetGunnerStatus
+AIFunction_GetGunnerID
+AIFunction_SetScriptRealValue
+AIFunction_SetScriptIntegerValue
+AIFunction_SetGunnerID
+AIFunction_SetAlarmAccess
+AIFunction_SetDeathAnimation
+AIFunction_SetInstantDeath
+AIFunction_SetInvulnerability
+AIFunction_SetEventPriority
+AIFunction_SetSecondaryViewGamma
+AIFunction_SetSecondaryViewAlpha
+AIFunction_SetSecondaryViewLength
+AIFunction_SetViewGamma
+AIFunction_SetViewAlpha
+AIFunction_SetViewLength
+AIFunction_RemoveAlarmActions
+AIFunction_DefaultHandler
+AIAction_DefensiveCombat
+AIAction_OffensiveCombat
+AIAction_Wait
+AIAction_RunToCover
+AIAction_FriendlyDetection
+AIAction_LookAtNode
+AIAction_EnemyDetection
+AIAction_CallForBackup
+AIAction_LookAround
+AIAction_CombatIdle
+AIAction_Idle
+AIAction_RunPanicking
+AIAction_KickGrenade
+AIAction_Stunned
+AIAction_LookInApproximateEventDirection
+AIAction_LookAtEvent
+AIAction_MoveToEvent
+AIAction_PlaySound
+AIAction_PlayAnimation
+AIAction_FireAtTask
+AIAction_FireAtNode
+AIAction_RunToNode
+AIAction_WalkToNode
+AIAction_Activate
+AIAction_FallFlat
+AIAction_Dead
+AIAction_Patrol
+AIAction_DelayedEventPassOn
+AIFunction_LimitViewRange
+AIFunction_HasTarget
+AIFunction_SetStandActionAnimation
+AIFunction_HasSeenDeadFriendlyBefore
+AIFunction_UseIdleView
+AIFunction_UseCombatView
+AIFunction_SetSideKick
+AIFunction_SetHearingRangeFactor
+AIFunction_SetAnimSpeedFactor
+AIFunction_SetInvestigateShoutFrequency
+AIFunction_SetInvestigateViewCone2Length
+AIFunction_SetInvestigateViewCone2Alpha
+AIFunction_SetInvestigateViewCone1Length
+AIFunction_SetInvestigateViewCone1Alpha
+AIFunction_SetIdleAnimationFrequency
+AIFunction_SetIdleViewCone2Length
+AIFunction_SetIdleViewCone2Alpha
+AIFunction_SetIdleViewCone1Length
+AIFunction_SetIdleViewCone1Alpha
+AIFunction_SetCombatViewCone2Length
+AIFunction_SetCombatViewCone2Alpha
+AIFunction_SetCombatViewCone1Length
+AIFunction_SetCombatViewCone1Alpha
+AIFunction_SetHitRecoilThreshold
+AIFunction_SetHitPoints
+AIFunction_SetCloseCombatDamage
+AIFunction_SetGrenadeLandingReactionProb
+AIFunction_SetGrenadeDetonationTimer
+AIFunction_SetGrenadeThrowProb
+AIFunction_SetTrackingMaxDistance
+AIFunction_SetTrackingTimeout
+AIFunction_SetMinDelayBetweenFiring
+AIFunction_SetEvasiveActionProb
+AIFunction_SetPercentageFiredPerBurst
+AIFunction_SetAccuracyMaxRange
+AIFunction_SetAccuracyMedRange
+AIFunction_SetMaxRangeAccuracy
+AIFunction_SetMedRangeAccuracy
+AIFunction_SetMinRangeAccuracy
+if (AIFunction_GetCurrentEventType() == AIEVENT_CREATE)
+  AIFunction_DefaultHandler();
+//  AIFunction_SetAlarmAccess(AIALARMACCESS_BEFORECOMBAT);
+//  AIFunction_SetAlarmAccess(AIALARMACCESS_AFTERCOMBAT);
+//  AIFunction_SetGunnerID(xx);
+//  AIFunction_SetPercentageFiredPerBurst(0..100);
+//  AIFunction_SetEvasiveActionProb(0..100);
+//  AIFunction_SetMinRangeAccuracy(0..100);
+//  AIFunction_SetMaxRangeAccuracy(0..100);
+//  AIFunction_SetAccuracyMaxRange(1..);
+//  AIFunction_SetMinDelayBetweenFiring(seconds));
+//  AIFunction_SetTrackingTimeout(seconds);
+//  AIFunction_SetTrackingMaxDistance(meters);
+//  AIFunction_SetGrenadeThrowProb(0..100);
+//  AIFunction_SetGrenadeDetonationTimer(seconds);
+//  AIFunction_SetGrenadeLandingReactionProb(0..100);
+//  AIFunction_SetCloseCombatDamage(xxx);
+//  AIFunction_SetHitPoints(xxx);
+//  AIFunction_SetHitRecoilThreshold(0..100);
+//  AIFunction_SetCombatViewCone1Alpha(degrees);
+//  AIFunction_SetCombatViewCone1Length(meters);
+//  AIFunction_SetCombatViewCone2Alpha(degrees);
+//  AIFunction_SetCombatViewCone2Length(meters);
+//  AIFunction_SetIdleViewCone1Alpha(degrees);
+//  AIFunction_SetIdleViewCone1Length(meters);
+//  AIFunction_SetIdleViewCone2Alpha(degrees);
+//  AIFunction_SetIdleViewCone2Length(meters);
+//  AIFunction_SetIdleAnimationFrequency(seconds);
+//  AIFunction_SetInvestigateViewCone1Alpha(degrees);
+//  AIFunction_SetInvestigateViewCone1Length(meters);
+//  AIFunction_SetInvestigateViewCone2Alpha(degrees);
+//  AIFunction_SetInvestigateViewCone2Length(meters);
+//  AIFunction_SetInvestigateShoutFrequency(seconds);
+//  AIFunction_SetAnimSpeedFactor(0..2);
+  AIFunction_DefaultHandler();
+Netshop_AMMOSLOT_MEDIPACK
+Netshop_AMMOSLOT_PRIMARY_II
+Netshop_AMMOSLOT_PRIMARY_I
+Netshop_AMMOSLOT_SIDEARM
+Netshop_AddMoneyAll
+Netshop_isOpen
+Netshop_Activate
+Netshop_SetInventoryText
+Netshop_ItemPicked(): cat=%d,slot=%d,id=%d
+Netshop_ActivateCB
+TextScroller_Add: Skipping very long text
+Server_RunBadConnectCheck: No strict regime: Game not started
+Server_IsConnectionGood: Connection not good[%d]:
+Server_GameMessageRequestSpawnHandler: No client found at input networkID
+Server_AuthCallBack: Got response on non-existant client[%d]
+Server_AuthCallBack: %d %d '%s'
+Server_ResynchPool: Retrieved %d ID(s)
+Server_PopFreeNID failed, no items pooled
+DebugConsole_DeAlloc() : Cannot find console ID: %d
+DebugConsole_DeAlloc() : Cannot deallocate active console.
+List_Verify: List has a NULL pointer or is connected to another lists tail.
+List_Verify: List is broken.
+List_Verify: Node has a NULL ptPrev somewhere.
+List_Verify: List is disconnected from tail.
+List_Verify: List is disconnected from head.
+List_Verify: Badly initialized list - NULL/non-NULL in wrong places in the header
+List_Verify: NULL List
+MapControl_SetLoading(): set to FALSE
+MapControl_SetLoading(): set toTRUE
+Network_FindServer:socket()
+Network_StopEnumeration(): keeping socket alive
+Network_RunEnumeration: Got client_serverinfo reply from server
+Network_AddPacketToQueue: No socket found for [%d], skipping non-guaranteed message
+Network_Close()
+Network_BanPlayer: No item for player[%d]
+Network_BanPlayer: no socket for player[%d]
+Network_BanPlayer: banning player at ip=%u.%u.%u.%u
+Network_PostLoadServerContact(): Received connect response, ending wait
+Network_PostLoadServerContact(): Sent connect message, waiting for response
+Network_PostLoadServerContact(), but not in connecting state
+Network_RunClient: Unknown network state
+Network_RunClient called in the CONNECTING case
+Network_RunClient: No interface
+Network_CloseSockLib():
+Network_StartSockLib():
+Network_StartClient:ictlsocket(..FIONBIO..)
+Network_StartClient:getglobalsocket
+Network_Receive(): Got 0 bytes but no error
+Network_receive:recvfrom
+Network_receive: Slow recvfrom(): %dms
+Network_Receive: select():
+Network_StartServer:bind()
+Network_StartServer:ictlsocket(..FIONBIO..)
+Network_StartServer: Socket created after restarting winsock
+Network_StartServer: Restarting network, trying again...
+Network_StartServer:socket()
+Network_StartServer: Cleared non-empty loading queue
+Network_ServerHandleReceivedPacket: Unknown message type
+Network_AddToLoadQueue: [%u.%u.%u.%u:%d]
+Network_RemoveFromLoadQueue: Socket not found in load queue
+Network_RemoveFromLoadQueue: Socket removed from load queue
+Network_HandleSendQueues: No socket found for [%d], skipping non-guaranteed message
+Network_HandleSendQueues: Non-guaranteed queue non-empty
+Network_HandleSendQueues: No socket found for [%d], deleting guaranteed message
+Network_Send():incomplete packet sent (%d/%d)
+Network_Send():sendto
+Network_Send: DROPPING DATA. select():
+Network_AddToBannedList: IP already banned
+Network_FreeGuaranteedQueue: Removing packet
+Network_FreeQueuesTo. Removed %d from queue[%d] to [%d]
+Network_FreeQueues. Removing %d from queue[%d]
+Network_IsItemIDExisitingAndIsCreatedBefore: Existing, not old, id=%d
+Network_IsItemIDExisitingAndIsCreatedBefore: Existing and old, id=%d
+Network_ClientBindGlobalUDPSocket: bind()
+Network_StoreLocalAddress -getsockname
+Network_CloseUDPSocket: Socket was invalid
+Network_CloseUDPSocket: Socket closed
+StatusMessageScreen_ClearMessages
+PhysicsObjType_ParseConfigFile(): Couldn't load script: %s
+WeaponType_GetAmmoInfo
+WeaponType_GetAnim
+TeamManager_Rebalance: Teams are balanced
+NetManager_RequestTeamChange: Requesting [%d] to team %d
+NetManager_RequestTeamChange(%d)
+AnimTrigger_ParseConfigFile(): Couldn't load script: %s
+GameMaterial_LoadParameters: Couldn't load script "%s"
+MenuManager_GetActiveMenuScreen
+Task_New
+MenuManager_SetEnabled
+MenuManager_DeactivatePopuScreen
+MenuManager_ActivatePopupScreen
+MenuManager_ForceUpdateWindow
+MenuManager_PopScreen
+MenuManager_PushScreen
+MenuManager_SetLanguage
+MenuManager_ClearStack
+MenuManager_LeaveMenus
+MenuManager_RequestScreen
+ServerConfig_GetGoutMax
+ServerConfig_SetGoutMax
+ServerConfig_GetIdleMax
+ServerConfig_SetIdleMax
+ServerConfig_GetPlossMax
+ServerConfig_SetPlossMax
+ServerConfig_GetPingMax
+ServerConfig_SetPingMax
+ServerConfig_GetAutoKick
+ServerConfig_SetAutoKick
+ServerConfig_GetPacketLoss
+ServerConfig_SetPacketLoss
+ServerConfig_GetTimeOut
+ServerConfig_SetTimeOut
+ClientConfig_GetBandwidthFromList
+ClientConfig_SetBandwidthFromList
+ClientConfig_FillBandwidthListBox
+ClientConfig_GetBandwidth
+ClientConfig_SetBandwidth
+ServerConfig_GetChoke
+ServerConfig_SetChoke
+ServerConfig_GetFillPercent
+ServerConfig_SetFillPercent
+ServerConfig_GetSmoothPercent
+ServerConfig_SetSmoothPercent
+ClientConfig_GetPlayerPassword
+ClientConfig_SetPlayerPassword
+ClientConfig_GetPlayerName
+ClientConfig_SetPlayerName
+ServerConfig_GetAllowSniperRifles
+ServerConfig_SetAllowSniperRifles
+ServerConfig_GetSpawnSafeTime
+ServerConfig_SetSpawnSafeTime
+ServerConfig_GetSpawnTimeToFree
+ServerConfig_SetSpawnTimeToFree
+ServerConfig_GetSpawnMaxCost
+ServerConfig_SetSpawnMaxCost
+ServerConfig_GetBombReposTime
+ServerConfig_SetBombReposTime
+ServerConfig_GetBombTime
+ServerConfig_SetBombTime
+ServerConfig_GetObjectiveMaxTime
+ServerConfig_SetObjectiveMaxTime
+ServerConfig_GetMapMaxTeamScore
+ServerCongig_SetMapMaxTeamScore
+ServerConfig_GetMapMaxTime
+ServerConfig_SetMapMaxTime
+ServerConfig_GetMapMaxRounds
+ServerConfig_SetMapMaxRounds
+ServerConfig_GetMoneyMissionLost
+ServerConfig_SetMoneyMissionLost
+ServerConfig_GetMoneyMissionWin
+ServerConfig_SetMoneyMissionWin
+ServerConfig_GetMoneyObjectiveTeamLost
+ServerConfig_SetMoneyObjectiveTeamLost
+ServerConfig_GetMoneyObjectiveTeamWin
+ServerConfig_SetMoneyObjectiveTeamWin
+ServerConfig_GetMoneyObjectivePlayerWin
+ServerConfig_SetMoneyObjectivePlayerWin
+ServerConfig_GetMoneyTeamKill
+ServerConfig_SetMoneyTeamKill
+ServerConfig_GetMoneyKill
+ServerConfig_SetMoneyKill
+ServerConfig_GetMoneyCap
+ServerConfig_SetMoneyCap
+ServerConfig_GetMoneyStart
+ServerConfig_SetMoneyStart
+ServerConfig_GetPublic
+ServerConfig_SetPublic
+ServerConfig_GetWarmup
+ServerConfig_SetWarmup
+ServerConfig_GetAutoBalance
+ServerConfig_SetAutoBalance
+ServerConfig_GetForceFirstSpec
+ServerConfig_SetForceFirstSpec
+ServerConfig_GetTeamDamage
+ServerConfig_SetTeamDamage
+ServerConfig_GetSpecateModeFromList
+ServerConfig_SetSpectateModeFromList
+ServerConfig_FillSpectateModeListBox
+ServerConfig_GetSpectateMode
+ServerConfig_SetSpectateMode
+ServerConfig_GetMaxPlayers
+ServerConfig_SetMaxPlayers
+ServerConfig_GetClientPort
+ServerConfig_SetClientPort
+ServerConfig_GetInterface
+ServerConfig_SetInterface
+ServerConfig_GetPort
+ServerConfig_SetPort
+ServerConfig_SetRConPass
+ServerConfig_GetPassword
+ServerConfig_SetPassword
+ServerConfig_GetName
+ServerConfig_SetName
+Config_SaveConfig
+Config_LoadConfig
+Config_GetRGBA
+Config_GetActiveCrossHair
+Config_GetCrossHairs
+Config_ResetGraphicOptions
+Config_IsGermany
+Config_IsContentControlPasswordEnabled
+Config_VerifyContentControlPassword
+Config_GetContentControlPassword
+Config_SetContentControlPassword
+Config_SoundOptionsGetReverseStereo
+Config_SoundOptionsGetSpeechVolume
+Config_SoundOptionsGetSpeech
+Config_SoundOptionsGetMusicVolume
+Config_SoundOptionsGetMusic
+Config_SoundOptionsGetSoundsEffectsVolume
+Config_SoundOptionsGetSoundsEffects
+Config_SoundOptionsSetReverseStereo
+Config_SoundOptionsSetSpeechVolume
+Config_SoundOptionsSetSpeech
+Config_SoundOptionsSetMusicVolume
+Config_SoundOptionsSetMusic
+Config_SoundOptionsSetSoundsEffectsVolume
+Config_SoundOptionsSetSoundsEffects
+Config_GraphicOptionsSetCrossHairColourB
+Config_GraphicOptionsSetCrossHairColourG
+Config_GraphicOptionsSetCrossHairColourR
+Config_GraphicOptionsGetCrossHairColourB
+Config_GraphicOptionsGetCrossHairColourG
+Config_GraphicOptionsGetCrossHairColourR
+Config_GraphicOptionsSetCrossHairAlpha
+Config_GraphicOptionsGetCrossHairAlpha
+Config_GraphicOptionsGetGamma
+Config_GraphicOptionsGetDevice
+Config_GraphicOptionsGetTransparency
+Config_GraphicOptionsGetResolution
+Config_GraphicOptionsSetGamma
+Config_GraphicOptionsSetDevice
+Config_GraphicOptionsSetTransparency
+Config_GraphicOptionsSetResolution
+Config_GameOptionsInputSetBloodEnabled
+Config_GameOptionsInputSetMouseSensitivity
+Config_GameOptionsInputSetInvertMouse
+Config_GameOptionsGfxSetForceSoftwareVertexProcessing
+Config_GameOptionsGfxGetForceSoftwareVertexProcessing
+Config_GameOptionsGraphicsGetThickCrosshair
+Config_GameOptionsGraphicsSetThickCrosshair
+Config_GameOptionsInputGetBloodEnabled
+Config_GameOptionsInputGetMouseSensitivity
+Config_GameOptionsInputGetInvertMouse
+Config_GetLanguageName
+Config_TestFillListBox
+Config_FillRenderDeviceListBox
+Config_FillScreenResolutionListBox
+Config_FillMissionTextBox
+Config_FillMissionPictureBox
+Config_FillMissionSelectionBox
+Config_SetActiveSpeakerSetup
+Config_GetActiveSpeakerSetup
+Config_FillSpeakerSetupListBox
+Config_SetActive3DProvider
+Config_GetActive3DProvider
+Config_Fill3DProviderScrollListBox
+Config_SetActiveDifficultyLevel
+Config_GetActiveDifficultyLevel
+Config_FillDifficultyLevelListBox
+Config_GetNumberOfPlayerProfiles
+Config_PlayerGetActiveMission
+Config_DeletePlayerProfile
+Config_CreateNewPlayerProfile
+Config_SetActivePlayerProfileIndex
+Config_GetActivePlayerProfileIndex
+Config_FillPlayerProfileListBox
+Item_10
+Item_9
+Item_8
+Item_7
+Item_6
+Item_5
+Item_4
+Item_3
+Item_2
+Item_1
+NetManager_RunNetworkInterrupt
+NetManager_RunNetworkInterrupt()
+NetManager_SetLocalBandwidth: At server - setting to 0
+NetManager_SetLocalBandwidth: Changing from [%d] to [%d]
+NetManager_GetActiveSession
+NetManager_SetActiveSession
+NetManager_RandomInt
+NetManager_ListSockets
+NetManager_GetRandom
+NetManager_ShowVotes
+NetManager_Monitor
+NetManager_ListBan
+NetManager_UnbanPlayer
+NetManager_BanPlayer
+NetManager_VoteKick
+NetManager_KickPlayer
+NetManager_RestartMap
+NetManager_ListMaps
+NetManager_VoteNext
+NetManager_VoteMap
+NetManager_SetMapInActive
+NetManager_SetMapActive
+NetManager_SetBandwidthFromRemote
+NetManager_GotoMap
+NetManager_GotoNext
+NetManager_GetActiveFace
+NetManager_GetActiveBody
+NetManager_CollectFacePics
+NetManager_CollectBodyPics
+NetManager_isMode
+NetManager_SetMode
+NetManager_IsModelSelect
+NetManager_SetFace
+NetManager_SetModel
+NetManager_RequestTeamChange
+NetManager_GetTeam
+NetManager_SetTeam
+NetManager_FillTeams
+NetManager_GetName
+NetManager_SetName
+NetManager_isSessionSelected
+NetManager_GetNumberOfMissionsInActiveList
+NetManager_MoveActiveListItemDown
+NetManager_MoveActiveListItemUp
+NetManager_ClearActiveList
+NetManager_MoveItemToAvailableList
+NetManager_MoveItemToActiveList
+NetManager_GetActiveMapCount
+NetManager_ListActiveItems
+NetManager_ListAvailableItems
+NetManager_eTeam
+NetManager_GMZUpdate
+NetManager_ListBanCB(): Not on server or not remote eval
+NetManager_VoteKick: Not on server or not using remote eval
+NetManager_KickPlayer: Not on server or not using remote eval
+NetManager_ListMapsCB called
+NetManager_VoteMap: Invalid parameters
+NetManager_VoteMapCB(%d)
+NetManager_VoteMap: Placed vote for map [%d] for client %d
+NetManager_VoteMap: Not on server or not using remote eval
+NetManager_CountMapVotesCB: Bug: Failed to count votes. Exiting votecount.
+NetManager_CountMapVotesCB: Bug: Failed to register vote. Exiting votecount.
+NetManager_KickPlayer(%d)
+NetManager_CountKickVotes: Bug: Failed to count votes. Exiting votecount.
+NetManager_CountKickVotes: Bug: Failed to register vote. Exiting votecount.
+NetManager_RemoteBandwidthCB called with bad parameters
+NetManager_RemoteBandwidthCB called with bad params [%d]: b=%d
+NetManager_RemoteBandwidthCB called with good params [%d]: b=%d
+NetManager_GotoMap: Invalid parameters
+NetManager_GotoMap: Invalid map number
+NetManager_InitiateChangeMap
+NetManager_GotoMap(%d)
+NetManager_RestartMap()
+NetManager_LocalRestartMap
+NetManager_LocalRestartMap()
+NetManager_LocalRestartMap: Server did not send map finished, exiting game...
+NetManager_ForceChangeTeam: Changing team from %d to %d
+NetManager_SetTeam: Local client is null
+NetManager_ReduceBandwidthCB got invalid argument:%d
+NetManager_ReduceBandwidths by factor %f. min=200, max=700
+NetManager_SetBandwidthFromRemote(%d)
+NetManager_DropWeapon: Position close to zero!
+NetManager_DropWeapon: Player[%d] trying to drop weapon[%s], which he does not have
+NetManager_Quit: Buffer state not empty
+NetManager_ChangeLocalMap
+NetManager_ChangeLocalMap: Server did not send map finished, exiting game...
+NetManager_UpdateSpawnDENIED
+NetManager_ClientHandler(): Unknown type
+NetManager_ClientHandler():NETWORKMESSAGE_LOSTCONNECTION
+NetManager_ClientHandler():NETWORKMESSAGE_CLIENT_SERVERINFO
+NetManager_ClientHandler():NETWORKMESSAGE_CLIENT_CONNECTIONFAILED
+NetManager_IsSocketInUse: Client[%d] already using the input socket
+NetManager_SetMapInActiveCB: Invalid parameters
+NetManager_SetMapActiveCB: Invalid parameters
+NetManager_GetActiveBody called with no local client.
+NetManager_RequestTeamChangedCB: Called with valid arg=%d
+NetManager_FindSession: Socket of unknown type
+Mission_Open(): Couldn't load script: %s
+_Script_SetWarningLevel
+Script_SetSymbolContext(): Symbol not found: %s
+File_DirList...
+Game_GetNewestSaveGameSlot
+Game_SetMenuLoadFromSlot
+Game_FillSaveGameScrollListBox
+Game_GetNumberOfValidSaveGames
+Game_CutsceneDelete
+Game_DisableMusic
+Game_EnableMusic
+Game_SetSFXVolume
+Game_SetMusicVolume
+Game_EnablePlayerInput
+Game_DisablePlayerInput
+Game_UpdateVolume
+Game_SetMission
+Game_GetGameMode
+Game_SetGameMode
+Game_DeleteHandler
+Game_RunHandler: Level complete
+Game_MPChangeMap...
+Resource_GetOriginalFilename() : Resource %s is not loaded.
+Resource_GetFilenameByPointer() : Couldn't locate resource at %p.
+Resource_Load...
+Resource_ParseFile...
+Flow_IsPlayCredits
+Flow_RequestEvent
+Flow_RunHandler: Normal event game finish
+Flow_RunHandler: Abort to main menu
+Flow_RunHandler:event game
+Flow_CreateHandler
+App_IsClient
+.?AVbad_cast@@
+.?AVbad_typeid@@
+.?AVtype_info@@
+.?AVout_of_range@std@@
+.?AVlogic_error@std@@
+.?AVlength_error@std@@
+AISquad_DefaultHandler();

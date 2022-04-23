@@ -1,0 +1,5 @@
+Task_New(xxxx, "PatrolPath", "Barracks Gunner", 
+Task_New(-1, "PatrolPathCommand", "Delays the script execution for 60 ticks", 1, 60), 
+Task_New(-1, "PatrolPathCommand", "Runs to node id x", 3, x), 
+Task_New(-1, "PatrolPathCommand", "End script, only runs commands after this one. Takes no paramet", 6, -1), 
+Task_New(-1, "PatrolPathCommand", "Looks at node id y", 5, y)), 

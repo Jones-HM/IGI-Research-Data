@@ -1,0 +1,58 @@
+if(AIFunction_GetCurrentEventType() == AIEVENT_CREATE)
+{
+	AIFunction_DefaultHandler();
+}
+else
+{
+	if(AIFunction_GetCurrentEventType() == AIEVENT_IDLE)
+	{
+		if(EditVariable_752.nValue == 0)
+		{
+			AIAction_Patrol(701, 0, AIACTIONFLAG_PUSHABLE);
+		}
+		else
+		{
+			if(EditVariable_752.nValue == 1)
+			{
+				AIAction_Patrol(712, 0, AIACTIONFLAG_PUSHABLE);
+			}
+			else
+			{
+				if(EditVariable_752.nValue == 2)
+				{
+					AIAction_Patrol(726, 0, AIACTIONFLAG_PUSHABLE);
+				}
+				else
+				{
+					if(EditVariable_752.nValue == 3)
+					{
+						AIAction_Patrol(733, 0, AIACTIONFLAG_PUSHABLE);
+					}
+
+				}
+
+			}
+
+		}
+	}
+	else
+	{
+		if(AIFunction_GetCurrentEventType() == AIEVENT_ALARMON)
+		{
+		}
+		else
+		{
+			if(AIFunction_GetCurrentEventType() == AIEVENT_COMBAT)
+			{
+				AIFunction_DefaultHandler();
+			}
+			else
+			{
+				AIFunction_DefaultHandler();
+			}
+
+		}
+
+	}
+
+}

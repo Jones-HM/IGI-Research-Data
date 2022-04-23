@@ -1,0 +1,4 @@
+Task_New(xxxx, "PatrolPath", "", 
+Task_New(-1, "PatrolPathCommand", "Walks to node id x", 2, x), 
+Task_New(-1, "PatrolPathCommand", "Looks at node id y", 5, y), 
+Task_New(-1, "PatrolPathCommand", "Quit script, stops script. Takes no parameters", 7, 0)), 

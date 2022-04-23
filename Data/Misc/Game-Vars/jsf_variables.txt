@@ -1,0 +1,129 @@
+nSessionID
+nCurrentScreenMode
+nCurrentTerrainDetail
+nCurrentTerrainObjectDetail
+nCurrentObjectDetail
+nCurrentDisk
+nCurrentScenario
+nCurrentPlayer
+isPlayMovies
+isScreenHalfSize
+isScreenEveryLine
+isPageFlip
+eInputDevice
+nKeyboardSensitivity
+nJoystickSensitivity
+nJoystickSlack
+nRudderSensitivity
+nJoystickCalibrateX
+nJoystickCalibrateY
+nMouseSensitivityX
+nMouseSensitivityY
+isForceFeedback
+nForceFeedbackStrength
+eDamageLevel
+isSoundOn
+isReverseStereo
+isOnlyRunwayStartPoint
+isEasyAiming
+isEasyLanding
+isAutoTrim
+isForceMousePointer
+eRenderMode
+nMouseInertia
+nFuelSupplyMultiplayer
+isPauseOnDropdown
+isQuickStartGunsOnly
+nQuickStartHour
+nQuickStartDay
+nQuickStartScenario
+nQuickStartDisc
+nQuickStartEnemyPlanes
+iQuickStartEnemyPlanes
+nQuickStartWingmen
+nQuickStartEnemyDistance
+isNetworkGunsOnly
+isNetworkUnlimitedAmmo
+nNetworkDuration
+nNetworkHour
+nNetworkDay
+nNetworkScenario
+nNetworkDisc
+isReloadOriginalSOL
+isShowMinimalStatus
+isShowExternRadar
+isShowTextMessages
+isTransparentTrail
+isTransparentFireBall
+isTransparentShadow
+isShowParticles
+isEnableLensFlares
+nScreenBrightness
+nMusicVolume
+nSpeechVolume
+isNetworkOn
+nSessionID                = %d;
+nCurrentScreenMode        = %d;
+eRenderMode               = %s;
+nScreenBrightness         = %d;
+nCurrentObjectDetail      = %d;
+nCurrentTerrainDetail     = %d;
+nCurrentTerrainObjectDetail = %d;
+isPlayMovies              = %s;
+isScreenHalfSize          = %s;
+isScreenEveryLine         = %s;
+isPageFlip                = %s;
+isEnableLensFlares        = %s;
+isTransparentTrail        = %s;
+isTransparentShadow       = %s;
+isShowParticles           = %s;
+isTransparentFireBall     = %s;
+nCurrentDisk              = %d;
+nCurrentScenario          = %d;
+nCurrentPlayer            = %d;
+eInputDevice              = %d;
+nKeyboardSensitivity      = %d;
+nJoystickSensitivity      = %d;
+nJoystickSlack            = %d;
+nRudderSensitivity        = %d;
+nJoystickCalibrateX       = %d;
+nJoystickCalibrateY       = %d;
+nMouseSensitivityX        = %d;
+nMouseSensitivityY        = %d;
+nMouseInertia             = %d;
+isForceFeedback           = %s;
+nForceFeedbackStrength    = %d;
+nFuelSupplyMultiplayer    = %d;
+isEasyAiming              = %s;
+isEasyLanding             = %s;
+isAutoTrim                = %s;
+isForceMousePointer       = %s;
+isOnlyRunwayStartPoint    = %s;
+isQuickStartGunsOnly      = %s;
+nQuickStartDay            = %d;
+nQuickStartHour           = %d;
+nQuickStartScenario       = %d;
+nQuickStartDisc           = %d;
+nQuickStartEnemyPlanes    = %d;
+iQuickStartEnemyPlanes    = %d;
+nQuickStartWingmen        = %d;
+nQuickStartEnemyDistance  = %d;
+isNetworkGunsOnly         = %s;
+isNetworkUnlimitedAmmo    = %s;
+nNetworkDuration          = %d;
+nNetworkDay               = %d;
+nNetworkHour              = %d;
+nNetworkScenario          = %d;
+nNetworkDisc              = %d;
+isPauseOnDropdown         = %s;
+isShowMinimalStatus       = %s;
+isShowTextMessages        = %s;
+isShowExternRadar         = %s;
+isSoundOn                 = %s;
+isReverseStereo           = %s;
+nMusicVolume              = %d;
+nSpeechVolume             = %d;
+isReloadOriginalSOL       = %s;
+isNetworkOn               = %s;
+nScenarioPlayTick
+nScenarioPlayTick = %d;

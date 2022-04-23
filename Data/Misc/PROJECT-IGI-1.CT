@@ -1,0 +1,3533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="34">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>209</ID>
+      <Description>"PATH"</Description>
+      <Options moHideChildren="1" moActivateChildrenAsWell="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>00FF00</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>210</ID>
+          <Description>"Level_path"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>30</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>0x0057B568</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>149</ID>
+          <Description>"LevelQSCPath"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>32</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>0x0054E090</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>150</ID>
+          <Description>"CurrLevelPath"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>32</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>57B568</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2355</ID>
+          <Description>"ResourceName"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>50</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>00943a18</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2357</ID>
+          <Description>"ResourcePath"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>70</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>009435B0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2394</ID>
+          <Description>"MEF_Model"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>32</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>00a4ec6c</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>236</ID>
+      <Description>"WEAPON"</Description>
+      <Options moHideChildren="1" moActivateChildrenAsWell="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>229</ID>
+          <Description>"Total_Weapons"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>0057b18c</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>235</ID>
+          <Description>"Weapon_Id_Picked"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>0019F720</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>46</ID>
+          <Description>"WEAPON_CYCLE_ID"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"IGI.exe"+0x0016E210</Address>
+          <Offsets>
+            <Offset>0xD48</Offset>
+            <Offset>0x14</Offset>
+            <Offset>0x7CC</Offset>
+            <Offset>0x8</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2395</ID>
+      <Description>"AMMO"</Description>
+      <Options moHideChildren="1" moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>400040</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>9</ID>
+          <Description>"OFFSET_1"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"IGI.exe"+0x0016E210</Address>
+          <Offsets>
+            <Offset>0x384</Offset>
+            <Offset>0x14</Offset>
+            <Offset>0x7CC</Offset>
+            <Offset>0x8</Offset>
+          </Offsets>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>83</Key>
+              </Keys>
+              <Value>223</Value>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>47</ID>
+          <Description>"OFFSET_2"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"IGI.exe"+0x0016E210</Address>
+          <Offsets>
+            <Offset>0x390</Offset>
+            <Offset>0x14</Offset>
+            <Offset>0x7CC</Offset>
+            <Offset>0x8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>74</ID>
+          <Description>"OFFSET_3"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"IGI.exe"+0x0016E210</Address>
+          <Offsets>
+            <Offset>0x348 + 0x54</Offset>
+            <Offset>0x14</Offset>
+            <Offset>0x7CC</Offset>
+            <Offset>0x8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>48</ID>
+          <Description>"OFFSET_4"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"IGI.exe"+0x0016E210</Address>
+          <Offsets>
+            <Offset>0x3A8</Offset>
+            <Offset>0x14</Offset>
+            <Offset>0x7CC</Offset>
+            <Offset>0x8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>75</ID>
+          <Description>"OFFSET_5"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"IGI.exe"+0x0016E210</Address>
+          <Offsets>
+            <Offset>0x348 + 0x6C</Offset>
+            <Offset>0x14</Offset>
+            <Offset>0x7CC</Offset>
+            <Offset>0x8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>10</ID>
+          <Description>"M16A2_AMMO"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"IGI.exe"+0x0016E210</Address>
+          <Offsets>
+            <Offset>0x360</Offset>
+            <Offset>0x14</Offset>
+            <Offset>0x7CC</Offset>
+            <Offset>0x8</Offset>
+          </Offsets>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>81</Key>
+              </Keys>
+              <Value>2456</Value>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>59</ID>
+          <Description>"AK47_AMMO"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"IGI.exe"+0x0016E210</Address>
+          <Offsets>
+            <Offset>0x348 + 0x24</Offset>
+            <Offset>0x14</Offset>
+            <Offset>0x7CC</Offset>
+            <Offset>0x8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19</ID>
+          <Description>"SPAS_JACK"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"IGI.exe"+0x0016E210</Address>
+          <Offsets>
+            <Offset>0x348</Offset>
+            <Offset>0x14</Offset>
+            <Offset>0x7CC</Offset>
+            <Offset>0x8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>20</ID>
+          <Description>"COLT"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"IGI.exe"+0x0016E210</Address>
+          <Offsets>
+            <Offset>0x360 -0x000C</Offset>
+            <Offset>0x14</Offset>
+            <Offset>0x7CC</Offset>
+            <Offset>0x8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>49</ID>
+          <Description>"MP5_GLOCK"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"IGI.exe"+0x0016E210</Address>
+          <Offsets>
+            <Offset>0x378</Offset>
+            <Offset>0x14</Offset>
+            <Offset>0x7CC</Offset>
+            <Offset>0x8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>40</ID>
+          <Description>"MAGZ"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"IGI.exe"+00671890</Address>
+          <Offsets>
+            <Offset>144</Offset>
+            <Offset>4C4</Offset>
+            <Offset>0</Offset>
+          </Offsets>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Toggle Activation Allow Increase</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>191</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>211</ID>
+      <Description>"LEVEL"</Description>
+      <Options moHideChildren="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>400000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>56</ID>
+          <Description>"Game_Level"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"IGI.exe" + 0x139560</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>138</ID>
+          <Description>"Max Level"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>005c89fc</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>140</ID>
+          <Description>"LevelLoadPtr"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>0057babc</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>159</ID>
+          <Description>"LevelQuit"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>005c8de8</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>212</ID>
+      <Description>"HEALTH"</Description>
+      <Options moHideChildren="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>020271</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>17</ID>
+          <Description>"Health"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>"IGI.exe"+0x0016E210</Address>
+          <Offsets>
+            <Offset>0x254</Offset>
+            <Offset>0x14</Offset>
+            <Offset>0x7CC</Offset>
+            <Offset>0x8</Offset>
+          </Offsets>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>70</Key>
+              </Keys>
+              <Value>Nan</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>9</Key>
+                <Key>75</Key>
+              </Keys>
+              <Value>403A53CF</Value>
+              <ID>1</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>18</Key>
+                <Key>72</Key>
+              </Keys>
+              <Value>0</Value>
+              <ID>2</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>58</ID>
+          <Description>"Total_Damage"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>"IGI.exe"+0x0016E210</Address>
+          <Offsets>
+            <Offset>2C8</Offset>
+            <Offset>0x14</Offset>
+            <Offset>0x7CC</Offset>
+            <Offset>0x8</Offset>
+          </Offsets>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>84</Key>
+              </Keys>
+              <Value>0</Value>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>194</ID>
+      <Description>"PROFILE"</Description>
+      <Options moHideChildren="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>808040</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>187</ID>
+          <Description>"Player1ActiveName"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>32</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>IGI.exe+7C28C8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>186</ID>
+          <Description>"Player1ActiveMission"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00bc28e8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>189</ID>
+          <Description>"Player2ActiveName"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>32</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>00BC2E2C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>188</ID>
+          <Description>"Player2ActiveMission"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>00BC2E4C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>190</ID>
+          <Description>"Player3ActiveName"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>32</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>00BC3390</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>191</ID>
+          <Description>"Player3ActiveMission"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>00BC3390 + 0x20</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>192</ID>
+          <Description>"Player4ActiveName"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>10</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>00BC38F4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>193</ID>
+          <Description>"Player4ActiveMission"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>00BC38F4+20</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>184</ID>
+          <Description>"ActivePlayerIndex"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00bc2384</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>185</ID>
+          <Description>"MaxActivePlayers"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00bc2380</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>207</ID>
+      <Description>"POSITION"</Description>
+      <Options moHideChildren="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>A00000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>2429</ID>
+          <Description>"Player"</Description>
+          <Options moHideChildren="1" moRecursiveSetValue="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>70</ID>
+              <Description>"X"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>"IGI.exe"+0x0016E210</Address>
+              <Offsets>
+                <Offset>0x348 - 0x324</Offset>
+                <Offset>0x14</Offset>
+                <Offset>0x7CC</Offset>
+                <Offset>0x8</Offset>
+              </Offsets>
+              <Hotkeys>
+                <Hotkey>
+                  <Action>Increase Value</Action>
+                  <Keys>
+                    <Key>88</Key>
+                    <Key>38</Key>
+                  </Keys>
+                  <Value>0.001</Value>
+                  <ID>2</ID>
+                </Hotkey>
+                <Hotkey>
+                  <Action>Decrease Value</Action>
+                  <Keys>
+                    <Key>88</Key>
+                    <Key>40</Key>
+                  </Keys>
+                  <Value>0.001</Value>
+                  <ID>3</ID>
+                </Hotkey>
+              </Hotkeys>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>71</ID>
+              <Description>"Y"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>"IGI.exe"+0x0016E210</Address>
+              <Offsets>
+                <Offset>2C</Offset>
+                <Offset>0x14</Offset>
+                <Offset>0x7CC</Offset>
+                <Offset>0x8</Offset>
+              </Offsets>
+              <Hotkeys>
+                <Hotkey>
+                  <Action>Increase Value</Action>
+                  <Keys>
+                    <Key>89</Key>
+                    <Key>38</Key>
+                  </Keys>
+                  <Value>0.001</Value>
+                  <ID>0</ID>
+                </Hotkey>
+                <Hotkey>
+                  <Action>Decrease Value</Action>
+                  <Keys>
+                    <Key>89</Key>
+                    <Key>40</Key>
+                  </Keys>
+                  <Value>0.001</Value>
+                  <ID>1</ID>
+                </Hotkey>
+              </Hotkeys>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>73</ID>
+              <Description>"Z"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Float</VariableType>
+              <Address>"IGI.exe"+0x0016E210</Address>
+              <Offsets>
+                <Offset>0x34</Offset>
+                <Offset>0x14</Offset>
+                <Offset>0x7CC</Offset>
+                <Offset>0x8</Offset>
+              </Offsets>
+              <Hotkeys>
+                <Hotkey>
+                  <Action>Increase Value</Action>
+                  <Keys>
+                    <Key>90</Key>
+                    <Key>38</Key>
+                  </Keys>
+                  <Value>0.01</Value>
+                  <ID>2</ID>
+                </Hotkey>
+                <Hotkey>
+                  <Action>Decrease Value</Action>
+                  <Keys>
+                    <Key>90</Key>
+                    <Key>40</Key>
+                  </Keys>
+                  <Value>0.01</Value>
+                  <ID>3</ID>
+                </Hotkey>
+              </Hotkeys>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2427</ID>
+          <Description>"Camera"</Description>
+          <Options moHideChildren="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>2450</ID>
+              <Description>"Position"</Description>
+              <Options moHideChildren="1" moAllowManualCollapseAndExpand="1"/>
+              <LastState Value="" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>133</ID>
+                  <Description>"X"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>0x005CA138</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>134</ID>
+                  <Description>"Y"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>igi.exe+1CA140</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>135</ID>
+                  <Description>"Z"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>igi.exe+1CA148</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2451</ID>
+              <Description>"Angle"</Description>
+              <Options moHideChildren="1" moAllowManualCollapseAndExpand="1"/>
+              <LastState Value="" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2447</ID>
+                  <Description>"Pitch"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Float</VariableType>
+                  <Address>005CA164</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2449</ID>
+                  <Description>"Yaw"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Float</VariableType>
+                  <Address>005CA168</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2448</ID>
+                  <Description>"Roll"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Float</VariableType>
+                  <Address>005CA170</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2452</ID>
+                  <Description>"FOV"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Float</VariableType>
+                  <Address>005CA174</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2428</ID>
+          <Description>"ViewPort"</Description>
+          <Options moHideChildren="1" moRecursiveSetValue="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>2443</ID>
+              <Description>"Position"</Description>
+              <Options moHideChildren="1" moRecursiveSetValue="1" moAllowManualCollapseAndExpand="1"/>
+              <LastState Value="" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2422</ID>
+                  <Description>"X"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>00BCAB08</Address>
+                  <Hotkeys>
+                    <Hotkey>
+                      <Action>Decrease Value</Action>
+                      <Keys>
+                        <Key>39</Key>
+                      </Keys>
+                      <Value>10000</Value>
+                      <ID>0</ID>
+                    </Hotkey>
+                    <Hotkey>
+                      <Action>Increase Value</Action>
+                      <Keys>
+                        <Key>37</Key>
+                      </Keys>
+                      <Value>10000</Value>
+                      <ID>1</ID>
+                    </Hotkey>
+                  </Hotkeys>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2423</ID>
+                  <Description>"Y"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>00BCAB10</Address>
+                  <Hotkeys>
+                    <Hotkey>
+                      <Action>Decrease Value</Action>
+                      <Keys>
+                        <Key>38</Key>
+                      </Keys>
+                      <Value>10000</Value>
+                      <ID>0</ID>
+                    </Hotkey>
+                    <Hotkey>
+                      <Action>Increase Value</Action>
+                      <Keys>
+                        <Key>40</Key>
+                      </Keys>
+                      <Value>10000</Value>
+                      <ID>1</ID>
+                    </Hotkey>
+                  </Hotkeys>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2424</ID>
+                  <Description>"Z"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>00BCAB18</Address>
+                  <Hotkeys>
+                    <Hotkey>
+                      <Action>Increase Value</Action>
+                      <Keys>
+                        <Key>16</Key>
+                        <Key>38</Key>
+                      </Keys>
+                      <Value>10000</Value>
+                      <ID>0</ID>
+                    </Hotkey>
+                    <Hotkey>
+                      <Action>Decrease Value</Action>
+                      <Keys>
+                        <Key>16</Key>
+                        <Key>40</Key>
+                      </Keys>
+                      <Value>10000</Value>
+                      <ID>1</ID>
+                    </Hotkey>
+                  </Hotkeys>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2444</ID>
+              <Description>"Angle"</Description>
+              <Options moHideChildren="1" moRecursiveSetValue="1" moAllowManualCollapseAndExpand="1"/>
+              <LastState Value="" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2442</ID>
+                  <Description>"Pitch"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Float</VariableType>
+                  <Address>00BCAAEC</Address>
+                  <Hotkeys>
+                    <Hotkey>
+                      <Action>Increase Value</Action>
+                      <Keys>
+                        <Key>80</Key>
+                        <Key>187</Key>
+                      </Keys>
+                      <Value>0.01</Value>
+                      <ID>0</ID>
+                    </Hotkey>
+                    <Hotkey>
+                      <Action>Decrease Value</Action>
+                      <Keys>
+                        <Key>80</Key>
+                        <Key>189</Key>
+                      </Keys>
+                      <Value>0.01</Value>
+                      <ID>1</ID>
+                    </Hotkey>
+                  </Hotkeys>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2441</ID>
+                  <Description>"Roll"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Float</VariableType>
+                  <Address>00BCAAF0</Address>
+                  <Hotkeys>
+                    <Hotkey>
+                      <Action>Increase Value</Action>
+                      <Keys>
+                        <Key>82</Key>
+                        <Key>187</Key>
+                      </Keys>
+                      <Value>0.01</Value>
+                      <ID>0</ID>
+                    </Hotkey>
+                    <Hotkey>
+                      <Action>Decrease Value</Action>
+                      <Keys>
+                        <Key>82</Key>
+                        <Key>189</Key>
+                      </Keys>
+                      <Value>0.01</Value>
+                      <ID>1</ID>
+                    </Hotkey>
+                  </Hotkeys>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2430</ID>
+                  <Description>"Yaw"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Float</VariableType>
+                  <Address>00BCAAF8</Address>
+                  <Hotkeys>
+                    <Hotkey>
+                      <Action>Increase Value</Action>
+                      <Keys>
+                        <Key>89</Key>
+                        <Key>187</Key>
+                      </Keys>
+                      <Value>0.01</Value>
+                      <ID>0</ID>
+                    </Hotkey>
+                    <Hotkey>
+                      <Action>Decrease Value</Action>
+                      <Keys>
+                        <Key>89</Key>
+                        <Key>189</Key>
+                      </Keys>
+                      <Value>0.01</Value>
+                      <ID>1</ID>
+                    </Hotkey>
+                  </Hotkeys>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2445</ID>
+                  <Description>"FOV"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Float</VariableType>
+                  <Address>00BCAAFC</Address>
+                  <Hotkeys>
+                    <Hotkey>
+                      <Action>Increase Value</Action>
+                      <Keys>
+                        <Key>187</Key>
+                      </Keys>
+                      <Value>0.1</Value>
+                      <ID>0</ID>
+                    </Hotkey>
+                    <Hotkey>
+                      <Action>Decrease Value</Action>
+                      <Keys>
+                        <Key>189</Key>
+                      </Keys>
+                      <Value>0.1</Value>
+                      <ID>1</ID>
+                    </Hotkey>
+                  </Hotkeys>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>208</ID>
+      <Description>"ANGLE"</Description>
+      <Options moHideChildren="1" moActivateChildrenAsWell="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>008080</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>131</ID>
+          <Description>"VERTICAL"</Description>
+          <VariableType>Float</VariableType>
+          <Address>"IGI.exe"+0x0016E210</Address>
+          <Offsets>
+            <Offset>F3C</Offset>
+            <Offset>0x14</Offset>
+            <Offset>0x7CC</Offset>
+            <Offset>0x8</Offset>
+          </Offsets>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>8</Key>
+              </Keys>
+              <Value>0</Value>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>130</ID>
+          <Description>"HORIZONTAL"</Description>
+          <VariableType>Float</VariableType>
+          <Address>"IGI.exe"+0x0016E210</Address>
+          <Offsets>
+            <Offset>0x50C</Offset>
+            <Offset>0x14</Offset>
+            <Offset>0x7CC</Offset>
+            <Offset>0x8</Offset>
+          </Offsets>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>8</Key>
+              </Keys>
+              <Value>3.095987082</Value>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>18</ID>
+          <Description>"HUMAN_VIEW"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"IGI.exe"+0016E210</Address>
+          <Offsets>
+            <Offset>4F0</Offset>
+            <Offset>14</Offset>
+            <Offset>7CC</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Increase Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>51</Key>
+              </Keys>
+              <Value>1</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Decrease Value</Action>
+              <Keys>
+                <Key>18</Key>
+                <Key>51</Key>
+              </Keys>
+              <Value>1</Value>
+              <ID>1</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>112</ID>
+          <Description>"FOV"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>"IGI.exe"+00671890</Address>
+          <Offsets>
+            <Offset>1E4</Offset>
+            <Offset>8</Offset>
+            <Offset>0</Offset>
+          </Offsets>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Decrease Value</Action>
+              <Keys>
+                <Key>33</Key>
+              </Keys>
+              <Value>0.1</Value>
+              <ID>3</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Increase Value</Action>
+              <Keys>
+                <Key>34</Key>
+              </Keys>
+              <Value>0.1</Value>
+              <ID>4</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>113</ID>
+          <Description>"GUN_VIEW"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>"IGI.exe"+00671890</Address>
+          <Offsets>
+            <Offset>1E8</Offset>
+            <Offset>8</Offset>
+            <Offset>0</Offset>
+          </Offsets>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Decrease Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>71</Key>
+              </Keys>
+              <Value>0.1</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Increase Value</Action>
+              <Keys>
+                <Key>18</Key>
+                <Key>71</Key>
+              </Keys>
+              <Value>0.1</Value>
+              <ID>1</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>71</Key>
+                <Key>72</Key>
+              </Keys>
+              <Value>0</Value>
+              <ID>2</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>213</ID>
+      <Description>"MISC"</Description>
+      <Options moHideChildren="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>404080</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>136</ID>
+          <Description>"MenuScreen"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>00567c8c</Address>
+          <Offsets>
+            <Offset>28</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>50</ID>
+          <Description>"JUMP"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"IGI.exe"+0x0016E210</Address>
+          <Offsets>
+            <Offset>0x66C</Offset>
+            <Offset>0x14</Offset>
+            <Offset>0x7CC</Offset>
+            <Offset>0x8</Offset>
+          </Offsets>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>74</Key>
+              </Keys>
+              <Value>1147850887</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>75</Key>
+              </Keys>
+              <Value>329381999</Value>
+              <ID>1</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>74</Key>
+              </Keys>
+              <Value>1147850000</Value>
+              <ID>2</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>69</Key>
+              </Keys>
+              <Value>1140908847</Value>
+              <ID>3</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys/>
+              <Value>0</Value>
+              <ID>4</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Increase Value</Action>
+              <Keys/>
+              <Value>1000000</Value>
+              <ID>5</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>151</ID>
+          <Description>"Warn"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00936274</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>164</ID>
+          <Description>"CmdLinePtr"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00c32554</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>165</ID>
+          <Description>"CmdLine"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>32</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>00FA4478</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>168</ID>
+          <Description>"Game_Frames"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00a5e5fc</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>175</ID>
+          <Description>"ControlPassword"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>32</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>00bc79c8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>199</ID>
+          <Description>"GameMusic"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>00543904</Address>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Increase Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>16</Key>
+                <Key>77</Key>
+              </Keys>
+              <Value>0.1</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Decrease Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>16</Key>
+                <Key>78</Key>
+              </Keys>
+              <Value>0.1</Value>
+              <ID>1</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>182</ID>
+          <Description>"GameFxSound"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>0054390C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>263</ID>
+          <Description>"WORLD_METER"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Double</VariableType>
+          <Address>00539558</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>76</ID>
+          <Description>"STATUS_MSG"</Description>
+          <VariableType>String</VariableType>
+          <Length>260</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>"IGI.exe"+001C8A20</Address>
+          <Offsets>
+            <Offset>4C</Offset>
+            <Offset>4E4</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>218</ID>
+          <Description>"D3D_Hardware_Acc"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>00567c90</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>223</ID>
+          <Description>"StatusMsgTimer"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>0xA758AC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>224</ID>
+          <Description>"StatusByte"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>0x567C74</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>225</ID>
+          <Description>"Misson_Type_Q"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>005c8bf0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>226</ID>
+          <Description>"GraphOpenStr"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>50</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>0054e4b0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>261</ID>
+          <Description>"FatalError"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>50</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>00a84640</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>258</ID>
+          <Description>"GenericPickedUp"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>0057babc + 0x20</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2364</ID>
+          <Description>"GAME_ITEMS"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00567c58</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2405</ID>
+          <Description>"IGIMutex"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>10</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>00541ECC</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2356</ID>
+      <Description>"SCRIPTS"</Description>
+      <Options moHideChildren="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>800080</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>318</ID>
+          <Description>"Undetectable (Cameras/Enemies)"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+nop
+
+originalcode:
+//fadd qword ptr [esi+20]
+fcomp qword ptr [esp+0000008C]
+
+exit:
+jmp returnhere
+
+"IGI.EXE"+C8806:
+jmp newmem
+nop 5
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"IGI.EXE"+C8806:
+fadd qword ptr [esi+20]
+fcomp qword ptr [esp+0000008C]
+//Alt: db DC 46 20 DC 9C 24 8C 00 00 00
+</AssemblerScript>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Toggle Activation</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>16</Key>
+                <Key>85</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>327</ID>
+          <Description>"Undetectable (Cameras/Enemies)"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+nop
+originalcode:
+//fsubr qword ptr [esi+20]
+fcomp qword ptr [esp+000000B0]
+
+exit:
+jmp returnhere
+
+"IGI.EXE"+C87ED:
+jmp newmem
+nop 5
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"IGI.EXE"+C87ED:
+fsubr qword ptr [esi+20]
+fcomp qword ptr [esp+000000B0]
+//Alt: db DC 6E 20 DC 9C 24 B0 00 00 00
+</AssemblerScript>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Toggle Activation</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>16</Key>
+                <Key>85</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>313</ID>
+          <Description>"Underground Walking"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+fsub qword ptr [esi+10]
+pop edi
+fstp qword ptr [esi+10]
+
+exit:
+jmp returnhere
+
+"IGI.EXE"+6586D:
+jmp newmem
+nop 2
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"IGI.EXE"+6586D:
+fadd qword ptr [esi+10]
+pop edi
+fstp qword ptr [esi+10]
+//Alt: db DC 66 10 5F DD 5E 10
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>270</ID>
+          <Description>"UnlimHealth_XPHit"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+alloc(newmem,2048)
+label(returnhere)
+label(exit)
+
+newmem:
+nop
+
+exit:
+jmp returnhere
+
+"IGI.exe"+16D85:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+dealloc(newmem)
+"IGI.exe"+16D85:
+mov al,[eax+000000E1]
+//Alt: db 8A 80 E1 00 00 00
+</AssemblerScript>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Toggle Activation</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>88</Key>
+                <Key>72</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2425</ID>
+          <Description>"ViewPort_Freeze"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+alloc(newmem,2048)
+label(returnhere)
+label(exit)
+
+newmem:
+nop 5
+
+exit:
+jmp returnhere
+
+"IGI.exe"+97E94:
+nop
+nop
+returnhere:
+
+[DISABLE]
+dealloc(newmem)
+"IGI.exe"+97E94:
+repe movsd
+</AssemblerScript>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Toggle Activation</Action>
+              <Keys>
+                <Key>86</Key>
+                <Key>70</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>321</ID>
+          <Description>"Freeze Height"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+nop
+
+originalcode:
+//mov ecx,[ecx+08]
+fstp dword ptr [esp+1C]
+
+exit:
+jmp returnhere
+
+"IGI.EXE"+614F1:
+jmp newmem
+nop 2
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"IGI.EXE"+614F1:
+mov ecx,[ecx+08]
+fstp dword ptr [esp+1C]
+//Alt: db 8B 49 08 D9 5C 24 1C
+</AssemblerScript>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Toggle Activation</Action>
+              <Keys>
+                <Key>72</Key>
+                <Key>70</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2440</ID>
+          <Description>"ViewPort_Bypass"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+alloc(newmem,2048)
+label(returnhere)
+label(exit)
+
+newmem:
+jmp 00497EBB
+
+exit:
+jmp returnhere
+
+"IGI.exe"+97E70:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+dealloc(newmem)
+"IGI.exe"+97E70:
+mov eax,[IGI.exe+2E5BA4]
+</AssemblerScript>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Toggle Activation</Action>
+              <Keys>
+                <Key>86</Key>
+                <Key>66</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>86</ID>
+          <Description>"Freeze All Height"</Description>
+          <LastState/>
+          <Color>0000FF</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript Async="1">[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+nop
+
+originalcode:
+//mov [edi+34],edx
+//mov edx,[ebp+14]
+
+exit:
+jmp returnhere
+
+"IGI.exe"+C6A36:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"IGI.exe"+C6A36:
+mov [edi+34],edx
+mov edx,[ebp+14]
+//Alt: db 89 57 34 8B 55 14
+</AssemblerScript>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Toggle Activation</Action>
+              <Keys>
+                <Key>112</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2382</ID>
+      <Description>"DEBUG"</Description>
+      <Options moHideChildren="1" moActivateChildrenAsWell="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>0000FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>2365</ID>
+          <Description>"DbgEnable"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>005BDC1C</Address>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>39</Key>
+              </Keys>
+              <Value>1</Value>
+              <ID>0</ID>
+            </Hotkey>
+            <Hotkey>
+              <Action>Set Value</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>37</Key>
+              </Keys>
+              <Value>0</Value>
+              <ID>1</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2366</ID>
+          <Description>"DbgAllocAddr"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00A5EA75</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2367</ID>
+          <Description>"DBG_ENABLE_SCRIPT"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem:
+jne IGI.exe+E7C22
+mov eax,[esp+08]
+
+originalcode:
+
+exit:
+jmp returnhere
+
+"IGI.exe"+E7C07:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"IGI.exe"+E7C07:
+je IGI.exe+E7C22
+mov eax,[esp+08]
+//Alt: db 74 19 8B 44 24 08
+</AssemblerScript>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Toggle Activation</Action>
+              <Keys>
+                <Key>17</Key>
+                <Key>32</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2368</ID>
+          <Description>"Dbg_Text"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>30</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>00a5ea78</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2381</ID>
+          <Description>"DbgAddr"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>005C8BF4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2385</ID>
+          <Description>"DbgPlayerPos"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>0056df94</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2390</ID>
+          <Description>"DbgFont"</Description>
+          <VariableType>String</VariableType>
+          <Length>24</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>IGI.exe+14D95E</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2386</ID>
+          <Description>"DbgRaining"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>0057b1a0</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2358</ID>
+      <Description>"POINTERS"</Description>
+      <Options moHideChildren="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>80FF00</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>2344</ID>
+          <Description>"SFX_Ptr"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>IGI.exe+6758AC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2351</ID>
+          <Description>"HumanPlayer(Class)"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>0056E210</Address>
+          <Offsets>
+            <Offset>24</Offset>
+            <Offset>40</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2363</ID>
+          <Description>"FlowParam"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>0x00567C8C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2397</ID>
+          <Description>"StartLevelPtr"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>0057babc</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2420</ID>
+      <Description>"QTASKS"</Description>
+      <Options moHideChildren="1" moActivateChildrenAsWell="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>404000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>2415</ID>
+          <Description>"FreeCamera"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>0054f7d0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2416</ID>
+          <Description>"HumanCamera"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>00540990</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2417</ID>
+          <Description>"CameraControl"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>0054d974</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2446</ID>
+          <Description>"HumanAttach"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>005bdc48</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2453</ID>
+          <Description>"QTaskItems"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>0057ba9c</Address>
+          <Offsets>
+            <Offset>0</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry Color="20000000">
+      <Description>Change of fadd dword ptr [ebp+00000254]</Description>
+      <AddressString>IGI.exe+5FC91</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>D9</Byte>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+        <Byte>10</Byte>
+      </Before>
+      <Actual>
+        <Byte>D8</Byte>
+        <Byte>85</Byte>
+        <Byte>54</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>E9</Byte>
+        <Byte>64</Byte>
+        <Byte>03</Byte>
+        <Byte>7F</Byte>
+        <Byte>02</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of fst dword ptr [ebp+00000254]</Description>
+      <AddressString>IGI.exe+5FC97</AddressString>
+      <Before>
+        <Byte>85</Byte>
+        <Byte>54</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>95</Byte>
+        <Byte>54</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>D8</Byte>
+        <Byte>9D</Byte>
+        <Byte>58</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of fstp dword ptr [ecx-14]</Description>
+      <AddressString>IGI.exe+E16A9</AddressString>
+      <Before>
+        <Byte>C9</Byte>
+        <Byte>D8</Byte>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+        <Byte>1C</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>59</Byte>
+        <Byte>EC</Byte>
+      </Actual>
+      <After>
+        <Byte>D9</Byte>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+        <Byte>2C</Byte>
+        <Byte>D8</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of fstp dword ptr [esp+00000090]</Description>
+      <AddressString>IGI.exe+6EF74</AddressString>
+      <Before>
+        <Byte>D8</Byte>
+        <Byte>4D</Byte>
+        <Byte>1C</Byte>
+        <Byte>DE</Byte>
+        <Byte>C1</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>9C</Byte>
+        <Byte>24</Byte>
+        <Byte>90</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>A5</Byte>
+        <Byte>8D</Byte>
+        <Byte>8C</Byte>
+        <Byte>24</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of fstp dword ptr [esp+000000B8]</Description>
+      <AddressString>IGI.exe+6FF98</AddressString>
+      <Before>
+        <Byte>D8</Byte>
+        <Byte>48</Byte>
+        <Byte>18</Byte>
+        <Byte>DE</Byte>
+        <Byte>C1</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>9C</Byte>
+        <Byte>24</Byte>
+        <Byte>B8</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>A5</Byte>
+        <Byte>E8</Byte>
+        <Byte>AA</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of fadd dword ptr [ebp+000002C8]</Description>
+      <AddressString>IGI.exe+5FC81</AddressString>
+      <Before>
+        <Byte>45</Byte>
+        <Byte>D9</Byte>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+        <Byte>10</Byte>
+      </Before>
+      <Actual>
+        <Byte>D8</Byte>
+        <Byte>85</Byte>
+        <Byte>C8</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>D9</Byte>
+        <Byte>9D</Byte>
+        <Byte>C8</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [edx],al</Description>
+      <AddressString>IGI.exe+A7E71</AddressString>
+      <Before>
+        <Byte>8B</Byte>
+        <Byte>11</Byte>
+        <Byte>8A</Byte>
+        <Byte>45</Byte>
+        <Byte>08</Byte>
+      </Before>
+      <Actual>
+        <Byte>88</Byte>
+        <Byte>02</Byte>
+      </Actual>
+      <After>
+        <Byte>FF</Byte>
+        <Byte>01</Byte>
+        <Byte>0F</Byte>
+        <Byte>B6</Byte>
+        <Byte>C0</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [IGI.exe+6965A8],edi</Description>
+      <AddressString>IGI.exe+B85C7</AddressString>
+      <Before>
+        <Byte>3D</Byte>
+        <Byte>A4</Byte>
+        <Byte>65</Byte>
+        <Byte>A9</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>3D</Byte>
+        <Byte>A8</Byte>
+        <Byte>65</Byte>
+        <Byte>A9</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>86</Byte>
+        <Byte>8C</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of cmp [IGI.exe+696598],edi</Description>
+      <AddressString>IGI.exe+B86A5</AddressString>
+      <Before>
+        <Byte>08</Byte>
+        <Byte>3B</Byte>
+        <Byte>C7</Byte>
+        <Byte>74</Byte>
+        <Byte>A0</Byte>
+      </Before>
+      <Actual>
+        <Byte>39</Byte>
+        <Byte>3D</Byte>
+        <Byte>98</Byte>
+        <Byte>65</Byte>
+        <Byte>A9</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>EB</Byte>
+        <Byte>00</Byte>
+        <Byte>56</Byte>
+        <Byte>68</Byte>
+        <Byte>98</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [eax+28],ecx</Description>
+      <AddressString>IGI.exe+2639</AddressString>
+      <Before>
+        <Byte>84</Byte>
+        <Byte>B0</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>48</Byte>
+        <Byte>28</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>15</Byte>
+        <Byte>8C</Byte>
+        <Byte>7C</Byte>
+        <Byte>56</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov al,[eax+000000E1]</Description>
+      <AddressString>IGI.exe+16D85</AddressString>
+      <Before>
+        <Byte>A1</Byte>
+        <Byte>BC</Byte>
+        <Byte>BA</Byte>
+        <Byte>57</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>8A</Byte>
+        <Byte>80</Byte>
+        <Byte>E1</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>C3</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of fld qword ptr [esi+00000120]</Description>
+      <AddressString>igi.exe+6CEB8</AddressString>
+      <Before>
+        <Byte>F6</Byte>
+        <Byte>C4</Byte>
+        <Byte>01</Byte>
+        <Byte>74</Byte>
+        <Byte>72</Byte>
+      </Before>
+      <Actual>
+        <Byte>DD</Byte>
+        <Byte>86</Byte>
+        <Byte>20</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>DC</Byte>
+        <Byte>0D</Byte>
+        <Byte>78</Byte>
+        <Byte>3A</Byte>
+        <Byte>53</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [eax+ecx*2],bp</Description>
+      <AddressString>IGI.exe+B778F</AddressString>
+      <Before>
+        <Byte>4C</Byte>
+        <Byte>24</Byte>
+        <Byte>1C</Byte>
+        <Byte>5F</Byte>
+        <Byte>5E</Byte>
+      </Before>
+      <Actual>
+        <Byte>66</Byte>
+        <Byte>89</Byte>
+        <Byte>2C</Byte>
+        <Byte>48</Byte>
+      </Actual>
+      <After>
+        <Byte>5D</Byte>
+        <Byte>5B</Byte>
+        <Byte>59</Byte>
+        <Byte>C3</Byte>
+        <Byte>83</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of repe movsd </Description>
+      <AddressString>IGI.exe+B10AC</AddressString>
+      <Before>
+        <Byte>94</Byte>
+        <Byte>00</Byte>
+        <Byte>C1</Byte>
+        <Byte>E9</Byte>
+        <Byte>02</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>A5</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>CA</Byte>
+        <Byte>83</Byte>
+        <Byte>E1</Byte>
+        <Byte>03</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of repe movsb </Description>
+      <AddressString>IGI.exe+B10B3</AddressString>
+      <Before>
+        <Byte>8B</Byte>
+        <Byte>CA</Byte>
+        <Byte>83</Byte>
+        <Byte>E1</Byte>
+        <Byte>03</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>A4</Byte>
+      </Actual>
+      <After>
+        <Byte>5F</Byte>
+        <Byte>5E</Byte>
+        <Byte>5D</Byte>
+        <Byte>5B</Byte>
+        <Byte>59</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov ecx,edx</Description>
+      <AddressString>IGI.exe+B10AE</AddressString>
+      <Before>
+        <Byte>C1</Byte>
+        <Byte>E9</Byte>
+        <Byte>02</Byte>
+        <Byte>F3</Byte>
+        <Byte>A5</Byte>
+      </Before>
+      <Actual>
+        <Byte>8B</Byte>
+        <Byte>CA</Byte>
+      </Actual>
+      <After>
+        <Byte>83</Byte>
+        <Byte>E1</Byte>
+        <Byte>03</Byte>
+        <Byte>F3</Byte>
+        <Byte>A4</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov edi,IGI.exe+543A18</Description>
+      <AddressString>IGI.exe+B10A4</AddressString>
+      <Before>
+        <Byte>F9</Byte>
+        <Byte>8B</Byte>
+        <Byte>D1</Byte>
+        <Byte>8B</Byte>
+        <Byte>F7</Byte>
+      </Before>
+      <Actual>
+        <Byte>BF</Byte>
+        <Byte>18</Byte>
+        <Byte>3A</Byte>
+        <Byte>94</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>C1</Byte>
+        <Byte>E9</Byte>
+        <Byte>02</Byte>
+        <Byte>F3</Byte>
+        <Byte>A5</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of shr ecx,02</Description>
+      <AddressString>IGI.exe+B10A9</AddressString>
+      <Before>
+        <Byte>BF</Byte>
+        <Byte>18</Byte>
+        <Byte>3A</Byte>
+        <Byte>94</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>C1</Byte>
+        <Byte>E9</Byte>
+        <Byte>02</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>A5</Byte>
+        <Byte>8B</Byte>
+        <Byte>CA</Byte>
+        <Byte>83</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov bl,[edi]</Description>
+      <AddressString>IGI.exe+A7731</AddressString>
+      <Before>
+        <Byte>8B</Byte>
+        <Byte>7D</Byte>
+        <Byte>0C</Byte>
+        <Byte>33</Byte>
+        <Byte>F6</Byte>
+      </Before>
+      <Actual>
+        <Byte>8A</Byte>
+        <Byte>1F</Byte>
+      </Actual>
+      <After>
+        <Byte>47</Byte>
+        <Byte>84</Byte>
+        <Byte>DB</Byte>
+        <Byte>89</Byte>
+        <Byte>75</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov bl,[edi]</Description>
+      <AddressString>IGI.exe+A7E2B</AddressString>
+      <Before>
+        <Byte>C4</Byte>
+        <Byte>10</Byte>
+        <Byte>8B</Byte>
+        <Byte>7D</Byte>
+        <Byte>0C</Byte>
+      </Before>
+      <Actual>
+        <Byte>8A</Byte>
+        <Byte>1F</Byte>
+      </Actual>
+      <After>
+        <Byte>47</Byte>
+        <Byte>84</Byte>
+        <Byte>DB</Byte>
+        <Byte>89</Byte>
+        <Byte>7D</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [edi+24],edx</Description>
+      <AddressString>IGI.exe+C6A1E</AddressString>
+      <Before>
+        <Byte>57</Byte>
+        <Byte>20</Byte>
+        <Byte>8B</Byte>
+        <Byte>56</Byte>
+        <Byte>04</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>57</Byte>
+        <Byte>24</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>56</Byte>
+        <Byte>08</Byte>
+        <Byte>89</Byte>
+        <Byte>57</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [edi+2C],edx</Description>
+      <AddressString>IGI.exe+C6A2A</AddressString>
+      <Before>
+        <Byte>57</Byte>
+        <Byte>28</Byte>
+        <Byte>8B</Byte>
+        <Byte>56</Byte>
+        <Byte>0C</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>57</Byte>
+        <Byte>2C</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>56</Byte>
+        <Byte>10</Byte>
+        <Byte>89</Byte>
+        <Byte>57</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [edi+30],edx</Description>
+      <AddressString>IGI.exe+C6A30</AddressString>
+      <Before>
+        <Byte>57</Byte>
+        <Byte>2C</Byte>
+        <Byte>8B</Byte>
+        <Byte>56</Byte>
+        <Byte>10</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>57</Byte>
+        <Byte>30</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>56</Byte>
+        <Byte>14</Byte>
+        <Byte>89</Byte>
+        <Byte>57</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of lea edi,[ebp-40]</Description>
+      <AddressString>KERNELBASE.dll+1249FF</AddressString>
+      <Before>
+        <Byte>6A</Byte>
+        <Byte>07</Byte>
+        <Byte>59</Byte>
+        <Byte>33</Byte>
+        <Byte>C0</Byte>
+      </Before>
+      <Actual>
+        <Byte>8D</Byte>
+        <Byte>7D</Byte>
+        <Byte>C0</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>AB</Byte>
+        <Byte>21</Byte>
+        <Byte>45</Byte>
+        <Byte>E4</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [edi+20],edx</Description>
+      <AddressString>IGI.exe+C6A18</AddressString>
+      <Before>
+        <Byte>10</Byte>
+        <Byte>03</Byte>
+        <Byte>CA</Byte>
+        <Byte>8B</Byte>
+        <Byte>16</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>57</Byte>
+        <Byte>20</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>56</Byte>
+        <Byte>04</Byte>
+        <Byte>89</Byte>
+        <Byte>57</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [edi+28],edx</Description>
+      <AddressString>IGI.exe+C6A24</AddressString>
+      <Before>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>8B</Byte>
+        <Byte>56</Byte>
+        <Byte>08</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>57</Byte>
+        <Byte>28</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>56</Byte>
+        <Byte>0C</Byte>
+        <Byte>89</Byte>
+        <Byte>57</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [edi+34],edx</Description>
+      <AddressString>IGI.exe+C6A36</AddressString>
+      <Before>
+        <Byte>57</Byte>
+        <Byte>30</Byte>
+        <Byte>8B</Byte>
+        <Byte>56</Byte>
+        <Byte>14</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>57</Byte>
+        <Byte>34</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>55</Byte>
+        <Byte>14</Byte>
+        <Byte>89</Byte>
+        <Byte>57</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [edi+44],edx</Description>
+      <AddressString>IGI.exe+C6A3C</AddressString>
+      <Before>
+        <Byte>57</Byte>
+        <Byte>34</Byte>
+        <Byte>8B</Byte>
+        <Byte>55</Byte>
+        <Byte>14</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>57</Byte>
+        <Byte>44</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>54</Byte>
+        <Byte>24</Byte>
+        <Byte>0C</Byte>
+        <Byte>8B</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [ecx+01],al</Description>
+      <AddressString>IGI.exe+EC283</AddressString>
+      <Before>
+        <Byte>8A</Byte>
+        <Byte>41</Byte>
+        <Byte>01</Byte>
+        <Byte>FE</Byte>
+        <Byte>C8</Byte>
+      </Before>
+      <Actual>
+        <Byte>88</Byte>
+        <Byte>41</Byte>
+        <Byte>01</Byte>
+      </Actual>
+      <After>
+        <Byte>75</Byte>
+        <Byte>07</Byte>
+        <Byte>C6</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov ecx,[ecx+08]</Description>
+      <AddressString>IGI.exe+614F1</AddressString>
+      <Before>
+        <Byte>93</Byte>
+        <Byte>F8</Byte>
+        <Byte>06</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>8B</Byte>
+        <Byte>49</Byte>
+        <Byte>08</Byte>
+      </Actual>
+      <After>
+        <Byte>D9</Byte>
+        <Byte>5C</Byte>
+        <Byte>24</Byte>
+        <Byte>1C</Byte>
+        <Byte>D9</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov edx,[ebx+000006F8]</Description>
+      <AddressString>IGI.exe+614EB</AddressString>
+      <Before>
+        <Byte>04</Byte>
+        <Byte>89</Byte>
+        <Byte>54</Byte>
+        <Byte>24</Byte>
+        <Byte>20</Byte>
+      </Before>
+      <Actual>
+        <Byte>8B</Byte>
+        <Byte>93</Byte>
+        <Byte>F8</Byte>
+        <Byte>06</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>D9</Byte>
+        <Byte>5C</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [esp+20],edx</Description>
+      <AddressString>IGI.exe+614E7</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>8B</Byte>
+        <Byte>51</Byte>
+        <Byte>04</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>54</Byte>
+        <Byte>24</Byte>
+        <Byte>20</Byte>
+      </Actual>
+      <After>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of fstp dword ptr [esp+1C]</Description>
+      <AddressString>IGI.exe+614F4</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>8B</Byte>
+        <Byte>49</Byte>
+        <Byte>08</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>5C</Byte>
+        <Byte>24</Byte>
+        <Byte>1C</Byte>
+      </Actual>
+      <After>
+        <Byte>D9</Byte>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+        <Byte>20</Byte>
+        <Byte>D8</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of fld dword ptr [esp+20]</Description>
+      <AddressString>IGI.exe+614F8</AddressString>
+      <Before>
+        <Byte>08</Byte>
+        <Byte>D9</Byte>
+        <Byte>5C</Byte>
+        <Byte>24</Byte>
+        <Byte>1C</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+        <Byte>20</Byte>
+      </Actual>
+      <After>
+        <Byte>D8</Byte>
+        <Byte>83</Byte>
+        <Byte>24</Byte>
+        <Byte>05</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of fadd dword ptr [ebx+00000524]</Description>
+      <AddressString>IGI.exe+614FC</AddressString>
+      <Before>
+        <Byte>1C</Byte>
+        <Byte>D9</Byte>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+        <Byte>20</Byte>
+      </Before>
+      <Actual>
+        <Byte>D8</Byte>
+        <Byte>83</Byte>
+        <Byte>24</Byte>
+        <Byte>05</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>89</Byte>
+        <Byte>4C</Byte>
+        <Byte>24</Byte>
+        <Byte>24</Byte>
+        <Byte>33</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [esp+24],ecx</Description>
+      <AddressString>IGI.exe+61502</AddressString>
+      <Before>
+        <Byte>83</Byte>
+        <Byte>24</Byte>
+        <Byte>05</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>4C</Byte>
+        <Byte>24</Byte>
+        <Byte>24</Byte>
+      </Actual>
+      <After>
+        <Byte>33</Byte>
+        <Byte>C9</Byte>
+        <Byte>3B</Byte>
+        <Byte>D1</Byte>
+        <Byte>D9</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov edi,IGI.exe+1CA160</Description>
+      <AddressString>IGI.exe+96E0B</AddressString>
+      <Before>
+        <Byte>B9</Byte>
+        <Byte>0A</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>BF</Byte>
+        <Byte>60</Byte>
+        <Byte>A1</Byte>
+        <Byte>5C</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>A5</Byte>
+        <Byte>8B</Byte>
+        <Byte>74</Byte>
+        <Byte>24</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov edi,IGI.exe+1CA138</Description>
+      <AddressString>IGI.exe+96E1B</AddressString>
+      <Before>
+        <Byte>B9</Byte>
+        <Byte>06</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>BF</Byte>
+        <Byte>38</Byte>
+        <Byte>A1</Byte>
+        <Byte>5C</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>A5</Byte>
+        <Byte>8B</Byte>
+        <Byte>74</Byte>
+        <Byte>24</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov edi,IGI.exe+276AB8</Description>
+      <AddressString>IGI.exe+96E2B</AddressString>
+      <Before>
+        <Byte>B9</Byte>
+        <Byte>06</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>BF</Byte>
+        <Byte>B8</Byte>
+        <Byte>6A</Byte>
+        <Byte>67</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>A5</Byte>
+        <Byte>5F</Byte>
+        <Byte>5E</Byte>
+        <Byte>C3</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of call IGI.exe+82A40</Description>
+      <AddressString>IGI.exe+8278A</AddressString>
+      <Before>
+        <Byte>87</Byte>
+        <Byte>0F</Byte>
+        <Byte>05</Byte>
+        <Byte>00</Byte>
+        <Byte>56</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>B1</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>83</Byte>
+        <Byte>C4</Byte>
+        <Byte>08</Byte>
+        <Byte>BB</Byte>
+        <Byte>01</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of call IGI.exe+96E00</Description>
+      <AddressString>IGI.exe+EBC50</AddressString>
+      <Before>
+        <Byte>28</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>E8</Byte>
+        <Byte>AB</Byte>
+        <Byte>B1</Byte>
+        <Byte>FA</Byte>
+        <Byte>FF</Byte>
+      </Actual>
+      <After>
+        <Byte>83</Byte>
+        <Byte>C4</Byte>
+        <Byte>0C</Byte>
+        <Byte>5F</Byte>
+        <Byte>5E</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of call eax</Description>
+      <AddressString>IGI.exe+16399</AddressString>
+      <Before>
+        <Byte>85</Byte>
+        <Byte>C0</Byte>
+        <Byte>74</Byte>
+        <Byte>0C</Byte>
+        <Byte>51</Byte>
+      </Before>
+      <Actual>
+        <Byte>FF</Byte>
+        <Byte>D0</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>15</Byte>
+        <Byte>E0</Byte>
+        <Byte>A7</Byte>
+        <Byte>AF</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of fstp dword ptr [esp+00000080]</Description>
+      <AddressString>IGI.exe+82BF2</AddressString>
+      <Before>
+        <Byte>4C</Byte>
+        <Byte>24</Byte>
+        <Byte>3C</Byte>
+        <Byte>DE</Byte>
+        <Byte>C1</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>9C</Byte>
+        <Byte>24</Byte>
+        <Byte>80</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>A5</Byte>
+        <Byte>5F</Byte>
+        <Byte>5E</Byte>
+        <Byte>5B</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of repe movsd </Description>
+      <AddressString>IGI.exe+82BF9</AddressString>
+      <Before>
+        <Byte>24</Byte>
+        <Byte>80</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>A5</Byte>
+      </Actual>
+      <After>
+        <Byte>5F</Byte>
+        <Byte>5E</Byte>
+        <Byte>5B</Byte>
+        <Byte>81</Byte>
+        <Byte>C4</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [ecx+20],eax</Description>
+      <AddressString>IGI.exe+682E8</AddressString>
+      <Before>
+        <Byte>04</Byte>
+        <Byte>8B</Byte>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+        <Byte>08</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>41</Byte>
+        <Byte>20</Byte>
+      </Actual>
+      <After>
+        <Byte>C3</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of ret </Description>
+      <AddressString>IGI.exe+D3710</AddressString>
+      <Before>
+        <Byte>7E</Byte>
+        <Byte>14</Byte>
+        <Byte>5F</Byte>
+        <Byte>5E</Byte>
+        <Byte>C3</Byte>
+      </Before>
+      <Actual>
+        <Byte>C3</Byte>
+      </Actual>
+      <After>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of repe movsd </Description>
+      <AddressString>IGI.exe+96E20</AddressString>
+      <Before>
+        <Byte>BF</Byte>
+        <Byte>38</Byte>
+        <Byte>A1</Byte>
+        <Byte>5C</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>A5</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>74</Byte>
+        <Byte>24</Byte>
+        <Byte>14</Byte>
+        <Byte>B9</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of repe movsd </Description>
+      <AddressString>IGI.exe+97F02</AddressString>
+      <Before>
+        <Byte>2A</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>50</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>A5</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>15</Byte>
+        <Byte>E0</Byte>
+        <Byte>AB</Byte>
+        <Byte>BC</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of repe movsd </Description>
+      <AddressString>IGI.exe+97E94</AddressString>
+      <Before>
+        <Byte>0C</Byte>
+        <Byte>E0</Byte>
+        <Byte>AA</Byte>
+        <Byte>BC</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>A5</Byte>
+      </Actual>
+      <After>
+        <Byte>5F</Byte>
+        <Byte>5E</Byte>
+        <Byte>85</Byte>
+        <Byte>C0</Byte>
+        <Byte>74</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov edi,IGI.exe+7CAAE0</Description>
+      <AddressString>IGI.exe+97E87</AddressString>
+      <Before>
+        <Byte>B9</Byte>
+        <Byte>2A</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>BF</Byte>
+        <Byte>E0</Byte>
+        <Byte>AA</Byte>
+        <Byte>BC</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>C7</Byte>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+        <Byte>0C</Byte>
+        <Byte>E0</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [esp+0C],IGI.exe+7CAAE0</Description>
+      <AddressString>IGI.exe+97E8C</AddressString>
+      <Before>
+        <Byte>BF</Byte>
+        <Byte>E0</Byte>
+        <Byte>AA</Byte>
+        <Byte>BC</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>C7</Byte>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+        <Byte>0C</Byte>
+        <Byte>E0</Byte>
+        <Byte>AA</Byte>
+        <Byte>BC</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>A5</Byte>
+        <Byte>5F</Byte>
+        <Byte>5E</Byte>
+        <Byte>85</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of repe movsd </Description>
+      <AddressString>IGI.exe+113C52</AddressString>
+      <Before>
+        <Byte>45</Byte>
+        <Byte>08</Byte>
+        <Byte>D9</Byte>
+        <Byte>58</Byte>
+        <Byte>1C</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>A5</Byte>
+      </Actual>
+      <After>
+        <Byte>DD</Byte>
+        <Byte>D8</Byte>
+        <Byte>8B</Byte>
+        <Byte>4C</Byte>
+        <Byte>24</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [eax+14],IGI.exe+E9C0</Description>
+      <AddressString>IGI.exe+E9B4</AddressString>
+      <Before>
+        <Byte>C3</Byte>
+        <Byte>8B</Byte>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+        <Byte>04</Byte>
+      </Before>
+      <Actual>
+        <Byte>C7</Byte>
+        <Byte>40</Byte>
+        <Byte>14</Byte>
+        <Byte>C0</Byte>
+        <Byte>E9</Byte>
+        <Byte>40</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>C3</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [eax+14],IGI.exe+EF70</Description>
+      <AddressString>IGI.exe+EF64</AddressString>
+      <Before>
+        <Byte>90</Byte>
+        <Byte>8B</Byte>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+        <Byte>04</Byte>
+      </Before>
+      <Actual>
+        <Byte>C7</Byte>
+        <Byte>40</Byte>
+        <Byte>14</Byte>
+        <Byte>70</Byte>
+        <Byte>EF</Byte>
+        <Byte>40</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>C3</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of fstp dword ptr [eax+000001E4]</Description>
+      <AddressString>IGI.exe+659F8</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>DD</Byte>
+        <Byte>D8</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>98</Byte>
+        <Byte>E4</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>DD</Byte>
+        <Byte>05</Byte>
+        <Byte>C0</Byte>
+        <Byte>39</Byte>
+        <Byte>53</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of fstp dword ptr [eax+000001E8]</Description>
+      <AddressString>IGI.exe+65A08</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>D9</Byte>
+        <Byte>F2</Byte>
+        <Byte>DD</Byte>
+        <Byte>D8</Byte>
+      </Before>
+      <Actual>
+        <Byte>D9</Byte>
+        <Byte>98</Byte>
+        <Byte>E8</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>C3</Byte>
+        <Byte>90</Byte>
+        <Byte>6A</Byte>
+        <Byte>00</Byte>
+        <Byte>6A</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [eax],ecx</Description>
+      <AddressString>IGI.exe+C17B7</AddressString>
+      <Before>
+        <Byte>88</Byte>
+        <Byte>08</Byte>
+        <Byte>8B</Byte>
+        <Byte>08</Byte>
+        <Byte>41</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>08</Byte>
+      </Actual>
+      <After>
+        <Byte>C3</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of inc ecx</Description>
+      <AddressString>igi.exe+C17B6</AddressString>
+      <Before>
+        <Byte>54</Byte>
+        <Byte>88</Byte>
+        <Byte>08</Byte>
+        <Byte>8B</Byte>
+        <Byte>08</Byte>
+      </Before>
+      <Actual>
+        <Byte>41</Byte>
+      </Actual>
+      <After>
+        <Byte>89</Byte>
+        <Byte>08</Byte>
+        <Byte>C3</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of jmp igi.exe+C17EE</Description>
+      <AddressString>igi.exe+C17EE</AddressString>
+      <Before>
+        <Byte>FE</Byte>
+        <Byte>FF</Byte>
+        <Byte>83</Byte>
+        <Byte>C4</Byte>
+        <Byte>04</Byte>
+      </Before>
+      <Actual>
+        <Byte>EB</Byte>
+        <Byte>FE</Byte>
+      </Actual>
+      <After>
+        <Byte>49</Byte>
+        <Byte>5F</Byte>
+        <Byte>89</Byte>
+        <Byte>0E</Byte>
+        <Byte>8B</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols>
+    <SymbolEntry>
+      <Name>ResourceUnload</Name>
+      <Address>004b6380</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>LoadResource</Name>
+      <Address>004b5f00</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>OpenFile</Name>
+      <Address>004A5350</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>GameTextPrint</Name>
+      <Address>004B6E90</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>HumanViewCam</Name>
+      <Address>00463760</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>DebugSoldier</Name>
+      <Address>00460c80</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>DebugPrint</Name>
+      <Address>004e76e0</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>DebugPlayerData</Name>
+      <Address>004E7BD0</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>DebugPrintText</Name>
+      <Address>004e7c00</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>TextPrint</Name>
+      <Address>004b77f0</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>ShowError</Name>
+      <Address>004AF7B0</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>ShowWarning</Name>
+      <Address>004AF810</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>ViewPortUpdate</Name>
+      <Address>00497E70</Address>
+    </SymbolEntry>
+  </UserdefinedSymbols>
+  <LuaScript>
+    <LuaScriptEntry Name="Script 1">--Project I.G.I DebugMode. Enables DebugMode in IGI must be execute in CheatEngine Scripts.
+--Written by IGI-ResearchDevs - HM.
+OpenProcess("igi.exe")
+--Read/Write Memory functions.
+function WriteMem(address,value)
+writePointer(address,value)
+end
+
+function ReadMem(address)
+value = readPointer(address)
+return value
+end
+
+function EnableAddress(address)
+writePointer(address,1)
+end
+
+function DisableAddress(address)
+writePointer(address,0)
+end
+
+--Main runGameLoop
+DBG_ENABLE = 0x005BDC1C
+DBG_ALLOC = 0x00A5EA75
+DBG_ADDR = 0x005C8BF4
+DBG_PLAYER_INFO = 0x0056DF94
+DBG_FONT = 0x0054D958
+DBG_FONT_BIG = "LOCAL:computer/font1.fnt"
+DBG_FONT_DEBUG = "LOCAL:debug.fnt"
+
+WriteMem(DBG_ALLOC,DBG_ADDR)
+writeString(DBG_FONT,DBG_FONT_BIG)
+WriteMem(DBG_FONT+24,0x0)
+
+EnableAddress(DBG_ENABLE)
+EnableAddress(DBG_PLAYER_INFO)
+</LuaScriptEntry>
+    <LuaScriptEntry Name="Script 4">OpenProcess("igi.exe")
+</LuaScriptEntry>
+    <LuaScriptEntry Name="Script 5">--[[Project I.G.I FreeCamera. Enables Free Roam Camera in IGI must be executed in CheatEngine Lua Script.
+Controls:
+X-Axis = Right/Left
+Y-Axis = Up/Down
+Z-Axis = Space/Alt
+Angle/Roation = Mouse.
+Recalibrate View = Backspace.
+Start/Exit key = 'END'
+Written by IGI-ResearchDevs - HM.--]]
+OpenProcess("igi.exe")
+--Global address.
+viewport_task = 0x00497E94
+viewport_addr = 0x00BCAAE0
+camera_addr = 0x00684138
+
+-- Structure of ViewPort.
+viewport_x = 0x00BCAB08
+viewport_y = viewport_x + 8
+viewport_z = viewport_x + 16
+
+-- Constants of ViewPort.
+VIEWPORT_SIZE = 9
+FLOAT_SIZE = 4
+
+-- Deattach ViewPort of camera.
+writeBytes(viewport_task, 0x90, 0x90)
+
+-- Change Human 3rd view
+writeInteger("[[[[0056E210]+08]+7CC]+14]+4F0", 3)
+
+--Recalibrate Camera ViewPort (GameEngine stuff).
+function RecalibrateViewPort()
+writeFloat("[[[[0056E210]+08]+7CC]+14]+F3C",0.0)
+writeFloat("[[[[0056E210]+08]+7CC]+14]+50C",3.095987082)
+end
+
+-- Main loop for Key events.
+while not isKeyPressed(VK_HOME) do
+    index = 0
+    vport_x = readDouble(viewport_x)
+    vport_y = readDouble(viewport_y)
+    vport_z = readDouble(viewport_z)
+    vport_off = 8.5 --Offset value to move this amount from Axis,
+
+    -- This loop allows us to Move,Rotate,Zoom around FreeRoam camera.
+    while index &lt;= VIEWPORT_SIZE*FLOAT_SIZE do
+        camera_prop = readFloat(camera_addr + index)
+        writeFloat(viewport_addr + index, camera_prop)
+        index = index + FLOAT_SIZE
+    end
+
+    -- Key event for X-Axis.
+    if isKeyPressed(VK_RIGHT) then
+        writeDouble(viewport_x, vport_x - vport_off)
+    end
+
+    if isKeyPressed(VK_LEFT) then
+        writeDouble(viewport_x, vport_x + vport_off)
+    end
+
+    -- Key event for Y-Axis.
+    if isKeyPressed(VK_UP) then
+        writeDouble(viewport_y, vport_y - vport_off)
+    end
+
+    if isKeyPressed(VK_DOWN) then
+        writeDouble(viewport_y, vport_y + vport_off)
+    end
+
+    -- Key event for Z-Axis.
+    if isKeyPressed(VK_SPACE) then
+        writeDouble(viewport_z, vport_z + vport_off)
+    end
+
+    if isKeyPressed(VK_MENU) then
+        writeDouble(viewport_z, vport_z - vport_off)
+    end
+
+    -- Key event for Recalibrate view.
+    if isKeyPressed(VK_BACK) then
+         RecalibrateViewPort()
+    end
+
+end
+
+-- Attach ViewPort of camera.
+writeBytes(viewport_task, 0xF3, 0xA5)
+-- Reset Human view.
+writeInteger("[[[[0056E210]+08]+7CC]+14]+4F0", 1)
+</LuaScriptEntry>
+  </LuaScript>
+  <DisassemblerComments>
+    <DisassemblerComment>
+      <Address>"IGI.EXE"+7300A</Address>
+      <Comment>64
+</Comment>
+    </DisassemblerComment>
+  </DisassemblerComments>
+</CheatTable>
