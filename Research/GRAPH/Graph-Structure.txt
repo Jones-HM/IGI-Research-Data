@@ -24,9 +24,9 @@ S.No   Graph Item.			Signature	  Hex Bytes.	Data-Type
 5) Node Radius        '0423'		'04 23 30 14'	 Single	
 6) Node Material      '0429'		'04 29 B6 1B'	 Integer
 7) Node Criteria      '04E5'		'04 E5 D3 1B'	 Stringx18
-8) Node Edge(Link1)   '044A'		'04 4A 10 09'	 Integer
-9) Node Edge(Link2)   '04F6'	  '04 F6 18 09'	 Integer
-10)Node Edge(LinkType) '0423'	  '04 23 A9 0D'	 Integer
+8) Node Edge(Link1)   '044A'    '04 4A 10 09'	 Integer
+9) Node Edge(Link2)   '04F6'    '04 F6 18 09'	 Integer
+10)Node Edge(LinkType) '0423'   '04 23 A9 0D'	 Integer
 /////////////////////////////////////////////////////////////////
 
 
