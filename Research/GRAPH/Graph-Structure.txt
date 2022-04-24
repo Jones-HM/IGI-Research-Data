@@ -18,7 +18,7 @@
 S.No   Graph Item.			Signature	  Hex Bytes.	Data-Type 	
 ///////////////////////////////////////////////////////////////////
 1) Graph Max Nodes    '04E6'		'04 E6 3A 0D'	 Integer
-2) Node Vertex Id	    '04CE'		'04 CE 35 07'	 Integer
+2) Node Vertex Id     '04CE'		'04 CE 35 07'	 Integer
 3) Node Position      '0495'		'04 95 42 1D'	 Real64x3  	
 4) Node Gamma         '049C'		'04 9C 7E 0F'	 Single			
 5) Node Radius        '0423'		'04 23 30 14'	 Single	
