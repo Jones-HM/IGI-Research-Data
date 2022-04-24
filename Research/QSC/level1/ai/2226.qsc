@@ -1,0 +1,30 @@
+if(AIFunction_GetCurrentEventType() == AIEVENT_CREATE)
+{
+	AIFunction_DefaultHandler();
+}
+else
+{
+	if(AIFunction_GetCurrentEventType() == AIEVENT_IDLE)
+	{
+	}
+	else
+	{
+		if(AIFunction_GetCurrentEventType() == AIEVENT_ALARMON)
+		{
+		}
+		else
+		{
+			if(AIFunction_GetCurrentEventType() == AIEVENT_COMBAT)
+			{
+				AIFunction_DefaultHandler();
+			}
+			else
+			{
+				AIFunction_DefaultHandler();
+			}
+
+		}
+
+	}
+
+}

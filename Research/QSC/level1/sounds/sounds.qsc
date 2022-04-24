@@ -1,0 +1,27 @@
+DefineGroup("VOICE", 
+	DefineSound("_cut01_01", "_CUT01_01", 0, 0, 0, 1, 0, 200.0, -1, -1, -1, -1, TRUE));
+DefineGroup("CUTSCENE SFX", 
+	DefineSound("m1_heliby01", "M1_HELIBY01", 0, 0, 0, 0.800000011920929, 0, 200.0, -1, -1, -1, -1, FALSE), 
+	DefineSound("m1_heligen01", "M1_HELIGEN01", 0, 0, 0, 0.5, 0, 1000.0, -1, -1, -1, -1, TRUE), 
+	DefineSound("m1_heliinside01", "M1_HELIINSIDE01", 0, 0, 0, 0.6000000238418579, 0, 200.0, -1, -1, -1, -1, TRUE), 
+	DefineSound("m1_trainby01", "M1_TRAINBY01", 0, 0, 0, 0.800000011920929, 0, 200.0, -1, -1, -1, -1, FALSE), 
+	DefineSound("m1_heliblad01", "M1_HELIBLAD01", 0, 0, 0, 0.6000000238418579, 0, 200.0, -1, -1, -1, -1, FALSE), 
+	DefineSound("m1_heliblad02", "M1_HELIBLAD02", 0, 0, 0, 0.800000011920929, 0, 200.0, -1, -1, -1, -1, TRUE), 
+	DefineSound("m1_heliaway01", "M1_HELIAWAY01", 0, 0, 0, 0.800000011920929, 0, 200.0, -1, -1, -1, -1, FALSE), 
+	DefineSound("m1_heliby02", "M1_HELIBY02", 0, 0, 0, 0.800000011920929, 0, 200.0, -1, -1, -1, -1, FALSE), 
+	DefineSound("m1_heliblad02_vol1", "M1_HELIBLAD02", 0, 0, 0, 0.4000000059604645, 0, 200.0, -1, -1, -1, -1, TRUE), 
+	DefineSound("m1_trainext01", "M1_TRAINEXT01", 0, 0, 0, 0.6000000238418579, 0, 1000.0, -1, -1, -1, -1, TRUE), 
+	DefineSound("m1_office01", "M1_OFFICE01", 0, 0, 0, 0.699999988079071, 0, 1000.0, -1, -1, -1, -1, TRUE), 
+	DefineSound("m1_office02", "M1_OFFICE02", 0, 0, 0, 0.8999999761581421, 0, 1000.0, -1, -1, -1, -1, TRUE), 
+	DefineSound("m1_office03", "M1_OFFICE03", 0, 0, 0, 0.8999999761581421, 0, 1000.0, -1, -1, -1, -1, TRUE), 
+	DefineSound("m1_type01", "M1_TYPE01", 0, 0, 0, 0.8999999761581421, 0, 1000.0, -1, -1, -1, -1, TRUE), 
+	DefineSound("m1_beeps01", "M1_BEEPS01", 0, 0, 0, 0.8999999761581421, 0, 1000.0, -1, -1, -1, -1, TRUE));
+DefineGroup("OUTRO SFX", 
+	DefineSound("m1o_baseamb", "M1O_BASEAMB", 0, 0, 0, 1, 0, 200.0, -1, -1, -1, -1, TRUE), 
+	DefineSound("m1o_wind", "M1O_WIND", 0, 0, 0, 1, 0, 200.0, -1, -1, -1, -1, TRUE), 
+	DefineSound("m1o_hammer", "M1O_HAMMER", 0, 0, 0, 1, 0, 200.0, -1, -1, -1, -1, FALSE), 
+	DefineSound("m1o_train1", "M1O_TRAIN1", 0, 0, 0, 1, 0, 200.0, -1, -1, -1, -1, FALSE), 
+	DefineSound("m1o_train2", "M1O_TRAIN2", 0, 0, 0, 1, 0, 200.0, -1, -1, -1, -1, FALSE), 
+	DefineSound("m1o_truck", "M1O_TRUCK", 0, 0, 0, 1, 0, 200.0, -1, -1, -1, -1, FALSE));
+DefineGroup("INGAME SFX", 
+	DefineSound("m1_ambience", "M1_AMBIENCE", 0, 0, 0, 0.699999988079071, 0, 1000.0, -1, -1, -1, -1, TRUE));

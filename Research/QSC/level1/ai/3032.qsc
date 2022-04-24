@@ -1,0 +1,35 @@
+if(AIFunction_GetCurrentEventType() == AIEVENT_CREATE)
+{
+	AIFunction_DefaultHandler();
+	AIFunction_SetInvulnerability(TRUE);
+}
+else
+{
+	if(AIFunction_GetCurrentEventType() == AIEVENT_IDLE)
+	{
+		if(CutScene_1203.nTick > 120)
+		{
+			AIAction_PlayAnimation(239, 0);
+		}
+	}
+	else
+	{
+		if(AIFunction_GetCurrentEventType() == AIEVENT_ALARMON)
+		{
+		}
+		else
+		{
+			if(AIFunction_GetCurrentEventType() == AIEVENT_COMBAT)
+			{
+				AIFunction_DefaultHandler();
+			}
+			else
+			{
+				AIFunction_DefaultHandler();
+			}
+
+		}
+
+	}
+
+}
