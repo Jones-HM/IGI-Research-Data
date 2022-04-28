@@ -14,6 +14,9 @@ which has data for Player/A.I/Vehicles/Game State/Profile and more.
 - `Research/MEF` - Contains file explaning strucute of MEF.
 - `Research/QVM` - Contains file explaning strucute of QVM.
 - `Research/QSC` - Contains file explaning strucute of QSC _Q-Scripts_ these files were decompiled using *Python* tool.
+- `Research/Natives` - File `IGI-Natives.json` File contains 81 Natives uses for `Project IGI 1`.
+  All natives method were decompiled using original game `igi.exe` using **IDA/Ghidra** for educational purpose not to intend any harm on game files and their property.
+- `Research/Natives` - File `IGI-Models.txt` contains list of almost 600 different building/object model information including `MEF` data also, this data was extracted using `Debug-Mode` used by developers in testing which can be unlocked using this script [IGI-Debug-Mode](https://gist.github.com/haseeb-heaven/721d82fccc8de3e6da95cfa609230cea) </br>
 
 ## Tools - Section
 ### `Tools` section contains all the custom tools that were built for Project IGI 1/2 during research.
