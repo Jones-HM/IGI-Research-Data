@@ -21,6 +21,7 @@ which has data for Player/A.I/Vehicles/Game State/Profile and more.
 ## Tools - Section
 ### `Tools` section contains all the custom tools that were built for Project IGI 1/2 during research.
 - `Tools/IGI-Resource-Viewer` - is tool for Viewing IGI Resources files like _.tex,.spr,.tga_ without needing to extract resources. `Dev: Dark`.
+- `Tools/IGI-Resource-Convertor` - is tool for Packing/Unpacking IGI Resources files like _.res_ Resource files. `Dev: Dark/HM`.
 - `Tools/IGI-3dsMax-tools` - is tool for exporting models created in [3ds-Max](https://en.wikipedia.org/wiki/Autodesk_3ds_Max) _v8-Year 2005_ to `MEF` format of IGI. `Dev: IGI-Devs`.
 - `Tools/IGI-QCompiler` - is tool for Compiling/Decompiling game scripts and binary files like _Compile_= `QSC -> QVM` and _Decompile_= `QVM -> QSC`. `Dev: HM`.
 - `Tools/IGI-Mtp_Decoder` - is tool for `MTP` convertor for Objects like `level1.dat` to `level1.mtp` used when you add custom objects into the level. `Dev: Unknown`.
