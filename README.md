@@ -26,6 +26,8 @@ which has data for Player/A.I/Vehicles/Game State/Profile and more.
 - `Tools/IGI-QCompiler` - is tool for Compiling/Decompiling game scripts and binary files like _Compile_= `QSC -> QVM` and _Decompile_= `QVM -> QSC`. `Dev: HM`.
 - `Tools/IGI-Mtp_Decoder` - is tool for `MTP` convertor for Objects like `level1.dat` to `level1.mtp` used when you add custom objects into the level. `Dev: Unknown`.
 - `Tools/IGI-EngineExtractor` - is tool for extracting all variables/data from [Game Engine](https://en.wikipedia.org/wiki/Game_engine) and save data externally.** `Dev: HM`
+- `Tools/QVMEditor.zip` - is `powerful tool` for _view/edit_ game `QVM files` with features like _models information,syntax hilighting,auto-complete_ and more. `Dev: HM`
+
 
 ## Templates - Section
 ### `Templates` section contains templates for [010 Editor](https://www.sweetscape.com/010editor/) for both IGI1 and IGI2 game.
