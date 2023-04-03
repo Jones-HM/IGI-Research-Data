@@ -9,3 +9,37 @@ Steps to Import new Model from another level.
 5)Download and Get MTP Decoder tool under \Tools section.
 6)Add your new textures in level#.mtp file and Increase total Objects Count and decode it.
 7)Now add your New model with full qualified name like 435_01_1 into your level"
+
++---------------------------------------------------+
+| Decompile target level and source level models.res|
++-----------------------+---------------------------+
+                        |
++-----------------------v---------------------------+
+|   Copy desired model MEF object and all mefs with   |
+|           the same model name.                      |
++-----------------------+---------------------------+
+                        |
++-----------------------v---------------------------+
+|     Paste the copied objects into your source      |
+|             level models and pack them again        |
+|                      to models.res.                 |
++-----------------------+---------------------------+
+                        |
++-----------------------v---------------------------+
+|      Copy object texture data from level#.mtp      |
++-----------------------+---------------------------+
+                        |
++-----------------------v---------------------------+
+| Download and use MTP Decoder tool found under      |
+|                  \Tools section.                   |
++-----------------------+---------------------------+
+                        |
++-----------------------v---------------------------+
+|  Add your new textures in level#.mtp file, increase|
+| the total Objects Count and decode it.             |
++-----------------------+---------------------------+
+                        |
++-----------------------v---------------------------+
+|     Add your new model with a full qualified name   |
+|            like 435_01_1 into your level.           |
++-----------------------------------------------------+
