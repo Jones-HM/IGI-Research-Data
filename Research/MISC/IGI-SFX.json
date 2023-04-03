@@ -80,7 +80,6 @@
       "bul_flesh_5"
     ]
   },
-[
   {
     "name": "Glass",
     "children": [
@@ -117,25 +116,6 @@
     ]
   },
   {
-    "name": "Metal",
-    "children": [
-      "bul_metal_fnc_1",
-      "bul_metal_fnc_2",
-      "bul_metal_hrd_1",
-      "bul_metal_hrd_2",
-      "bul_metal_hrd_3",
-      "bul_metal_nrm_1",
-      "bul_metal_nrm_2",
-      "bul_metal_nrm_3",
-      "bul_metal_sft_1",
-      "bul_metal_sft_2",
-      "bul_metal_sft_3",
-      "bul_metal_sft_4",
-      "bul_plastic_1",
-      "bul_porc_1"
-    ]
-  },
-  {    
     "name": "Nature",
     "children": [
       "tree_01",
@@ -143,7 +123,7 @@
       "tree_03"
     ]
   },
-  {    
+  {
     "name": "Person",
     "children": [
       "man_01",
@@ -152,7 +132,7 @@
       "woman_02"
     ]
   },
-  {    
+  {
     "name": "Plastic",
     "children": [
       "bul_plastic_1",
@@ -160,7 +140,7 @@
       "bul_plastic_3"
     ]
   },
-  {    
+  {
     "name": "Rock",
     "children": [
       "bul_rock_1",
@@ -168,7 +148,7 @@
       "bul_rock_3"
     ]
   },
-  {    
+  {
     "name": "Wood",
     "children": [
       "bul_wood_1",
