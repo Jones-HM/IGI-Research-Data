@@ -29,6 +29,10 @@ which has data for Player/A.I/Vehicles/Game State/Profile and more.
 - `Tools/QVMEditor` - is `powerful tool` for _view/edit_ game `QVM files` with features like _models information,syntax hilighting,auto-complete_ and more. `Dev: HM`
 - `Tools/IGI-GraphEditor` - is `powerful tool` for _view/edit_ game `Graphp files` like _Graph4019.dat_ and to analyze _Nodes,Links,Vertex_ of graphs. `Dev: HM`
 - `Tools/IGI-Natives-Info` - is `tool` for view _game `Natives methods` like HumanPlayerLoad()_ and info about _Signature and Hash_ of Native. `Dev: HM`
+- `Tools/TGaConv` - is tool for `Textures` convertor for Objects like `wood_material.tex,concrete_bullet.tex` to convert to `PNG` format,
+usage 
+- 1. Convert texture to `PNG` command: `tgaconv.exe filename.tga -ToPng`
+- 2. Convert texture to `TGA` command: `tgaconv.exe filename.png -ToTga`
 
 ## Templates - Section
 ### `Templates` section contains templates for [010 Editor](https://www.sweetscape.com/010editor/) for both IGI1 and IGI2 game.
