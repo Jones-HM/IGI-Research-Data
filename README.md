@@ -48,6 +48,7 @@ If you want to use this data respect fellow researchers and give proper credits 
 - Yoejin Light - https://vk.com/id436486682 </br>
 - Dimon Krevedko - https://vk.com/dimonkrevedko </br>
 - Artiom Rotari - https://github.com/NEWME0 </br>
+- ORWA S - Graphs Area and Nodes </br>
 - IGI ResearchDevs@HM - https://vk.com/id679925339 </br>
 
 Copyright @2021 - IGI Research Devs @ HM.
