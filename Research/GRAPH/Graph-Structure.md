@@ -1,11 +1,10 @@
-/*Project I.G.I 1 Graph Structure of Vertex,Edges and other data. (IGI Структура графа). 
+Project I.G.I 1 Graph Structure of Vertex,Edges and other data. (IGI Структура графа). 
 *Research followed of Dimon Krevedko,Yoejin Light,Artiom Rotari and continued by (IGI ResearchDevs@HM)
 * If you want to use this data respect fellow researchers and give proper credits to people. (давать людям должные кредиты)
 * Yoejin Light - https://vk.com/id436486682
 * Dimon Krevedko - https://vk.com/dimonkrevedko
 * Artiom Rotari - https://github.com/NEWME0
 * IGI ResearchDevs@HM - https://vk.com/id679925339
-*/
 
 
 /* STATIC ANALYSIS SECTION - (РАЗДЕЛ СТАТИЧЕСКОГО АНАЛИЗА)
@@ -29,12 +28,11 @@
 
 
 
-/* RUNTIME ANALYSIS SECTION - (РАЗДЕЛ АНАЛИЗА РАБОТЫ)
+RUNTIME ANALYSIS SECTION - (РАЗДЕЛ АНАЛИЗА РАБОТЫ)
 * Graph Nodes data sequence extracted by IDA/Ghidra. (обратный инжиниринг)
 * Sub = Game sub routine(Method) to extract the data.
 * Sub_004FAEE0 here`004FAEE0` is actual address of this game method.
 * Game variables prefix 'nMaxNodes' here n = Int, v = Float,e = String ??
-*/
 
 | S.No | Node Type       | Method Sub     |
 |------|-----------------|----------------|
@@ -50,9 +48,8 @@
 | 10   | eLinkType     | SUB_004FB0D0() |
 
 
-/*Graph Misc Data.
-* Contains various misc data from Static and Runtime analysis.
-*/
+- Graph Misc Data.
+- Contains various misc data from Static and Runtime analysis.
 Graph signature Hex Bytes = 'CC DD EE FF'
 Node size elements = 0xA77247
 
