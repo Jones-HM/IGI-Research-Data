@@ -7,11 +7,10 @@ Project I.G.I 1 Graph Structure of Vertex,Edges and other data. (IGI Струк�
 * IGI ResearchDevs@HM - https://vk.com/id679925339
 
 
-/* STATIC ANALYSIS SECTION - (РАЗДЕЛ СТАТИЧЕСКОГО АНАЛИЗА)
+STATIC ANALYSIS SECTION - (РАЗДЕЛ СТАТИЧЕСКОГО АНАЛИЗА)
 * Graph Hex Signatures on files `Graphs.dat`
 * Here all data could be found at static index i.e [current_index + 8] 
 * example Node Material '0429' index is 20 then [20 + 8] = 28, Read DataType of 4 or 8 Bytes.
-*/
 
 | S.No | Graph Item          | Signature | Hex Bytes     | Data-Type |
 |------|---------------------|-----------|---------------|-----------|
@@ -53,9 +52,9 @@ RUNTIME ANALYSIS SECTION - (РАЗДЕЛ АНАЛИЗА РАБОТЫ)
 Graph signature Hex Bytes = 'CC DD EE FF'
 Node size elements = 0xA77247
 
-//Node Criteria constants.
-NODECRITERIA_DOOR = 1
-NODECRITERIA_VIEW = 2
-NODECRITERIA_STAIR = 4
+- Node Criteria constants.
+* NODECRITERIA_DOOR = 1
+* NODECRITERIA_VIEW = 2
+* NODECRITERIA_STAIR = 4
 
 
