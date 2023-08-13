@@ -1,0 +1,54 @@
+[
+  {
+    "Graph": "Graph #1",
+    "Area": "Main Before 2nd Gate/Outside Main"
+  },
+  {
+    "Graph": "Graph #2",
+    "Area": "Watchtower"
+  },
+  {
+    "Graph": "Graph #3",
+    "Area": "Guard HQ"
+  },
+  {
+    "Graph": "Graph #6",
+    "Area": "Main After 2nd Gate"
+  },
+  {
+    "Graph": "Graph #7",
+    "Area": "2nd Base Com Center Roof"
+  },
+  {
+    "Graph": "Graph #8",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #9",
+    "Area": "2nd Base"
+  },
+  {
+    "Graph": "Graph #11",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #12",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #13",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #14",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #15",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #16",
+    "Area": "Underground HQ"
+  }
+]

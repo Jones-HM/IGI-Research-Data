@@ -1,0 +1,138 @@
+[
+  {
+    "Graph": "Graph #1",
+    "Area": "From Tram to Elevator"
+  },
+  {
+    "Graph": "Graph #2",
+    "Area": "After Elevator and Around"
+  },
+  {
+    "Graph": "Graph #3",
+    "Area": "Wall Patroller Outside Elevator"
+  },
+  {
+    "Graph": "Graph #6",
+    "Area": "MINIMI Patroller"
+  },
+  {
+    "Graph": "Graph #7",
+    "Area": "Wall Behind Barracks"
+  },
+  {
+    "Graph": "Graph #8",
+    "Area": "Wall Behind Barracks"
+  },
+  {
+    "Graph": "Graph #9",
+    "Area": "HQ Building 2nd Storey"
+  },
+  {
+    "Graph": "Graph #11",
+    "Area": "Wall East of Garage"
+  },
+  {
+    "Graph": "Graph #12",
+    "Area": "Wall North of Security B"
+  },
+  {
+    "Graph": "Graph #13",
+    "Area": "Security B Roof"
+  },
+  {
+    "Graph": "Graph #14",
+    "Area": "Area Around Big Hole"
+  },
+  {
+    "Graph": "Graph #15",
+    "Area": "Northermost Wall"
+  },
+  {
+    "Graph": "Graph #16",
+    "Area": "Last 2 Watchtowers East T"
+  },
+  {
+    "Graph": "Graph #17",
+    "Area": "Last 2 Watchtowers West T"
+  },
+  {
+    "Graph": "Graph #18",
+    "Area": "Eastern 2 Towers South one"
+  },
+  {
+    "Graph": "Graph #19",
+    "Area": "Eastern 2 Towers North one"
+  },
+  {
+    "Graph": "Graph #20",
+    "Area": "Around Security B to HQ Building"
+  },
+  {
+    "Graph": "Graph #21",
+    "Area": "Area Around last Elevator"
+  },
+  {
+    "Graph": "Graph #22",
+    "Area": "Ammo Building Basement"
+  },
+  {
+    "Graph": "Graph #23",
+    "Area": "Ammo Building and North"
+  },
+  {
+    "Graph": "Graph #24",
+    "Area": "Last Area Underground"
+  },
+  {
+    "Graph": "Graph #25",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #26",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #27",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #28",
+    "Area": "Ekk Escape Cutscene"
+  },
+  {
+    "Graph": "Graph #29",
+    "Area": "Last Control Room"
+  },
+  {
+    "Graph": "Graph #30",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #31",
+    "Area": "Ekk Escape Cutscene"
+  },
+  {
+    "Graph": "Graph #32",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #33",
+    "Area": "Left of Tram"
+  },
+  {
+    "Graph": "Graph #34",
+    "Area": "Left of Tram"
+  },
+  {
+    "Graph": "Graph #35",
+    "Area": "Southeast Wall Bastion"
+  },
+  {
+    "Graph": "Graph #36",
+    "Area": "East of Base"
+  },
+  {
+    "Graph": "Graph #37",
+    "Area": "East of Base"
+  }
+]

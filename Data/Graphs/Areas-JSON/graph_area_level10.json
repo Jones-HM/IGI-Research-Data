@@ -1,0 +1,58 @@
+[
+  {
+    "Graph": "Graph #1",
+    "Area": "Tank 1"
+  },
+  {
+    "Graph": "Graph #2",
+    "Area": "Troop Path 1"
+  },
+  {
+    "Graph": "Graph #3",
+    "Area": "Priboi"
+  },
+  {
+    "Graph": "Graph #6",
+    "Area": "1st Base"
+  },
+  {
+    "Graph": "Graph #7",
+    "Area": "Spetznaz Reinforcements"
+  },
+  {
+    "Graph": "Graph #8",
+    "Area": "Street"
+  },
+  {
+    "Graph": "Graph #9",
+    "Area": "Trucks"
+  },
+  {
+    "Graph": "Graph #11",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #12",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #13",
+    "Area": "Rooftop Heli"
+  },
+  {
+    "Graph": "Graph #14",
+    "Area": "Rooftop Heli"
+  },
+  {
+    "Graph": "Graph #15",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #16",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #3000",
+    "Area": "Cutscene Area"
+  }
+]

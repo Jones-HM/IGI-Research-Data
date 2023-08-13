@@ -1,0 +1,122 @@
+[
+  {
+    "Graph": "Graph #1",
+    "Area": "Truck Alarm Guards"
+  },
+  {
+    "Graph": "Graph #2",
+    "Area": "HQ 1st Floor"
+  },
+  {
+    "Graph": "Graph #3",
+    "Area": "HQ Grnd Floor"
+  },
+  {
+    "Graph": "Graph #6",
+    "Area": "APC Base"
+  },
+  {
+    "Graph": "Graph #7",
+    "Area": "2nd Base Entrance Gunner"
+  },
+  {
+    "Graph": "Graph #8",
+    "Area": "Barracks 2nd Base"
+  },
+  {
+    "Graph": "Graph #9",
+    "Area": "2nd Base Ammo Building Gunner"
+  },
+  {
+    "Graph": "Graph #11",
+    "Area": "2nd Base Fuel Patroller"
+  },
+  {
+    "Graph": "Graph #12",
+    "Area": "Ammo Building Basement"
+  },
+  {
+    "Graph": "Graph #13",
+    "Area": "Generator Building Patroller"
+  },
+  {
+    "Graph": "Graph #14",
+    "Area": "Ammo Building Back Door Guard"
+  },
+  {
+    "Graph": "Graph #15",
+    "Area": "Radar"
+  },
+  {
+    "Graph": "Graph #16",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #18",
+    "Area": "Tower Sniper 1"
+  },
+  {
+    "Graph": "Graph #19",
+    "Area": "Tower Sniper 2"
+  },
+  {
+    "Graph": "Graph #20",
+    "Area": "Tower Sniper 3"
+  },
+  {
+    "Graph": "Graph #21",
+    "Area": "1st Base HQ Basement"
+  },
+  {
+    "Graph": "Graph #24",
+    "Area": "1st Base Alarm Guard"
+  },
+  {
+    "Graph": "Graph #25",
+    "Area": "T80 Base"
+  },
+  {
+    "Graph": "Graph #26",
+    "Area": "SAM Guards"
+  },
+  {
+    "Graph": "Graph #27",
+    "Area": "T80 Near SAM"
+  },
+  {
+    "Graph": "Graph #28",
+    "Area": "APC Outside 1st Base"
+  },
+  {
+    "Graph": "Graph #29",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #30",
+    "Area": "1st Garage"
+  },
+  {
+    "Graph": "Graph #31",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #32",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #33",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #34",
+    "Area": "Watchtower 2nd Base"
+  },
+  {
+    "Graph": "Graph #35",
+    "Area": "WatchTower Ground"
+  },
+  {
+    "Graph": "Graph #1503",
+    "Area": "Before Gate 1st Base"
+  }
+]

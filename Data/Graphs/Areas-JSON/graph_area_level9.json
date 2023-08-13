@@ -1,0 +1,74 @@
+[
+  {
+    "Graph": "Graph #1",
+    "Area": "Ammo Building Basement"
+  },
+  {
+    "Graph": "Graph #2",
+    "Area": "Entrance Tower 1"
+  },
+  {
+    "Graph": "Graph #3",
+    "Area": "Entrance Tower 2"
+  },
+  {
+    "Graph": "Graph #6",
+    "Area": "Entrance Patroller 402"
+  },
+  {
+    "Graph": "Graph #7",
+    "Area": "Trainyard Patrollers"
+  },
+  {
+    "Graph": "Graph #8",
+    "Area": "Train Yard Sniper"
+  },
+  {
+    "Graph": "Graph #9",
+    "Area": "Last Area Except Train"
+  },
+  {
+    "Graph": "Graph #11",
+    "Area": "Tower Gunner & Guard"
+  },
+  {
+    "Graph": "Graph #12",
+    "Area": "Admin Building"
+  },
+  {
+    "Graph": "Graph #13",
+    "Area": "Bridge Gunner"
+  },
+  {
+    "Graph": "Graph #14",
+    "Area": "Scientist in Basement"
+  },
+  {
+    "Graph": "Graph #15",
+    "Area": "Train Front Carriage"
+  },
+  {
+    "Graph": "Graph #16",
+    "Area": "Train Rear Carriage"
+  },
+  {
+    "Graph": "Graph #17",
+    "Area": "Loading Platform 1st Area"
+  },
+  {
+    "Graph": "Graph #18",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #19",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #20",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #21",
+    "Area": "Cutscene Area"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "Graph": "Graph #1",
+    "Area": "First Base 2 Barracks Level"
+  },
+  {
+    "Graph": "Graph #2",
+    "Area": "Watchtower West"
+  },
+  {
+    "Graph": "Graph #3",
+    "Area": "Watchtower North Soldier Below"
+  },
+  {
+    "Graph": "Graph #6",
+    "Area": "Watchtower North"
+  },
+  {
+    "Graph": "Graph #7",
+    "Area": "First Base East SAM Level"
+  },
+  {
+    "Graph": "Graph #8",
+    "Area": "First Base South SAM Level"
+  },
+  {
+    "Graph": "Graph #9",
+    "Area": "Second Base Ground Level"
+  },
+  {
+    "Graph": "Graph #11",
+    "Area": "Watchtower 2nd Base"
+  },
+  {
+    "Graph": "Graph #12",
+    "Area": "Gunner 2nd Base"
+  },
+  {
+    "Graph": "Graph #13",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #14",
+    "Area": "Soldiers Between 1st and 2nd Bases"
+  },
+  {
+    "Graph": "Graph #15",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #16",
+    "Area": "Cutscene Area"
+  },
+  {
+    "Graph": "Graph #17",
+    "Area": "Cutscene Area"
+  }
+]
