@@ -20,19 +20,19 @@ which has data for Player/A.I/Vehicles/Game State/Profile and more.
 
 ## Tools - Section
 ### `Tools` section contains all the custom tools that were built for Project IGI 1/2 during research.
-- `Tools/IGI-Resource-Viewer` - is tool for Viewing IGI Resources files like _.tex,.spr,.tga_ without needing to extract resources. `Dev: Dark`.
-- `Tools/IGI-Resource-Convertor` - is tool for Packing/Unpacking IGI Resources files like _.res_ Resource files. `Dev: Dark/HM`.
-- `Tools/IGI-3dsMax-tools` - is tool for exporting models created in [3ds-Max](https://en.wikipedia.org/wiki/Autodesk_3ds_Max) _v8-Year 2005_ to `MEF` format of IGI. `Dev: IGI-Devs`.
-- `Tools/IGI-QCompiler` - is tool for Compiling/Decompiling game scripts and binary files like _Compile_= `QSC -> QVM` and _Decompile_= `QVM -> QSC`. `Dev: HM`.
-- `Tools/IGI-Mtp_Decoder` - is tool for `MTP` convertor for Objects like `level1.dat` to `level1.mtp` used when you add custom objects into the level. `Dev: Unknown`.
-- `Tools/IGI-EngineExtractor` - is tool for extracting all variables/data from [Game Engine](https://en.wikipedia.org/wiki/Game_engine) and save data externally. `Dev: HM`
-- `Tools/QVMEditor` - is `powerful tool` for _view/edit_ game `QVM files` with features like _models information,syntax hilighting,auto-complete_ and more. `Dev: HM`
-- `Tools/IGI-GraphEditor` - is `powerful tool` for _view/edit_ game `Graphp files` like _Graph4019.dat_ and to analyze _Nodes,Links,Vertex_ of graphs. `Dev: HM`
-- `Tools/IGI-Natives-Info` - is `tool` for view _game `Natives methods` like HumanPlayerLoad()_ and info about _Signature and Hash_ of Native. `Dev: HM`
-- `Tools/TGaConv` - is tool for `Textures` convertor for Objects like `wood_material.tex,concrete_bullet.tex` to convert to `PNG` format,
-usage 
-- 1. Convert texture to `PNG` command: `tgaconv.exe filename.tga -ToPng`
-- 2. Convert texture to `TGA` command: `tgaconv.exe filename.png -ToTga`
+| Tool Name            | Description                                                   | Developer  |
+|----------------------|---------------------------------------------------------------|------------|
+| IGI-Resource-Viewer  | View IGI resource files like _.tex, .spr, .tga_ without extraction | Dark  |
+| IGI-Resource-Convertor | Pack/Unpack IGI resource files like _.res_ Resource files       | Dark/Jones-HM |
+| IGI-3dsMax-tools     | Export models from 3ds Max v8-Year 2005 to IGI's MEF format   | IGI-Devs |
+| IGI-QCompiler        | Compile/Decompile game scripts and binary files (QSC -> QVM, QVM -> QSC) | Jones-HM |
+| IGI-Mtp_Decoder      | MTP converter for objects (e.g., level1.dat to level1.mtp)     | Unknown |
+| IGI-EngineExtractor  | Extract variables/data from the game engine and save data externally | Jones-HM |
+| QVMEditor            | Powerful tool to view/edit game QVM files with features like model information, syntax highlighting, auto-complete, and more | Jones-HM |
+| IGI-GraphEditor      | Powerful tool to view/edit game Graphp files (e.g., Graph4019.dat) and analyze nodes, links, and vertices of graphs | Jones-HM |
+| IGI-Natives-Info     | Tool to view game native methods and get info about their signature and hash | Jones-HM |
+| TGaConv              | Texture converter for objects (e.g., wood_material.tex, concrete_bullet.tex) to convert to PNG format | Jones-HM |
+
 
 ## Templates - Section
 ### `Templates` section contains templates for [010 Editor](https://www.sweetscape.com/010editor/) for both IGI1 and IGI2 game.
