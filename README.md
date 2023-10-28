@@ -43,12 +43,12 @@ This data is for educational purpose to learn how game reacts with [Game Engine]
 Some data were decompiled using original game `igi.exe` using [IDA](https://hex-rays.com/ida-pro/)/[Ghidra](https://ghidra-sre.org/) for educational purpose not to intend any harm on game files and their property.
 
 ## Credits and People.
-Research followed of Dimon Krevedko,Yoejin Light,Artiom Rotari and continued by _(IGI ResearchDevs@HM)_
 If you want to use this data respect fellow researchers and give proper credits to people. (давать людям должные кредиты)
-- Yoejin Light - https://vk.com/id436486682 </br>
-- Dimon Krevedko - https://vk.com/dimonkrevedko </br>
-- Artiom Rotari - https://github.com/NEWME0 </br>
-- ORWA S - Graphs Area and Nodes </br>
-- IGI ResearchDevs@HM - https://vk.com/id679925339 </br>
+- [Yoejin Light](https://vk.com/id436486682) : _MTP,Models structure_ and information. </br>
+- [Dimon Krevedko](https://vk.com/dimonkrevedko) : **Graphs and Nodes** strucutre and information </br>
+- [Artiom Rotari](https://github.com/NEWME0) : _DConv Tools for Decompiler_ and **Scripts**</br>
+- [ORWA S](https://www.youtube.com/@totalwartimelapses6359/videos) - **Graphs Area and Nodes** compilation of information </br>
+- [GM123](https://www.youtube.com/@gm1233/videos) - **Detailed Models Information** </br>
+- [IGI ResearchDevs@HM](https://vk.com/id679925339) - **Maintainer of this repo** </br>
 
 Copyright @2021 - IGI Research Devs @ HM.
