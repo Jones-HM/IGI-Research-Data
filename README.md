@@ -17,19 +17,26 @@ IGI-Research-Data 🕵️‍♂️ is a repository that contains all the researc
 - `Research/Models` - File `IGI-Models.json` contains a list of almost 600 different building/object model information, including `MEF` data. This data was extracted using `Debug-Mode` used by developers in testing, which can be unlocked using this script [IGI-Debug-Mode](https://gist.github.com/haseeb-heaven/721d82fccc8de3e6da95cfa609230cea). 🏗️
 
 ## Tools - Section
-### `Tools` section contains all the custom tools that were built for Project IGI 1/2 during research. 🛠️
-| Tool Name            | Description                                                   | Developer  |
-|----------------------|---------------------------------------------------------------|------------|
-| IGI-Resource-Viewer  | View IGI resource files like _.tex, .spr, .tga_ without extraction | Dark  |
-| IGI-Resource-Convertor | Pack/Unpack IGI resource files like _.res_ Resource files       | Dark/Jones-HM |
-| IGI-3dsMax-tools     | Export models from 3ds Max v8-Year 2005 to IGI's MEF format   | IGI-Devs |
-| IGI-QCompiler        | Compile/Decompile game scripts and binary files (QSC -> QVM, QVM -> QSC) | Jones-HM |
-| IGI-Mtp_Decoder      | MTP converter for objects (e.g., level1.dat to level1.mtp)     | Unknown |
-| IGI-EngineExtractor  | Extract variables/data from the game engine and save data externally | Jones-HM |
-| QVMEditor            | Powerful tool to view/edit game QVM files with features like model information, syntax highlighting, auto-complete, and more | Jones-HM |
-| IGI-GraphEditor      | Powerful tool to view/edit game Graphp files (e.g., Graph4019.dat) and analyze nodes, links, and vertices of graphs | Jones-HM |
-| IGI-Natives-Info     | Tool to view game native methods and get info about their signature and hash | Jones-HM |
-| TGaConv              | Texture converter for objects (e.g., wood_material.tex, concrete_bullet.tex) to convert to PNG format | Jones-HM |
+### 🛠️ `Tools` section contains all the custom tools that were built for Project IGI 1/2 during research. 🛠️
+
+| Tool Name               | Description                                                   | Developer      |
+|-------------------------|---------------------------------------------------------------|----------------|
+| 📊 IGI Graph Viewer     | Explore the game's graphs in a user-friendly interface.      | [Link](https://igi-graphviewer-hm.streamlit.app/) |
+| 🔍 IGI Models Search    | Find I.G.I models with ease.                                  | [Link](https://igi-models-search.netlify.app/) |
+| 🕵️ IGI Natives Search  | Search for game natives efficiently.                         | [Link](https://igi-natives-search.netlify.app/) |
+| 📈 IGI Natives Analyzer | Analyze game natives with detailed insights.                  | [Link](https://igi-natives-analyzer.streamlit.app/) |
+| 🗺️ I.G.I Level Information | Explore data related to I.G.I levels.                      | [Link](https://igi-levels-data.netlify.app/) |
+| 📁 IGI-Resource-Viewer  | View IGI resource files like _.tex, .spr, .tga_ without extraction | Dark  |
+| 📦 IGI-Resource-Convertor | Pack/Unpack IGI resource files like _.res_ Resource files       | Dark/Jones-HM |
+| 🎨 IGI-3dsMax-tools     | Export models from 3ds Max v8-Year 2005 to IGI's MEF format   | IGI-Devs |
+| 📜 IGI-QCompiler        | Compile/Decompile game scripts and binary files (QSC -> QVM, QVM -> QSC) | Jones-HM |
+| 🌐 IGI-Mtp_Decoder      | MTP converter for objects (e.g., level1.dat to level1.mtp)     | Unknown |
+| 📡 IGI-EngineExtractor  | Extract variables/data from the game engine and save data externally | Jones-HM |
+| ✏️ QVMEditor            | Powerful tool to view/edit game QVM files with features like model information, syntax highlighting, auto-complete, and more | Jones-HM |
+| 📊 IGI-GraphEditor      | Powerful tool to view/edit game Graphp files (e.g., Graph4019.dat) and analyze nodes, links, and vertices of graphs | Jones-HM |
+| 📋 IGI-Natives-Info     | Tool to view game native methods and get info about their signature and hash | Jones-HM |
+| 🖼️ TGaConv              | Texture converter for objects (e.g., wood_material.tex, concrete_bullet.tex) to convert to PNG format | Jones-HM |
+
 
 ## Templates - Section
 ### `Templates` section contains templates for [010 Editor](https://www.sweetscape.com/010editor/) for both IGI1 and IGI2 game.
