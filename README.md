@@ -15,7 +15,11 @@ IGI-Research-Data 🕵️‍♂️ is a repository that contains all the researc
 - `Research/QSC` - Contains a file explaining the structure of QSC _Q-Scripts_. These files were decompiled using *Python* 🐍 tool. 📜
 - `Research/Natives` - File contains Natives now as `Source Code` in `Assembly/C++` format as well used for `Project IGI 1`. All natives methods were decompiled using the original game `igi.exe` using **IDA/Ghidra** for educational purposes, not intending any harm to game files and their property. 📝
 - `Research/Models` - File `IGI-Models.json` contains a list of almost 600 different building/object model information, including `MEF` data. This data was extracted using `Debug-Mode` used by developers in testing, which can be unlocked using this script [IGI-Debug-Mode](https://gist.github.com/haseeb-heaven/721d82fccc8de3e6da95cfa609230cea). 🏗️
+- `Research/BONES` - Contains `BONES` information of Players joint structures.
+- `Research/LEVEL` - Contains `LEVEL` related information like _building,objects,ai_ in the levels.
+- `Research/SCRIPT` - Contains `SCRIPT` of the game known as *QSC* (*Q* _Script File_) which is used to manipulate _AI/Building/Objects and more_.
 
+  
 ## Tools - Section
 ### 🛠️ `Tools` section contains all the custom tools that were built for Project IGI 1/2 during research. 🛠️
 
@@ -54,6 +58,6 @@ If you want to use this data, respect fellow researchers and give proper credits
 - [ORWA S](https://www.youtube.com/@totalwartimelapses6359/videos) 🌟 - **Graphs Area and Nodes** compilation of information.
 - [GM123](https://www.youtube.com/@gm1233/videos) 🌟 - **Detailed Models Information**.
 - [IGI ResearchDevs@HM](https://vk.com/id679925339) 🌟 - **Maintainer of this repo**.
-- [Chat-GPT Advanced](https://openai.com/blog/introducing-chatgpt-enterprise) 🌟 - **Helped in understanding complex game mechanics** with _x86 Assembly and binary_ of game with Reverse Engineering.
+- [Chat-GPT Advanced](https://chat.openai.com/) 🌟 - **Understanding complex game mechanics** with _Reverse Engineering_ and **Advaced Data Analysis** of Game files _QVM,QSC,.DAT and more_.
 
 Copyright @2021 - IGI Research Devs @ HM.
