@@ -1,0 +1,1383 @@
+[
+    {
+        "Soldier ID": -1,
+        "Position X": -11683206.0,
+        "Position Y": 84731264.0,
+        "Position Z": 174927744.0,
+        "Angle": 4.3982291222,
+        "Model ID": "015_01_1",
+        "AI ID": 3880,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 3600,
+        "Model Name": "AITYPE_ANYA",
+        "Graph Name": "Cutscene Area",
+        "Graph Position": {
+            "Graph": 3600,
+            "X": 7665884.5,
+            "Y": -2919175.75,
+            "Z": 63719.9609375
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -11681105.0,
+        "Position Y": 84734152.0,
+        "Position Z": 174927760.0,
+        "Angle": 10.6814136505,
+        "Model ID": "022_01_1",
+        "AI ID": 3881,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 3600,
+        "Model Name": "HARRISON",
+        "Graph Name": "Cutscene Area",
+        "Graph Position": {
+            "Graph": 3600,
+            "X": 7665884.5,
+            "Y": -2919175.75,
+            "Z": 63719.9609375
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -11647346.0,
+        "Position Y": 84792880.0,
+        "Position Z": 174949088.0,
+        "Angle": 4.3982291222,
+        "Model ID": "020_01_1",
+        "AI ID": 3093,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 3096,
+        "Model Name": "AITYPE_FRIENDLY",
+        "Graph Name": "Cutscene Area",
+        "Graph Position": {
+            "Graph": 3096,
+            "X": 7595164.5,
+            "Y": -2909632.75,
+            "Z": 85060.5390625
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -11645245.0,
+        "Position Y": 84795768.0,
+        "Position Z": 174949088.0,
+        "Angle": 4.4471821785,
+        "Model ID": "021_01_1",
+        "AI ID": 3094,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 3096,
+        "Model Name": "HARRISON",
+        "Graph Name": "Cutscene Area",
+        "Graph Position": {
+            "Graph": 3096,
+            "X": 7595164.5,
+            "Y": -2909632.75,
+            "Z": 85060.5390625
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -11640252.0,
+        "Position Y": 84790960.0,
+        "Position Z": 174947872.0,
+        "Angle": 1.1519169807,
+        "Model ID": "020_01_1",
+        "AI ID": 3055,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 3096,
+        "Model Name": "AITYPE_FRIENDLY",
+        "Graph Name": "Cutscene Area",
+        "Graph Position": {
+            "Graph": 3096,
+            "X": 7595164.5,
+            "Y": -2909632.75,
+            "Z": 85060.5390625
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -910232.625,
+        "Position Y": 90524808.0,
+        "Position Z": 174766512.0,
+        "Angle": 3.5604720116,
+        "Model ID": "018_01_1",
+        "AI ID": 3812,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 3810,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "West of Helipad",
+        "Graph Position": {
+            "Graph": 3810,
+            "X": -818743.375,
+            "Y": 90546864.0,
+            "Z": 174813936.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -870539.5625,
+        "Position Y": 90562344.0,
+        "Position Z": 174767824.0,
+        "Angle": -1.989675045,
+        "Model ID": "018_01_1",
+        "AI ID": 3892,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 3891,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "West of Helipad",
+        "Graph Position": {
+            "Graph": 3891,
+            "X": -858122.8125,
+            "Y": 90565696.0,
+            "Z": 174776976.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -866521.0,
+        "Position Y": 90559080.0,
+        "Position Z": 174767824.0,
+        "Angle": 0.628319025,
+        "Model ID": "018_01_1",
+        "AI ID": 3893,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 3891,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "West of Helipad",
+        "Graph Position": {
+            "Graph": 3891,
+            "X": -858122.8125,
+            "Y": 90565696.0,
+            "Z": 174776976.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -959963.3125,
+        "Position Y": 90416088.0,
+        "Position Z": 174766960.0,
+        "Angle": 0.9424780011,
+        "Model ID": "020_01_1",
+        "AI ID": 3045,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 3031,
+        "Model Name": "AITYPE_FRIENDLY",
+        "Graph Name": "Helipad",
+        "Graph Position": {
+            "Graph": 3031,
+            "X": -975335.375,
+            "Y": 90416368.0,
+            "Z": 174773392.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -951049.375,
+        "Position Y": 90390808.0,
+        "Position Z": 174765152.0,
+        "Angle": 2.1991150379,
+        "Model ID": "021_01_1",
+        "AI ID": 3033,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 3031,
+        "Model Name": "HARRISON",
+        "Graph Name": "Helipad",
+        "Graph Position": {
+            "Graph": 3031,
+            "X": -975335.375,
+            "Y": 90416368.0,
+            "Z": 174773392.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -975755.875,
+        "Position Y": 90408736.0,
+        "Position Z": 174766960.0,
+        "Angle": 1.1093560457,
+        "Model ID": "020_01_1",
+        "AI ID": 3022,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 3031,
+        "Model Name": "AITYPE_FRIENDLY",
+        "Graph Name": "Helipad",
+        "Graph Position": {
+            "Graph": 3031,
+            "X": -975335.375,
+            "Y": 90416368.0,
+            "Z": 174773392.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -976199.0625,
+        "Position Y": 90413168.0,
+        "Position Z": 174766960.0,
+        "Angle": 2.1773560047,
+        "Model ID": "021_01_1",
+        "AI ID": 3015,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 3031,
+        "Model Name": "HARRISON",
+        "Graph Name": "Helipad",
+        "Graph Position": {
+            "Graph": 3031,
+            "X": -975335.375,
+            "Y": 90416368.0,
+            "Z": 174773392.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -980343.25,
+        "Position Y": 90410152.0,
+        "Position Z": 174766960.0,
+        "Angle": 4.817109108,
+        "Model ID": "022_01_1",
+        "AI ID": 3011,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 3031,
+        "Model Name": "HARRISON",
+        "Graph Name": "Helipad",
+        "Graph Position": {
+            "Graph": 3031,
+            "X": -975335.375,
+            "Y": 90416368.0,
+            "Z": 174773392.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -995569.4375,
+        "Position Y": 90440912.0,
+        "Position Z": 174766640.0,
+        "Angle": 1.08880198,
+        "Model ID": "022_01_1",
+        "AI ID": 3012,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 3056,
+        "Model Name": "HARRISON",
+        "Graph Name": "Helipad",
+        "Graph Position": {
+            "Graph": 3056,
+            "X": -994844.75,
+            "Y": 90457352.0,
+            "Z": 174767984.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -996575.625,
+        "Position Y": 90444576.0,
+        "Position Z": 174766640.0,
+        "Angle": 2.4336719513,
+        "Model ID": "015_01_1",
+        "AI ID": 3099,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 3056,
+        "Model Name": "AITYPE_ANYA",
+        "Graph Name": "Helipad",
+        "Graph Position": {
+            "Graph": 3056,
+            "X": -994844.75,
+            "Y": 90457352.0,
+            "Z": 174767984.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -1000342.4375,
+        "Position Y": 90441472.0,
+        "Position Z": 174766640.0,
+        "Angle": -1.3679950237,
+        "Model ID": "000_01_1",
+        "AI ID": 3088,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 3056,
+        "Model Name": "JONES",
+        "Graph Name": "Helipad",
+        "Graph Position": {
+            "Graph": 3056,
+            "X": -994844.75,
+            "Y": 90457352.0,
+            "Z": 174767984.0
+        }
+    },
+    {
+        "Soldier ID": 2000,
+        "Position X": -3138105.0,
+        "Position Y": 89461528.0,
+        "Position Z": 174771152.0,
+        "Angle": 0.0,
+        "Model ID": "018_01_1",
+        "AI ID": 2200,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 1,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Loading Bay",
+        "Graph Position": {
+            "Graph": 1,
+            "X": -3133759.75,
+            "Y": 89441320.0,
+            "Z": 174771136.0
+        }
+    },
+    {
+        "Soldier ID": 2001,
+        "Position X": -3154031.25,
+        "Position Y": 89843888.0,
+        "Position Z": 174771152.0,
+        "Angle": 0.0,
+        "Model ID": "018_01_1",
+        "AI ID": 2201,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 1,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Loading Bay",
+        "Graph Position": {
+            "Graph": 1,
+            "X": -3133759.75,
+            "Y": 89441320.0,
+            "Z": 174771136.0
+        }
+    },
+    {
+        "Soldier ID": 2002,
+        "Position X": -3098933.75,
+        "Position Y": 89950632.0,
+        "Position Z": 174786640.0,
+        "Angle": 0.0,
+        "Model ID": "018_01_1",
+        "AI ID": 2202,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 2,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "HQ Building 2nd Storey",
+        "Graph Position": {
+            "Graph": 2,
+            "X": -3111747.5,
+            "Y": 89966768.0,
+            "Z": 174786640.0
+        }
+    },
+    {
+        "Soldier ID": 2003,
+        "Position X": -3109403.5,
+        "Position Y": 89960616.0,
+        "Position Z": 174763008.0,
+        "Angle": 0.0,
+        "Model ID": "018_01_1",
+        "AI ID": 2203,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 3,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Around HQ and 1st Storey",
+        "Graph Position": {
+            "Graph": 3,
+            "X": -3152047.25,
+            "Y": 89856064.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 2004,
+        "Position X": -3156178.25,
+        "Position Y": 90027776.0,
+        "Position Z": 174650656.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2204,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2005,
+        "Position X": -3059953.75,
+        "Position Y": 90017296.0,
+        "Position Z": 174650656.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2205,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2006,
+        "Position X": -3009091.75,
+        "Position Y": 90028080.0,
+        "Position Z": 174635616.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2206,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2007,
+        "Position X": -3008841.5,
+        "Position Y": 90007472.0,
+        "Position Z": 174635616.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2207,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2008,
+        "Position X": -2973162.25,
+        "Position Y": 90018584.0,
+        "Position Z": 174635616.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2208,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2009,
+        "Position X": -2921298.5,
+        "Position Y": 90111728.0,
+        "Position Z": 174635616.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2209,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2010,
+        "Position X": -2893838.0,
+        "Position Y": 90103232.0,
+        "Position Z": 174635616.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2210,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2011,
+        "Position X": -2907979.75,
+        "Position Y": 90213832.0,
+        "Position Z": 174635616.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2211,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2012,
+        "Position X": -2852407.25,
+        "Position Y": 90411160.0,
+        "Position Z": 174635616.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2212,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2013,
+        "Position X": -2763026.75,
+        "Position Y": 90392384.0,
+        "Position Z": 174635616.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2213,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2014,
+        "Position X": -2750632.25,
+        "Position Y": 90348080.0,
+        "Position Z": 174635616.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2214,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2015,
+        "Position X": -2650993.5,
+        "Position Y": 90310240.0,
+        "Position Z": 174635616.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2215,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2016,
+        "Position X": -2580372.5,
+        "Position Y": 90249320.0,
+        "Position Z": 174635616.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2216,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2017,
+        "Position X": -2562044.0,
+        "Position Y": 90268176.0,
+        "Position Z": 174635616.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2217,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2018,
+        "Position X": -2432666.25,
+        "Position Y": 90269616.0,
+        "Position Z": 174635616.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2218,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2019,
+        "Position X": -2491144.5,
+        "Position Y": 90239840.0,
+        "Position Z": 174635616.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2219,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2020,
+        "Position X": -2479469.5,
+        "Position Y": 90215672.0,
+        "Position Z": 174635616.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2220,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2021,
+        "Position X": -2395904.0,
+        "Position Y": 90249472.0,
+        "Position Z": 174650752.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2221,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2022,
+        "Position X": -2340598.25,
+        "Position Y": 90131832.0,
+        "Position Z": 174650752.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2222,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Entire Underground Section",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -3182679.5,
+            "Y": 90031216.0,
+            "Z": 174650656.0
+        }
+    },
+    {
+        "Soldier ID": 2023,
+        "Position X": -3336667.5,
+        "Position Y": 89150576.0,
+        "Position Z": 174797792.0,
+        "Angle": 0.0,
+        "Model ID": "018_01_1",
+        "AI ID": 2223,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 8,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "1st Base Tower",
+        "Graph Position": {
+            "Graph": 8,
+            "X": -3351952.25,
+            "Y": 89141624.0,
+            "Z": 174798304.0
+        }
+    },
+    {
+        "Soldier ID": 2024,
+        "Position X": -3263222.25,
+        "Position Y": 88977160.0,
+        "Position Z": 174762816.0,
+        "Angle": 0.0,
+        "Model ID": "018_01_1",
+        "AI ID": 2224,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 9,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "1st Base",
+        "Graph Position": {
+            "Graph": 9,
+            "X": -3269162.75,
+            "Y": 89154440.0,
+            "Z": 174770848.0
+        }
+    },
+    {
+        "Soldier ID": 2025,
+        "Position X": -3220499.5,
+        "Position Y": 88995912.0,
+        "Position Z": 174762816.0,
+        "Angle": 0.0,
+        "Model ID": "018_01_1",
+        "AI ID": 2225,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 9,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "1st Base",
+        "Graph Position": {
+            "Graph": 9,
+            "X": -3269162.75,
+            "Y": 89154440.0,
+            "Z": 174770848.0
+        }
+    },
+    {
+        "Soldier ID": 2026,
+        "Position X": -3321313.25,
+        "Position Y": 88826576.0,
+        "Position Z": 174762816.0,
+        "Angle": 0.0,
+        "Model ID": "018_01_1",
+        "AI ID": 2226,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 9,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "1st Base",
+        "Graph Position": {
+            "Graph": 9,
+            "X": -3269162.75,
+            "Y": 89154440.0,
+            "Z": 174770848.0
+        }
+    },
+    {
+        "Soldier ID": 2027,
+        "Position X": -3094172.25,
+        "Position Y": 89034384.0,
+        "Position Z": 174762816.0,
+        "Angle": 0.0,
+        "Model ID": "018_01_1",
+        "AI ID": 2227,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 9,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "1st Base",
+        "Graph Position": {
+            "Graph": 9,
+            "X": -3269162.75,
+            "Y": 89154440.0,
+            "Z": 174770848.0
+        }
+    },
+    {
+        "Soldier ID": 2028,
+        "Position X": -3121874.5,
+        "Position Y": 89430392.0,
+        "Position Z": 174762816.0,
+        "Angle": 0.0,
+        "Model ID": "018_01_1",
+        "AI ID": 2228,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 9,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "1st Base",
+        "Graph Position": {
+            "Graph": 9,
+            "X": -3269162.75,
+            "Y": 89154440.0,
+            "Z": 174770848.0
+        }
+    },
+    {
+        "Soldier ID": 2029,
+        "Position X": -2207399.75,
+        "Position Y": 90324672.0,
+        "Position Z": 174810320.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2229,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 11,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Wooden Watchtower",
+        "Graph Position": {
+            "Graph": 11,
+            "X": -2222675.0,
+            "Y": 90322768.0,
+            "Z": 174810304.0
+        }
+    },
+    {
+        "Soldier ID": 2030,
+        "Position X": -2331500.75,
+        "Position Y": 90270704.0,
+        "Position Z": 174762656.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2230,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 7,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Southern Side 2nd Base",
+        "Graph Position": {
+            "Graph": 7,
+            "X": -2354811.25,
+            "Y": 90277656.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 2031,
+        "Position X": -2390262.25,
+        "Position Y": 90229880.0,
+        "Position Z": 174762656.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2231,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 7,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Southern Side 2nd Base",
+        "Graph Position": {
+            "Graph": 7,
+            "X": -2354811.25,
+            "Y": 90277656.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 2032,
+        "Position X": -2112619.75,
+        "Position Y": 90179352.0,
+        "Position Z": 174762656.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2232,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 7,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Southern Side 2nd Base",
+        "Graph Position": {
+            "Graph": 7,
+            "X": -2354811.25,
+            "Y": 90277656.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 2033,
+        "Position X": -2128158.75,
+        "Position Y": 90113296.0,
+        "Position Z": 174762656.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2233,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 7,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Southern Side 2nd Base",
+        "Graph Position": {
+            "Graph": 7,
+            "X": -2354811.25,
+            "Y": 90277656.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 2034,
+        "Position X": -2010495.25,
+        "Position Y": 90054480.0,
+        "Position Z": 174762656.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2234,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 7,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Southern Side 2nd Base",
+        "Graph Position": {
+            "Graph": 7,
+            "X": -2354811.25,
+            "Y": 90277656.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 2035,
+        "Position X": -1119267.5,
+        "Position Y": 90617712.0,
+        "Position Z": 174797792.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2235,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 12,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Last Watchtower",
+        "Graph Position": {
+            "Graph": 12,
+            "X": -1075201.0,
+            "Y": 90639240.0,
+            "Z": 174797792.0
+        }
+    },
+    {
+        "Soldier ID": 2036,
+        "Position X": -788432.25,
+        "Position Y": 90744088.0,
+        "Position Z": 174807584.0,
+        "Angle": 2.9279980659,
+        "Model ID": "001_01_1",
+        "AI ID": 2236,
+        "AI Type": "AITYPE_SNIPER",
+        "Graph ID": 13,
+        "Model Name": "AITYPE_SNIPER",
+        "Graph Name": "Sniper",
+        "Graph Position": {
+            "Graph": 13,
+            "X": -763655.25,
+            "Y": 90753480.0,
+            "Z": 174807584.0
+        }
+    },
+    {
+        "Soldier ID": 2037,
+        "Position X": -658983.5,
+        "Position Y": 90491632.0,
+        "Position Z": 174798016.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2237,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 14,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Radio B Roof",
+        "Graph Position": {
+            "Graph": 14,
+            "X": -643550.8125,
+            "Y": 90485752.0,
+            "Z": 174798016.0
+        }
+    },
+    {
+        "Soldier ID": 2038,
+        "Position X": -691943.9375,
+        "Position Y": 90520544.0,
+        "Position Z": 174798016.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2238,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 14,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Radio B Roof",
+        "Graph Position": {
+            "Graph": 14,
+            "X": -643550.8125,
+            "Y": 90485752.0,
+            "Z": 174798016.0
+        }
+    },
+    {
+        "Soldier ID": 2039,
+        "Position X": -724780.75,
+        "Position Y": 90518968.0,
+        "Position Z": 174777936.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2239,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 15,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Radio B Balcony",
+        "Graph Position": {
+            "Graph": 15,
+            "X": -683352.625,
+            "Y": 90562728.0,
+            "Z": 174762992.0
+        }
+    },
+    {
+        "Soldier ID": 2040,
+        "Position X": -754393.75,
+        "Position Y": 90635368.0,
+        "Position Z": 174762656.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2240,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 16,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Last Base",
+        "Graph Position": {
+            "Graph": 16,
+            "X": -1122952.125,
+            "Y": 90452520.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 2041,
+        "Position X": -864569.1875,
+        "Position Y": 90648528.0,
+        "Position Z": 174762656.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2241,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 16,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Last Base",
+        "Graph Position": {
+            "Graph": 16,
+            "X": -1122952.125,
+            "Y": 90452520.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 2042,
+        "Position X": -748598.0625,
+        "Position Y": 90577328.0,
+        "Position Z": 174762656.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2242,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 16,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Last Base",
+        "Graph Position": {
+            "Graph": 16,
+            "X": -1122952.125,
+            "Y": 90452520.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 2043,
+        "Position X": -1031288.125,
+        "Position Y": 90667328.0,
+        "Position Z": 174762656.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2243,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 16,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Last Base",
+        "Graph Position": {
+            "Graph": 16,
+            "X": -1122952.125,
+            "Y": 90452520.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 2044,
+        "Position X": -1079743.75,
+        "Position Y": 90418472.0,
+        "Position Z": 174762656.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2244,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 16,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Last Base",
+        "Graph Position": {
+            "Graph": 16,
+            "X": -1122952.125,
+            "Y": 90452520.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 2045,
+        "Position X": -726255.625,
+        "Position Y": 90512128.0,
+        "Position Z": 174762656.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2245,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 16,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Last Base",
+        "Graph Position": {
+            "Graph": 16,
+            "X": -1122952.125,
+            "Y": 90452520.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 2046,
+        "Position X": -1136541.75,
+        "Position Y": 90532752.0,
+        "Position Z": 174762992.0,
+        "Angle": 2.9279980659,
+        "Model ID": "013_01_1",
+        "AI ID": 2246,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 16,
+        "Model Name": "AITYPE_RPG",
+        "Graph Name": "Last Base",
+        "Graph Position": {
+            "Graph": 16,
+            "X": -1122952.125,
+            "Y": 90452520.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 2047,
+        "Position X": -986504.875,
+        "Position Y": 90445624.0,
+        "Position Z": 174762656.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2247,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 16,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Last Base",
+        "Graph Position": {
+            "Graph": 16,
+            "X": -1122952.125,
+            "Y": 90452520.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 2048,
+        "Position X": -740770.0,
+        "Position Y": 90474432.0,
+        "Position Z": 174762656.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2248,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 16,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Last Base",
+        "Graph Position": {
+            "Graph": 16,
+            "X": -1122952.125,
+            "Y": 90452520.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 2049,
+        "Position X": -820726.9375,
+        "Position Y": 90441720.0,
+        "Position Z": 174762656.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2249,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 16,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Last Base",
+        "Graph Position": {
+            "Graph": 16,
+            "X": -1122952.125,
+            "Y": 90452520.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 2050,
+        "Position X": -715186.625,
+        "Position Y": 90527456.0,
+        "Position Z": 174763888.0,
+        "Angle": 2.9279980659,
+        "Model ID": "018_01_1",
+        "AI ID": 2250,
+        "AI Type": "AITYPE_GUARD_AK",
+        "Graph ID": 17,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "Radio B Room",
+        "Graph Position": {
+            "Graph": 17,
+            "X": -691050.0,
+            "Y": 90546352.0,
+            "Z": 174763888.0
+        }
+    },
+    {
+        "Soldier ID": 2051,
+        "Position X": -3270963.25,
+        "Position Y": 89445832.0,
+        "Position Z": 174762784.0,
+        "Angle": 0.0,
+        "Model ID": "018_01_1",
+        "AI ID": 2251,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 9,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "1st Base",
+        "Graph Position": {
+            "Graph": 9,
+            "X": -3269162.75,
+            "Y": 89154440.0,
+            "Z": 174770848.0
+        }
+    },
+    {
+        "Soldier ID": 2052,
+        "Position X": -3263796.75,
+        "Position Y": 89445672.0,
+        "Position Z": 174762784.0,
+        "Angle": 0.0,
+        "Model ID": "018_01_1",
+        "AI ID": 2252,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 9,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "1st Base",
+        "Graph Position": {
+            "Graph": 9,
+            "X": -3269162.75,
+            "Y": 89154440.0,
+            "Z": 174770848.0
+        }
+    },
+    {
+        "Soldier ID": 2053,
+        "Position X": -3267592.5,
+        "Position Y": 89375736.0,
+        "Position Z": 174762784.0,
+        "Angle": 0.0,
+        "Model ID": "018_01_1",
+        "AI ID": 2253,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 9,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "1st Base",
+        "Graph Position": {
+            "Graph": 9,
+            "X": -3269162.75,
+            "Y": 89154440.0,
+            "Z": 174770848.0
+        }
+    },
+    {
+        "Soldier ID": 2054,
+        "Position X": -3271140.25,
+        "Position Y": 89380384.0,
+        "Position Z": 174762784.0,
+        "Angle": 0.0,
+        "Model ID": "018_01_1",
+        "AI ID": 2254,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 9,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "1st Base",
+        "Graph Position": {
+            "Graph": 9,
+            "X": -3269162.75,
+            "Y": 89154440.0,
+            "Z": 174770848.0
+        }
+    },
+    {
+        "Soldier ID": 2055,
+        "Position X": -3264159.5,
+        "Position Y": 89380336.0,
+        "Position Z": 174762784.0,
+        "Angle": 0.0,
+        "Model ID": "018_01_1",
+        "AI ID": 2255,
+        "AI Type": "AITYPE_SPETNAZ_PATROL_AK",
+        "Graph ID": 9,
+        "Model Name": "AITYPE_SPETNAZ_GUARD_AK",
+        "Graph Name": "1st Base",
+        "Graph Position": {
+            "Graph": 9,
+            "X": -3269162.75,
+            "Y": 89154440.0,
+            "Z": 174770848.0
+        }
+    },
+    {
+        "Soldier ID": 2901,
+        "Position X": -709384.375,
+        "Position Y": 90437392.0,
+        "Position Z": 174826672.0,
+        "Angle": 0.0,
+        "Model ID": "EditVariable_2901.nValue == 0 &&\\nEditVariable_2900.nValue == 1 &&\\nHumanSoldier_2050.isDead",
+        "AI ID": 0,
+        "AI Type": "nan",
+        "Graph ID": 0,
+        "Model Name": "Unknown",
+        "Graph Name": "Unknown"
+    }
+]

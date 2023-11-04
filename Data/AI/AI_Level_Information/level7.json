@@ -1,0 +1,908 @@
+[
+    {
+        "Soldier ID": 400,
+        "Position X": -6520042.5,
+        "Position Y": 90313840.0,
+        "Position Z": 174783664.0,
+        "Angle": 0.0,
+        "Model ID": "001_02_1",
+        "AI ID": 500,
+        "AI Type": "AITYPE_SNIPER",
+        "Graph ID": 1,
+        "Model Name": "AITYPE_SNIPER",
+        "Graph Name": "2-Storey Building 2nd Floor 1st Base",
+        "Graph Position": {
+            "Graph": 1,
+            "X": -6519518.0,
+            "Y": 90304480.0,
+            "Z": 174780576.0
+        }
+    },
+    {
+        "Soldier ID": 401,
+        "Position X": -6388059.5,
+        "Position Y": 90372096.0,
+        "Position Z": 174766816.0,
+        "Angle": 4.3982300758,
+        "Model ID": "003_02_1",
+        "AI ID": 501,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 2,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "Patroller #1 Near APC",
+        "Graph Position": {
+            "Graph": 2,
+            "X": -6386037.5,
+            "Y": 90358864.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 402,
+        "Position X": -6521354.5,
+        "Position Y": 90282120.0,
+        "Position Z": 174783360.0,
+        "Angle": 4.817109108,
+        "Model ID": "013_01_1",
+        "AI ID": 502,
+        "AI Type": "AITYPE_GUNNER",
+        "Graph ID": 1,
+        "Model Name": "AITYPE_RPG",
+        "Graph Name": "2-Storey Building 2nd Floor 1st Base",
+        "Graph Position": {
+            "Graph": 1,
+            "X": -6519518.0,
+            "Y": 90304480.0,
+            "Z": 174780576.0
+        }
+    },
+    {
+        "Soldier ID": 403,
+        "Position X": -6362468.0,
+        "Position Y": 90279008.0,
+        "Position Z": 174766880.0,
+        "Angle": 0.0,
+        "Model ID": "003_02_1",
+        "AI ID": 503,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 3,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "Patroller #2 Near APC",
+        "Graph Position": {
+            "Graph": 3,
+            "X": -6341156.0,
+            "Y": 90223424.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 404,
+        "Position X": -4991230.5,
+        "Position Y": 89296696.0,
+        "Position Z": 174787024.0,
+        "Angle": 1.3613569736,
+        "Model ID": "001_02_1",
+        "AI ID": 504,
+        "AI Type": "AITYPE_SNIPER",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_SNIPER",
+        "Graph Name": "3rd Sniper 1st Base",
+        "Graph Position": {
+            "Graph": 6,
+            "X": -4975850.0,
+            "Y": 89294784.0,
+            "Z": 174785136.0
+        }
+    },
+    {
+        "Soldier ID": 405,
+        "Position X": -5221302.0,
+        "Position Y": 89092776.0,
+        "Position Z": 174766688.0,
+        "Angle": -0.3100900054,
+        "Model ID": "003_02_1",
+        "AI ID": 505,
+        "AI Type": "AITYPE_GUARD_AK",
+        "Graph ID": 8,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "2nd Area AK47 Soldier",
+        "Graph Position": {
+            "Graph": 8,
+            "X": -5184934.0,
+            "Y": 89086592.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 407,
+        "Position X": -4619665.5,
+        "Position Y": 89240368.0,
+        "Position Z": 174815344.0,
+        "Angle": 1.5707960129,
+        "Model ID": "013_01_1",
+        "AI ID": 507,
+        "AI Type": "AITYPE_GUNNER",
+        "Graph ID": 9,
+        "Model Name": "AITYPE_RPG",
+        "Graph Name": "Watchtower Checkpoint",
+        "Graph Position": {
+            "Graph": 9,
+            "X": -4625821.0,
+            "Y": 89240488.0,
+            "Z": 174810304.0
+        }
+    },
+    {
+        "Soldier ID": 408,
+        "Position X": -6514767.0,
+        "Position Y": 90003168.0,
+        "Position Z": 174786720.0,
+        "Angle": 0.0,
+        "Model ID": "001_02_1",
+        "AI ID": 580,
+        "AI Type": "AITYPE_SNIPER",
+        "Graph ID": 11,
+        "Model Name": "AITYPE_SNIPER",
+        "Graph Name": "village sniper #2",
+        "Graph Position": {
+            "Graph": 11,
+            "X": -6515550.0,
+            "Y": 89996392.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 410,
+        "Position X": -4632084.0,
+        "Position Y": 89334936.0,
+        "Position Z": 174766512.0,
+        "Angle": 2.4085540771,
+        "Model ID": "004_01_1",
+        "AI ID": 510,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 13,
+        "Model Name": "AITYPE_GUARD_AK",
+        "Graph Name": "Barracks Near 2nd APC/Checkpoint",
+        "Graph Position": {
+            "Graph": 13,
+            "X": -4662941.0,
+            "Y": 89397040.0,
+            "Z": 174763968.0
+        }
+    },
+    {
+        "Soldier ID": 412,
+        "Position X": -3626962.5,
+        "Position Y": 88841576.0,
+        "Position Z": 174814320.0,
+        "Angle": 1.0471969843,
+        "Model ID": "004_01_1",
+        "AI ID": 512,
+        "AI Type": "AITYPE_GUARD_AK",
+        "Graph ID": 15,
+        "Model Name": "AITYPE_GUARD_AK",
+        "Graph Name": "Watchtower Last Base",
+        "Graph Position": {
+            "Graph": 15,
+            "X": -3625172.75,
+            "Y": 88840056.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 417,
+        "Position X": -3680142.25,
+        "Position Y": 88697536.0,
+        "Position Z": 174766688.0,
+        "Angle": 1.8849560022,
+        "Model ID": "013_01_1",
+        "AI ID": 517,
+        "AI Type": "AITYPE_GUNNER",
+        "Graph ID": 19,
+        "Model Name": "AITYPE_RPG",
+        "Graph Name": "Barracks Area Last Base",
+        "Graph Position": {
+            "Graph": 19,
+            "X": -3673581.0,
+            "Y": 88691568.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 418,
+        "Position X": -4652944.0,
+        "Position Y": 89375288.0,
+        "Position Z": 174767872.0,
+        "Angle": 5.0265479088,
+        "Model ID": "003_02_1",
+        "AI ID": 518,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 13,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "Barracks Near 2nd APC/Checkpoint",
+        "Graph Position": {
+            "Graph": 13,
+            "X": -4662941.0,
+            "Y": 89397040.0,
+            "Z": 174763968.0
+        }
+    },
+    {
+        "Soldier ID": 419,
+        "Position X": -7148566.0,
+        "Position Y": 91111296.0,
+        "Position Z": 174766576.0,
+        "Angle": 4.6079950333,
+        "Model ID": "001_02_1",
+        "AI ID": 519,
+        "AI Type": "AITYPE_SNIPER",
+        "Graph ID": 21,
+        "Model Name": "AITYPE_SNIPER",
+        "Graph Name": "After 1st Sniper Road's Right Side",
+        "Graph Position": {
+            "Graph": 21,
+            "X": -7073292.0,
+            "Y": 91045544.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 420,
+        "Position X": -6234195.0,
+        "Position Y": 89228408.0,
+        "Position Z": 174766176.0,
+        "Angle": 0.0,
+        "Model ID": "003_02_1",
+        "AI ID": 520,
+        "AI Type": "AITYPE_GUARD_UZI",
+        "Graph ID": 23,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "2 Jeep Soldiers",
+        "Graph Position": {
+            "Graph": 23,
+            "X": -6237745.5,
+            "Y": 89212480.0,
+            "Z": 174762592.0
+        }
+    },
+    {
+        "Soldier ID": 425,
+        "Position X": -6188991.5,
+        "Position Y": 89193560.0,
+        "Position Z": 174766736.0,
+        "Angle": 0.0,
+        "Model ID": "004_01_1",
+        "AI ID": 525,
+        "AI Type": "AITYPE_PATROL_UZI",
+        "Graph ID": 23,
+        "Model Name": "AITYPE_GUARD_AK",
+        "Graph Name": "2 Jeep Soldiers",
+        "Graph Position": {
+            "Graph": 23,
+            "X": -6237745.5,
+            "Y": 89212480.0,
+            "Z": 174762592.0
+        }
+    },
+    {
+        "Soldier ID": 409,
+        "Position X": -6553766.5,
+        "Position Y": 90266632.0,
+        "Position Z": 174767968.0,
+        "Angle": 2.0943949223,
+        "Model ID": "003_02_1",
+        "AI ID": 509,
+        "AI Type": "AITYPE_PATROL_SPAS",
+        "Graph ID": 12,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "2-Storey B 1st Floor 1st Base",
+        "Graph Position": {
+            "Graph": 12,
+            "X": -6557711.0,
+            "Y": 90259232.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 426,
+        "Position X": -6672663.0,
+        "Position Y": 90277592.0,
+        "Position Z": 174770144.0,
+        "Angle": 4.3799958229,
+        "Model ID": "003_02_1",
+        "AI ID": 526,
+        "AI Type": "AITYPE_GUARD_SPAS",
+        "Graph ID": 12,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "2-Storey B 1st Floor 1st Base",
+        "Graph Position": {
+            "Graph": 12,
+            "X": -6557711.0,
+            "Y": 90259232.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 414,
+        "Position X": -4978282.0,
+        "Position Y": 89289640.0,
+        "Position Z": 174766832.0,
+        "Angle": 3.9793510437,
+        "Model ID": "004_01_1",
+        "AI ID": 514,
+        "AI Type": "AITYPE_GUARD_AK",
+        "Graph ID": 17,
+        "Model Name": "AITYPE_GUARD_AK",
+        "Graph Name": "2nd Area Below Sniper",
+        "Graph Position": {
+            "Graph": 17,
+            "X": -4979433.0,
+            "Y": 89294560.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 406,
+        "Position X": -6376501.5,
+        "Position Y": 90146968.0,
+        "Position Z": 174767888.0,
+        "Angle": 0.0,
+        "Model ID": "004_01_1",
+        "AI ID": 506,
+        "AI Type": "AITYPE_GUARD_AK",
+        "Graph ID": 7,
+        "Model Name": "AITYPE_GUARD_AK",
+        "Graph Name": "Barracks Near First APC",
+        "Graph Position": {
+            "Graph": 7,
+            "X": -6374302.0,
+            "Y": 90159040.0,
+            "Z": 174764224.0
+        }
+    },
+    {
+        "Soldier ID": 411,
+        "Position X": -4656479.5,
+        "Position Y": 89399376.0,
+        "Position Z": 174767776.0,
+        "Angle": 0.0,
+        "Model ID": "003_02_1",
+        "AI ID": 511,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 13,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "Barracks Near 2nd APC/Checkpoint",
+        "Graph Position": {
+            "Graph": 13,
+            "X": -4662941.0,
+            "Y": 89397040.0,
+            "Z": 174763968.0
+        }
+    },
+    {
+        "Soldier ID": 421,
+        "Position X": -4966724.0,
+        "Position Y": 89197800.0,
+        "Position Z": 174763984.0,
+        "Angle": 1.7879990339,
+        "Model ID": "003_02_1",
+        "AI ID": 521,
+        "AI Type": "AITYPE_PATROL_UZI",
+        "Graph ID": 22,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "Area Around 4th Sniper",
+        "Graph Position": {
+            "Graph": 22,
+            "X": -4983723.0,
+            "Y": 89197880.0,
+            "Z": 174767648.0
+        }
+    },
+    {
+        "Soldier ID": 422,
+        "Position X": -4959440.5,
+        "Position Y": 89196648.0,
+        "Position Z": 174764480.0,
+        "Angle": 1.3680000305,
+        "Model ID": "003_02_1",
+        "AI ID": 522,
+        "AI Type": "AITYPE_PATROL_UZI",
+        "Graph ID": 22,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "Area Around 4th Sniper",
+        "Graph Position": {
+            "Graph": 22,
+            "X": -4983723.0,
+            "Y": 89197880.0,
+            "Z": 174767648.0
+        }
+    },
+    {
+        "Soldier ID": 423,
+        "Position X": -4958989.0,
+        "Position Y": 89190128.0,
+        "Position Z": 174764032.0,
+        "Angle": 1.3079990149,
+        "Model ID": "003_02_1",
+        "AI ID": 523,
+        "AI Type": "AITYPE_PATROL_UZI",
+        "Graph ID": 22,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "Area Around 4th Sniper",
+        "Graph Position": {
+            "Graph": 22,
+            "X": -4983723.0,
+            "Y": 89197880.0,
+            "Z": 174767648.0
+        }
+    },
+    {
+        "Soldier ID": 424,
+        "Position X": -4966701.5,
+        "Position Y": 89194400.0,
+        "Position Z": 174764384.0,
+        "Angle": 1.3559999466,
+        "Model ID": "003_02_1",
+        "AI ID": 524,
+        "AI Type": "AITYPE_PATROL_UZI",
+        "Graph ID": 22,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "Area Around 4th Sniper",
+        "Graph Position": {
+            "Graph": 22,
+            "X": -4983723.0,
+            "Y": 89197880.0,
+            "Z": 174767648.0
+        }
+    },
+    {
+        "Soldier ID": 429,
+        "Position X": -3874578.0,
+        "Position Y": 88654680.0,
+        "Position Z": 174766800.0,
+        "Angle": 0.0,
+        "Model ID": "003_02_1",
+        "AI ID": 529,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 19,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "Barracks Area Last Base",
+        "Graph Position": {
+            "Graph": 19,
+            "X": -3673581.0,
+            "Y": 88691568.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 430,
+        "Position X": -3765668.0,
+        "Position Y": 88498312.0,
+        "Position Z": 174767968.0,
+        "Angle": -0.9480000138,
+        "Model ID": "003_02_1",
+        "AI ID": 530,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 19,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "Barracks Area Last Base",
+        "Graph Position": {
+            "Graph": 19,
+            "X": -3673581.0,
+            "Y": 88691568.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 431,
+        "Position X": -3760871.5,
+        "Position Y": 88499296.0,
+        "Position Z": 174767968.0,
+        "Angle": -0.9480000138,
+        "Model ID": "003_02_1",
+        "AI ID": 531,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 19,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "Barracks Area Last Base",
+        "Graph Position": {
+            "Graph": 19,
+            "X": -3673581.0,
+            "Y": 88691568.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 432,
+        "Position X": -3763116.25,
+        "Position Y": 88502744.0,
+        "Position Z": 174767968.0,
+        "Angle": -0.9480000138,
+        "Model ID": "003_02_1",
+        "AI ID": 532,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 19,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "Barracks Area Last Base",
+        "Graph Position": {
+            "Graph": 19,
+            "X": -3673581.0,
+            "Y": 88691568.0,
+            "Z": 174762656.0
+        }
+    },
+    {
+        "Soldier ID": 433,
+        "Position X": -3666321.0,
+        "Position Y": 88957720.0,
+        "Position Z": 174768624.0,
+        "Angle": -0.7330380082,
+        "Model ID": "004_01_1",
+        "AI ID": 533,
+        "AI Type": "AITYPE_GUARD_SPAS",
+        "Graph ID": 14,
+        "Model Name": "AITYPE_GUARD_AK",
+        "Graph Name": "Radio Building and area",
+        "Graph Position": {
+            "Graph": 14,
+            "X": -3656111.25,
+            "Y": 88940648.0,
+            "Z": 174745088.0
+        }
+    },
+    {
+        "Soldier ID": 434,
+        "Position X": -3659976.25,
+        "Position Y": 88964584.0,
+        "Position Z": 174749088.0,
+        "Angle": 0.0,
+        "Model ID": "004_01_1",
+        "AI ID": 534,
+        "AI Type": "AITYPE_GUARD_PISTOL",
+        "Graph ID": 14,
+        "Model Name": "AITYPE_GUARD_AK",
+        "Graph Name": "Radio Building and area",
+        "Graph Position": {
+            "Graph": 14,
+            "X": -3656111.25,
+            "Y": 88940648.0,
+            "Z": 174745088.0
+        }
+    },
+    {
+        "Soldier ID": 435,
+        "Position X": -3731236.0,
+        "Position Y": 89016968.0,
+        "Position Z": 174767760.0,
+        "Angle": 0.0,
+        "Model ID": "003_02_1",
+        "AI ID": 535,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 14,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "Radio Building and area",
+        "Graph Position": {
+            "Graph": 14,
+            "X": -3656111.25,
+            "Y": 88940648.0,
+            "Z": 174745088.0
+        }
+    },
+    {
+        "Soldier ID": 436,
+        "Position X": -3663049.25,
+        "Position Y": 88971720.0,
+        "Position Z": 174783408.0,
+        "Angle": 1.6755160093,
+        "Model ID": "004_01_1",
+        "AI ID": 536,
+        "AI Type": "AITYPE_PATROL_PISTOL",
+        "Graph ID": 14,
+        "Model Name": "AITYPE_GUARD_AK",
+        "Graph Name": "Radio Building and area",
+        "Graph Position": {
+            "Graph": 14,
+            "X": -3656111.25,
+            "Y": 88940648.0,
+            "Z": 174745088.0
+        }
+    },
+    {
+        "Soldier ID": 2004,
+        "Position X": -6553766.0,
+        "Position Y": 90266632.0,
+        "Position Z": 174767104.0,
+        "Angle": 0.0,
+        "Model ID": "EditVariable_2004.nValue == 0 &&\\n(\\n HumanSoldier_401.isDead || HumanSoldier_403.isDead\\n",
+        "AI ID": 0,
+        "AI Type": "nan",
+        "Graph ID": 0,
+        "Model Name": "Unknown",
+        "Graph Name": "Unknown"
+    },
+    {
+        "Soldier ID": 1834,
+        "Position X": -9067339.0,
+        "Position Y": 92365256.0,
+        "Position Z": 175526576.0,
+        "Angle": 4.0840702057,
+        "Model ID": "000_01_1",
+        "AI ID": 1874,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 18,
+        "Model Name": "JONES",
+        "Graph Name": "Cutscene Area",
+        "Graph Position": {
+            "Graph": 18,
+            "X": -23861.09375,
+            "Y": 17483.828125,
+            "Z": 12904.38671875
+        }
+    },
+    {
+        "Soldier ID": 1145,
+        "Position X": -8086277.5,
+        "Position Y": 92256432.0,
+        "Position Z": 174687120.0,
+        "Angle": 4.817109108,
+        "Model ID": "000_01_1",
+        "AI ID": 2343,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 16,
+        "Model Name": "JONES",
+        "Graph Name": "Cutscene Area",
+        "Graph Position": {
+            "Graph": 16,
+            "X": -704950.0,
+            "Y": 350575.78125,
+            "Z": -826544.0625
+        }
+    },
+    {
+        "Soldier ID": 1165,
+        "Position X": -8099096.5,
+        "Position Y": 92253768.0,
+        "Position Z": 174687344.0,
+        "Angle": 6.2831850052,
+        "Model ID": "009_01_1",
+        "AI ID": 2387,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 20,
+        "Model Name": "AITYPE_JACH_PRIBOI",
+        "Graph Name": "Cutscene Area",
+        "Graph Position": {
+            "Graph": 20,
+            "X": -338.416259765625,
+            "Y": 1975.8818359375,
+            "Z": 2882.23876953125
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -7179211.0,
+        "Position Y": 91068328.0,
+        "Position Z": 174768432.0,
+        "Angle": 4.9218277931,
+        "Model ID": "003_02_1",
+        "AI ID": 2121,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 32,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "Cutscene Area",
+        "Graph Position": {
+            "Graph": 32,
+            "X": -12746.1923828125,
+            "Y": 32298.759765625,
+            "Z": 9873.4765625
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -7197855.5,
+        "Position Y": 91101192.0,
+        "Position Z": 174766608.0,
+        "Angle": 3.246311903,
+        "Model ID": "006_01_1",
+        "AI ID": 1110,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 33,
+        "Model Name": "AITYPE_GUARD_AK",
+        "Graph Name": "Wrecked Heli",
+        "Graph Position": {
+            "Graph": 33,
+            "X": -7208963.5,
+            "Y": 91129976.0,
+            "Z": 174774576.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -7200431.0,
+        "Position Y": 91097624.0,
+        "Position Z": 174766608.0,
+        "Angle": 4.1887898445,
+        "Model ID": "006_01_1",
+        "AI ID": 3434,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 33,
+        "Model Name": "AITYPE_GUARD_AK",
+        "Graph Name": "Wrecked Heli",
+        "Graph Position": {
+            "Graph": 33,
+            "X": -7208963.5,
+            "Y": 91129976.0,
+            "Z": 174774576.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -7210133.0,
+        "Position Y": 91088784.0,
+        "Position Z": 174767856.0,
+        "Angle": -1.3613569736,
+        "Model ID": "003_01_1",
+        "AI ID": 3364,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 24,
+        "Model Name": "AITYPE_PATROL_AK",
+        "Graph Name": "Cutscene Area",
+        "Graph Position": {
+            "Graph": 24,
+            "X": -55782.03125,
+            "Y": -35601.3046875,
+            "Z": 6588.369140625
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -7190367.5,
+        "Position Y": 91090608.0,
+        "Position Z": 174767056.0,
+        "Angle": 0.6119999886,
+        "Model ID": "006_01_1",
+        "AI ID": 3154,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 27,
+        "Model Name": "AITYPE_GUARD_AK",
+        "Graph Name": "Road 1st Area",
+        "Graph Position": {
+            "Graph": 27,
+            "X": -7195652.0,
+            "Y": 91020400.0,
+            "Z": 174772416.0
+        }
+    },
+    {
+        "Soldier ID": 2211,
+        "Position X": -7205187.5,
+        "Position Y": 91107640.0,
+        "Position Z": 174766864.0,
+        "Angle": -2.7227139473,
+        "Model ID": "009_01_1",
+        "AI ID": 1234,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 28,
+        "Model Name": "AITYPE_JACH_PRIBOI",
+        "Graph Name": "Behind First Sniper",
+        "Graph Position": {
+            "Graph": 28,
+            "X": -7246766.5,
+            "Y": 91091560.0,
+            "Z": 174764112.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -7203721.5,
+        "Position Y": 91108368.0,
+        "Position Z": 174766672.0,
+        "Angle": -2.7227139473,
+        "Model ID": "004_01_1",
+        "AI ID": 1239,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 29,
+        "Model Name": "AITYPE_GUARD_AK",
+        "Graph Name": "Behind First Sniper",
+        "Graph Position": {
+            "Graph": 29,
+            "X": -7175187.0,
+            "Y": 91117208.0,
+            "Z": 174781120.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -7206646.5,
+        "Position Y": 91106912.0,
+        "Position Z": 174766656.0,
+        "Angle": -2.7227139473,
+        "Model ID": "004_01_1",
+        "AI ID": 3245,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 29,
+        "Model Name": "AITYPE_GUARD_AK",
+        "Graph Name": "Behind First Sniper",
+        "Graph Position": {
+            "Graph": 29,
+            "X": -7175187.0,
+            "Y": 91117208.0,
+            "Z": 174781120.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -7239013.5,
+        "Position Y": 91084912.0,
+        "Position Z": 174766592.0,
+        "Angle": -0.4188790023,
+        "Model ID": "006_01_1",
+        "AI ID": 1255,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 30,
+        "Model Name": "AITYPE_GUARD_AK",
+        "Graph Name": "Behind First Sniper",
+        "Graph Position": {
+            "Graph": 30,
+            "X": -7242611.5,
+            "Y": 91078000.0,
+            "Z": 174766704.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -7192895.0,
+        "Position Y": 91131456.0,
+        "Position Z": 174766656.0,
+        "Angle": 2.4097549915,
+        "Model ID": "006_01_1",
+        "AI ID": 3344,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 31,
+        "Model Name": "AITYPE_GUARD_AK",
+        "Graph Name": "Behind First Sniper",
+        "Graph Position": {
+            "Graph": 31,
+            "X": -7186455.0,
+            "Y": 91126144.0,
+            "Z": 174771536.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -7191528.5,
+        "Position Y": 91127968.0,
+        "Position Z": 174766656.0,
+        "Angle": 1.3219879866,
+        "Model ID": "006_01_1",
+        "AI ID": 1212,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 31,
+        "Model Name": "AITYPE_GUARD_AK",
+        "Graph Name": "Behind First Sniper",
+        "Graph Position": {
+            "Graph": 31,
+            "X": -7186455.0,
+            "Y": 91126144.0,
+            "Z": 174771536.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": -7196041.0,
+        "Position Y": 91127728.0,
+        "Position Z": 174766656.0,
+        "Angle": 5.1792588234,
+        "Model ID": "019_01_1",
+        "AI ID": 3355,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 31,
+        "Model Name": "AITYPE_SECURITY_PATROL_SPAS",
+        "Graph Name": "Behind First Sniper",
+        "Graph Position": {
+            "Graph": 31,
+            "X": -7186455.0,
+            "Y": 91126144.0,
+            "Z": 174771536.0
+        }
+    }
+]

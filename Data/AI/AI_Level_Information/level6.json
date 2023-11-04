@@ -1,0 +1,1047 @@
+[
+    {
+        "Soldier ID": 400,
+        "Position X": 24504994.0,
+        "Position Y": 87137648.0,
+        "Position Z": 174680592.0,
+        "Angle": 3.5604720116,
+        "Model ID": "014_01_1",
+        "AI ID": 500,
+        "AI Type": "AITYPE_MAFIA_PATROL_AK",
+        "Graph ID": 2,
+        "Model Name": "AITYPE_MAFIA_PATROL_AK",
+        "Graph Name": "Entrance Guards",
+        "Graph Position": {
+            "Graph": 2,
+            "X": 24449540.0,
+            "Y": 87119712.0,
+            "Z": 174675264.0
+        }
+    },
+    {
+        "Soldier ID": 402,
+        "Position X": 24519728.0,
+        "Position Y": 87153872.0,
+        "Position Z": 174680592.0,
+        "Angle": 3.5604720116,
+        "Model ID": "014_01_1",
+        "AI ID": 502,
+        "AI Type": "AITYPE_MAFIA_PATROL_AK",
+        "Graph ID": 2,
+        "Model Name": "AITYPE_MAFIA_PATROL_AK",
+        "Graph Name": "Entrance Guards",
+        "Graph Position": {
+            "Graph": 2,
+            "X": 24449540.0,
+            "Y": 87119712.0,
+            "Z": 174675264.0
+        }
+    },
+    {
+        "Soldier ID": 403,
+        "Position X": 24498112.0,
+        "Position Y": 87193464.0,
+        "Position Z": 174680592.0,
+        "Angle": 1.1519169807,
+        "Model ID": "014_01_1",
+        "AI ID": 503,
+        "AI Type": "AITYPE_MAFIA_GUARD_AK",
+        "Graph ID": 2,
+        "Model Name": "AITYPE_MAFIA_PATROL_AK",
+        "Graph Name": "Entrance Guards",
+        "Graph Position": {
+            "Graph": 2,
+            "X": 24449540.0,
+            "Y": 87119712.0,
+            "Z": 174675264.0
+        }
+    },
+    {
+        "Soldier ID": 405,
+        "Position X": 24444812.0,
+        "Position Y": 87316456.0,
+        "Position Z": 174679376.0,
+        "Angle": 6.2831850052,
+        "Model ID": "014_02_1",
+        "AI ID": 505,
+        "AI Type": "AITYPE_MAFIA_PATROL_AK",
+        "Graph ID": 2,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Entrance Guards",
+        "Graph Position": {
+            "Graph": 2,
+            "X": 24449540.0,
+            "Y": 87119712.0,
+            "Z": 174675264.0
+        }
+    },
+    {
+        "Soldier ID": 401,
+        "Position X": 24481704.0,
+        "Position Y": 87149880.0,
+        "Position Z": 174680368.0,
+        "Angle": 0.0,
+        "Model ID": "014_02_1",
+        "AI ID": 501,
+        "AI Type": "AITYPE_MAFIA_PATROL_AK",
+        "Graph ID": 2,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Entrance Guards",
+        "Graph Position": {
+            "Graph": 2,
+            "X": 24449540.0,
+            "Y": 87119712.0,
+            "Z": 174675264.0
+        }
+    },
+    {
+        "Soldier ID": 404,
+        "Position X": 24518366.0,
+        "Position Y": 87213440.0,
+        "Position Z": 174680368.0,
+        "Angle": 2.5132739544,
+        "Model ID": "014_02_1",
+        "AI ID": 504,
+        "AI Type": "AITYPE_MAFIA_PATROL_AK",
+        "Graph ID": 2,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Entrance Guards",
+        "Graph Position": {
+            "Graph": 2,
+            "X": 24449540.0,
+            "Y": 87119712.0,
+            "Z": 174675264.0
+        }
+    },
+    {
+        "Soldier ID": 406,
+        "Position X": 24474806.0,
+        "Position Y": 87775936.0,
+        "Position Z": 174680560.0,
+        "Angle": 1.4660760164,
+        "Model ID": "011_01_1",
+        "AI ID": 506,
+        "AI Type": "AITYPE_GUNNER",
+        "Graph ID": 3,
+        "Model Name": "CIVILIAN_GUY1",
+        "Graph Name": "Warehouse",
+        "Graph Position": {
+            "Graph": 3,
+            "X": 24470562.0,
+            "Y": 87757248.0,
+            "Z": 174676640.0
+        }
+    },
+    {
+        "Soldier ID": 407,
+        "Position X": 24474926.0,
+        "Position Y": 87795696.0,
+        "Position Z": 174680656.0,
+        "Angle": 1.4660760164,
+        "Model ID": "011_03_1",
+        "AI ID": 507,
+        "AI Type": "AITYPE_GUNNER",
+        "Graph ID": 3,
+        "Model Name": "AITYPE_GUNNER",
+        "Graph Name": "Warehouse",
+        "Graph Position": {
+            "Graph": 3,
+            "X": 24470562.0,
+            "Y": 87757248.0,
+            "Z": 174676640.0
+        }
+    },
+    {
+        "Soldier ID": 408,
+        "Position X": 24529986.0,
+        "Position Y": 87773560.0,
+        "Position Z": 174681696.0,
+        "Angle": 0.0,
+        "Model ID": "014_01_1",
+        "AI ID": 508,
+        "AI Type": "AITYPE_MAFIA_GUARD_SPAS",
+        "Graph ID": 3,
+        "Model Name": "AITYPE_MAFIA_PATROL_AK",
+        "Graph Name": "Warehouse",
+        "Graph Position": {
+            "Graph": 3,
+            "X": 24470562.0,
+            "Y": 87757248.0,
+            "Z": 174676640.0
+        }
+    },
+    {
+        "Soldier ID": 409,
+        "Position X": 24548486.0,
+        "Position Y": 87703880.0,
+        "Position Z": 174682000.0,
+        "Angle": -0.8377580047,
+        "Model ID": "014_01_1",
+        "AI ID": 509,
+        "AI Type": "AITYPE_MAFIA_GUARD_SPAS",
+        "Graph ID": 3,
+        "Model Name": "AITYPE_MAFIA_PATROL_AK",
+        "Graph Name": "Warehouse",
+        "Graph Position": {
+            "Graph": 3,
+            "X": 24470562.0,
+            "Y": 87757248.0,
+            "Z": 174676640.0
+        }
+    },
+    {
+        "Soldier ID": 427,
+        "Position X": 24474352.0,
+        "Position Y": 87805920.0,
+        "Position Z": 174681696.0,
+        "Angle": -0.4188790023,
+        "Model ID": "014_01_1",
+        "AI ID": 527,
+        "AI Type": "AITYPE_GUARD_AK",
+        "Graph ID": 3,
+        "Model Name": "AITYPE_MAFIA_PATROL_AK",
+        "Graph Name": "Warehouse",
+        "Graph Position": {
+            "Graph": 3,
+            "X": 24470562.0,
+            "Y": 87757248.0,
+            "Z": 174676640.0
+        }
+    },
+    {
+        "Soldier ID": 428,
+        "Position X": 24474914.0,
+        "Position Y": 87814264.0,
+        "Position Z": 174681696.0,
+        "Angle": 2.3038349152,
+        "Model ID": "011_01_1",
+        "AI ID": 528,
+        "AI Type": "AITYPE_GUARD_AK",
+        "Graph ID": 3,
+        "Model Name": "CIVILIAN_GUY1",
+        "Graph Name": "Warehouse",
+        "Graph Position": {
+            "Graph": 3,
+            "X": 24470562.0,
+            "Y": 87757248.0,
+            "Z": 174676640.0
+        }
+    },
+    {
+        "Soldier ID": 410,
+        "Position X": 24606220.0,
+        "Position Y": 87862824.0,
+        "Position Z": 174680608.0,
+        "Angle": -3.1415929794,
+        "Model ID": "014_02_1",
+        "AI ID": 510,
+        "AI Type": "AITYPE_MAFIA_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Barracks to Power Building",
+        "Graph Position": {
+            "Graph": 6,
+            "X": 24611794.0,
+            "Y": 87823424.0,
+            "Z": 174675264.0
+        }
+    },
+    {
+        "Soldier ID": 411,
+        "Position X": 24599904.0,
+        "Position Y": 87863040.0,
+        "Position Z": 174680608.0,
+        "Angle": -3.1415929794,
+        "Model ID": "014_02_1",
+        "AI ID": 511,
+        "AI Type": "AITYPE_MAFIA_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Barracks to Power Building",
+        "Graph Position": {
+            "Graph": 6,
+            "X": 24611794.0,
+            "Y": 87823424.0,
+            "Z": 174675264.0
+        }
+    },
+    {
+        "Soldier ID": 412,
+        "Position X": 24606430.0,
+        "Position Y": 87856320.0,
+        "Position Z": 174680608.0,
+        "Angle": -3.1415929794,
+        "Model ID": "014_02_1",
+        "AI ID": 512,
+        "AI Type": "AITYPE_MAFIA_PATROL_AK",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Barracks to Power Building",
+        "Graph Position": {
+            "Graph": 6,
+            "X": 24611794.0,
+            "Y": 87823424.0,
+            "Z": 174675264.0
+        }
+    },
+    {
+        "Soldier ID": 413,
+        "Position X": 24966328.0,
+        "Position Y": 88676840.0,
+        "Position Z": 174505904.0,
+        "Angle": 0.0,
+        "Model ID": "014_02_1",
+        "AI ID": 513,
+        "AI Type": "AITYPE_MAFIA_PATROL_AK",
+        "Graph ID": 7,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Helipad",
+        "Graph Position": {
+            "Graph": 7,
+            "X": 24991046.0,
+            "Y": 88710120.0,
+            "Z": 174500512.0
+        }
+    },
+    {
+        "Soldier ID": 414,
+        "Position X": 24974230.0,
+        "Position Y": 88676696.0,
+        "Position Z": 174505904.0,
+        "Angle": 0.0,
+        "Model ID": "014_02_1",
+        "AI ID": 514,
+        "AI Type": "AITYPE_MAFIA_PATROL_AK",
+        "Graph ID": 7,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Helipad",
+        "Graph Position": {
+            "Graph": 7,
+            "X": 24991046.0,
+            "Y": 88710120.0,
+            "Z": 174500512.0
+        }
+    },
+    {
+        "Soldier ID": 415,
+        "Position X": 24451000.0,
+        "Position Y": 87497160.0,
+        "Position Z": 174679360.0,
+        "Angle": 0.0,
+        "Model ID": "014_02_1",
+        "AI ID": 515,
+        "AI Type": "AITYPE_MAFIA_PATROL_SPAS",
+        "Graph ID": 3,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Warehouse",
+        "Graph Position": {
+            "Graph": 3,
+            "X": 24470562.0,
+            "Y": 87757248.0,
+            "Z": 174676640.0
+        }
+    },
+    {
+        "Soldier ID": 416,
+        "Position X": 24281558.0,
+        "Position Y": 89485728.0,
+        "Position Z": 174510112.0,
+        "Angle": 4.9218277931,
+        "Model ID": "014_02_1",
+        "AI ID": 516,
+        "AI Type": "AITYPE_MAFIA_GUARD_SPAS",
+        "Graph ID": 12,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Priboi's Warehouse",
+        "Graph Position": {
+            "Graph": 12,
+            "X": 24389518.0,
+            "Y": 89470008.0,
+            "Z": 174505712.0
+        }
+    },
+    {
+        "Soldier ID": 417,
+        "Position X": 24357584.0,
+        "Position Y": 89516000.0,
+        "Position Z": 174510112.0,
+        "Angle": 4.9218277931,
+        "Model ID": "014_02_1",
+        "AI ID": 517,
+        "AI Type": "AITYPE_MAFIA_GUARD_SPAS",
+        "Graph ID": 12,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Priboi's Warehouse",
+        "Graph Position": {
+            "Graph": 12,
+            "X": 24389518.0,
+            "Y": 89470008.0,
+            "Z": 174505712.0
+        }
+    },
+    {
+        "Soldier ID": 419,
+        "Position X": 24330180.0,
+        "Position Y": 89396216.0,
+        "Position Z": 174510112.0,
+        "Angle": -5.1312680244,
+        "Model ID": "014_02_1",
+        "AI ID": 519,
+        "AI Type": "AITYPE_MAFIA_PATROL_SPAS",
+        "Graph ID": 12,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Priboi's Warehouse",
+        "Graph Position": {
+            "Graph": 12,
+            "X": 24389518.0,
+            "Y": 89470008.0,
+            "Z": 174505712.0
+        }
+    },
+    {
+        "Soldier ID": 420,
+        "Position X": 24310660.0,
+        "Position Y": 89438400.0,
+        "Position Z": 174510112.0,
+        "Angle": 0.1047199965,
+        "Model ID": "014_01_1",
+        "AI ID": 520,
+        "AI Type": "AITYPE_MAFIA_GUARD_SPAS",
+        "Graph ID": 12,
+        "Model Name": "AITYPE_MAFIA_PATROL_AK",
+        "Graph Name": "Priboi's Warehouse",
+        "Graph Position": {
+            "Graph": 12,
+            "X": 24389518.0,
+            "Y": 89470008.0,
+            "Z": 174505712.0
+        }
+    },
+    {
+        "Soldier ID": 418,
+        "Position X": 24377368.0,
+        "Position Y": 89483016.0,
+        "Position Z": 174510112.0,
+        "Angle": 2.3038349152,
+        "Model ID": "014_01_1",
+        "AI ID": 518,
+        "AI Type": "AITYPE_MAFIA_GUARD_SPAS",
+        "Graph ID": 12,
+        "Model Name": "AITYPE_MAFIA_PATROL_AK",
+        "Graph Name": "Priboi's Warehouse",
+        "Graph Position": {
+            "Graph": 12,
+            "X": 24389518.0,
+            "Y": 89470008.0,
+            "Z": 174505712.0
+        }
+    },
+    {
+        "Soldier ID": 421,
+        "Position X": 24294118.0,
+        "Position Y": 89447200.0,
+        "Position Z": 174522528.0,
+        "Angle": -0.9424780011,
+        "Model ID": "014_01_1",
+        "AI ID": 521,
+        "AI Type": "AITYPE_MAFIA_GUARD_SPAS",
+        "Graph ID": 12,
+        "Model Name": "AITYPE_MAFIA_PATROL_AK",
+        "Graph Name": "Priboi's Warehouse",
+        "Graph Position": {
+            "Graph": 12,
+            "X": 24389518.0,
+            "Y": 89470008.0,
+            "Z": 174505712.0
+        }
+    },
+    {
+        "Soldier ID": 422,
+        "Position X": 24971834.0,
+        "Position Y": 89352352.0,
+        "Position Z": 174505904.0,
+        "Angle": -2.1991150379,
+        "Model ID": "014_01_1",
+        "AI ID": 522,
+        "AI Type": "AITYPE_MAFIA_PATROL_AK",
+        "Graph ID": 8,
+        "Model Name": "AITYPE_MAFIA_PATROL_AK",
+        "Graph Name": "Last Base",
+        "Graph Position": {
+            "Graph": 8,
+            "X": 24992224.0,
+            "Y": 89429504.0,
+            "Z": 174500528.0
+        }
+    },
+    {
+        "Soldier ID": 423,
+        "Position X": 24972382.0,
+        "Position Y": 89345232.0,
+        "Position Z": 174505904.0,
+        "Angle": -2.1991150379,
+        "Model ID": "014_02_1",
+        "AI ID": 523,
+        "AI Type": "AITYPE_MAFIA_PATROL_AK",
+        "Graph ID": 8,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Last Base",
+        "Graph Position": {
+            "Graph": 8,
+            "X": 24992224.0,
+            "Y": 89429504.0,
+            "Z": 174500528.0
+        }
+    },
+    {
+        "Soldier ID": 424,
+        "Position X": 24978510.0,
+        "Position Y": 89346240.0,
+        "Position Z": 174505904.0,
+        "Angle": -2.1991150379,
+        "Model ID": "014_02_1",
+        "AI ID": 524,
+        "AI Type": "AITYPE_MAFIA_PATROL_AK",
+        "Graph ID": 8,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Last Base",
+        "Graph Position": {
+            "Graph": 8,
+            "X": 24992224.0,
+            "Y": 89429504.0,
+            "Z": 174500528.0
+        }
+    },
+    {
+        "Soldier ID": 425,
+        "Position X": 24538392.0,
+        "Position Y": 89291728.0,
+        "Position Z": 174552144.0,
+        "Angle": -1.8849560022,
+        "Model ID": "014_02_1",
+        "AI ID": 525,
+        "AI Type": "AITYPE_MAFIA_GUARD_AK",
+        "Graph ID": 9,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Watchtower Last Base",
+        "Graph Position": {
+            "Graph": 9,
+            "X": 24509198.0,
+            "Y": 89295280.0,
+            "Z": 174500992.0
+        }
+    },
+    {
+        "Soldier ID": 426,
+        "Position X": 25017782.0,
+        "Position Y": 87550408.0,
+        "Position Z": 174681008.0,
+        "Angle": -6.1099119186,
+        "Model ID": "011_01_1",
+        "AI ID": 526,
+        "AI Type": "AITYPE_CIVILIAN",
+        "Graph ID": 6,
+        "Model Name": "CIVILIAN_GUY1",
+        "Graph Name": "Barracks to Power Building",
+        "Graph Position": {
+            "Graph": 6,
+            "X": 24611794.0,
+            "Y": 87823424.0,
+            "Z": 174675264.0
+        }
+    },
+    {
+        "Soldier ID": 432,
+        "Position X": 25018048.0,
+        "Position Y": 87565520.0,
+        "Position Z": 174681008.0,
+        "Angle": -3.5299110413,
+        "Model ID": "011_02_1",
+        "AI ID": 532,
+        "AI Type": "AITYPE_CIVILIAN",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_GUNNER",
+        "Graph Name": "Barracks to Power Building",
+        "Graph Position": {
+            "Graph": 6,
+            "X": 24611794.0,
+            "Y": 87823424.0,
+            "Z": 174675264.0
+        }
+    },
+    {
+        "Soldier ID": 433,
+        "Position X": 25019966.0,
+        "Position Y": 87557072.0,
+        "Position Z": 174681008.0,
+        "Angle": -5.4979119301,
+        "Model ID": "011_03_1",
+        "AI ID": 533,
+        "AI Type": "AITYPE_CIVILIAN",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_GUNNER",
+        "Graph Name": "Barracks to Power Building",
+        "Graph Position": {
+            "Graph": 6,
+            "X": 24611794.0,
+            "Y": 87823424.0,
+            "Z": 174675264.0
+        }
+    },
+    {
+        "Soldier ID": 429,
+        "Position X": 25046216.0,
+        "Position Y": 87680544.0,
+        "Position Z": 174679456.0,
+        "Angle": -3.1415929794,
+        "Model ID": "014_02_1",
+        "AI ID": 529,
+        "AI Type": "AITYPE_MAFIA_PATROL_SPAS",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Barracks to Power Building",
+        "Graph Position": {
+            "Graph": 6,
+            "X": 24611794.0,
+            "Y": 87823424.0,
+            "Z": 174675264.0
+        }
+    },
+    {
+        "Soldier ID": 430,
+        "Position X": 24998270.0,
+        "Position Y": 89330328.0,
+        "Position Z": 174505904.0,
+        "Angle": -2.1991150379,
+        "Model ID": "014_02_1",
+        "AI ID": 530,
+        "AI Type": "AITYPE_MAFIA_PATROL_AK",
+        "Graph ID": 8,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Last Base",
+        "Graph Position": {
+            "Graph": 8,
+            "X": 24992224.0,
+            "Y": 89429504.0,
+            "Z": 174500528.0
+        }
+    },
+    {
+        "Soldier ID": 431,
+        "Position X": 24916458.0,
+        "Position Y": 88424280.0,
+        "Position Z": 174695584.0,
+        "Angle": -0.7330380082,
+        "Model ID": "014_02_1",
+        "AI ID": 531,
+        "AI Type": "AITYPE_MAFIA_GUARD_UZI",
+        "Graph ID": 23,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Uzi Soldier Tower",
+        "Graph Position": {
+            "Graph": 23,
+            "X": 24919416.0,
+            "Y": 88422888.0,
+            "Z": 174696672.0
+        }
+    },
+    {
+        "Soldier ID": 434,
+        "Position X": 25038172.0,
+        "Position Y": 87592744.0,
+        "Position Z": 174681120.0,
+        "Angle": -3.1415929794,
+        "Model ID": "014_02_1",
+        "AI ID": 534,
+        "AI Type": "AITYPE_MAFIA_PATROL_SPAS",
+        "Graph ID": 6,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Barracks to Power Building",
+        "Graph Position": {
+            "Graph": 6,
+            "X": 24611794.0,
+            "Y": 87823424.0,
+            "Z": 174675264.0
+        }
+    },
+    {
+        "Soldier ID": 435,
+        "Position X": 24905080.0,
+        "Position Y": 88773808.0,
+        "Position Z": 174513040.0,
+        "Angle": 4.5029492378,
+        "Model ID": "014_01_1",
+        "AI ID": 535,
+        "AI Type": "AITYPE_MAFIA_GUARD_UZI",
+        "Graph ID": 25,
+        "Model Name": "AITYPE_MAFIA_PATROL_AK",
+        "Graph Name": "Cutscene Area",
+        "Graph Position": {
+            "Graph": 25,
+            "X": -16952.140625,
+            "Y": 2191.640380859375,
+            "Z": -3490387200.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24377634.0,
+        "Position Y": 89432696.0,
+        "Position Z": 174504432.0,
+        "Angle": -2.591999054,
+        "Model ID": "014_01_1",
+        "AI ID": 2000,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 13,
+        "Model Name": "AITYPE_MAFIA_PATROL_AK",
+        "Graph Name": "Near Limo 2nd Base",
+        "Graph Position": {
+            "Graph": 13,
+            "X": 24387988.0,
+            "Y": 89412256.0,
+            "Z": 174514832.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24383274.0,
+        "Position Y": 89428576.0,
+        "Position Z": 174504608.0,
+        "Angle": 0.8759999871,
+        "Model ID": "014_02_1",
+        "AI ID": 2001,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 14,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Near Limo 2nd Base",
+        "Graph Position": {
+            "Graph": 14,
+            "X": 24369280.0,
+            "Y": 89422776.0,
+            "Z": 174521104.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24347526.0,
+        "Position Y": 89469632.0,
+        "Position Z": 174509760.0,
+        "Angle": 4.5029492378,
+        "Model ID": "014_02_1",
+        "AI ID": 2003,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 15,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Near Limo 2nd Base Upstairs",
+        "Graph Position": {
+            "Graph": 15,
+            "X": 24349238.0,
+            "Y": 89467800.0,
+            "Z": 174517152.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24350248.0,
+        "Position Y": 89428432.0,
+        "Position Z": 174504416.0,
+        "Angle": -1.8849560022,
+        "Model ID": "014_02_1",
+        "AI ID": 2004,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 16,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Near Limo 2nd Base",
+        "Graph Position": {
+            "Graph": 16,
+            "X": 24357868.0,
+            "Y": 89425064.0,
+            "Z": 174512368.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24754656.0,
+        "Position Y": 89410848.0,
+        "Position Z": 173998672.0,
+        "Angle": -1.6440000534,
+        "Model ID": "015_01_1",
+        "AI ID": 3030,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 22,
+        "Model Name": "AITYPE_ANYA",
+        "Graph Name": "Unknown",
+        "Graph Position": {
+            "Graph": 22,
+            "X": 24774286.0,
+            "Y": 89410904.0,
+            "Z": 174000496.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24903210.0,
+        "Position Y": 88933560.0,
+        "Position Z": 174504480.0,
+        "Angle": -1.3613569736,
+        "Model ID": "022_01_1",
+        "AI ID": 2005,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 17,
+        "Model Name": "HARRISON",
+        "Graph Name": "Area Between Heli and 2nd Base",
+        "Graph Position": {
+            "Graph": 17,
+            "X": 24923326.0,
+            "Y": 88915584.0,
+            "Z": 174511024.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24909694.0,
+        "Position Y": 88934888.0,
+        "Position Z": 174504480.0,
+        "Angle": 1.5707960129,
+        "Model ID": "021_01_1",
+        "AI ID": 2006,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 18,
+        "Model Name": "HARRISON",
+        "Graph Name": "Area Between Heli and 2nd Base",
+        "Graph Position": {
+            "Graph": 18,
+            "X": 24916004.0,
+            "Y": 88928864.0,
+            "Z": 174513552.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24931676.0,
+        "Position Y": 88961576.0,
+        "Position Z": 174505136.0,
+        "Angle": 2.7227139473,
+        "Model ID": "021_01_1",
+        "AI ID": 2008,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 19,
+        "Model Name": "HARRISON",
+        "Graph Name": "Area Between Heli and 2nd Base",
+        "Graph Position": {
+            "Graph": 19,
+            "X": 24936812.0,
+            "Y": 88961744.0,
+            "Z": 174515504.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24940850.0,
+        "Position Y": 88959360.0,
+        "Position Z": 174505136.0,
+        "Angle": 2.0867118835,
+        "Model ID": "020_01_1",
+        "AI ID": 2009,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 20,
+        "Model Name": "AITYPE_FRIENDLY",
+        "Graph Name": "Area Between Heli and 2nd Base",
+        "Graph Position": {
+            "Graph": 20,
+            "X": 24950368.0,
+            "Y": 88958168.0,
+            "Z": 174514960.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24913350.0,
+        "Position Y": 88963456.0,
+        "Position Z": 174504880.0,
+        "Angle": 3.6946299076,
+        "Model ID": "020_01_1",
+        "AI ID": 2011,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 21,
+        "Model Name": "AITYPE_FRIENDLY",
+        "Graph Name": "Area Between Heli and 2nd Base",
+        "Graph Position": {
+            "Graph": 21,
+            "X": 24907436.0,
+            "Y": 88968936.0,
+            "Z": 174512096.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 25965994.0,
+        "Position Y": 87347600.0,
+        "Position Z": 172806688.0,
+        "Angle": 4.6076688766,
+        "Model ID": "015_01_1",
+        "AI ID": 999,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 24,
+        "Model Name": "AITYPE_ANYA",
+        "Graph Name": "Cutscene Area",
+        "Graph Position": {
+            "Graph": 24,
+            "X": 19538.185546875,
+            "Y": -5014.9423828125,
+            "Z": 17158.244140625
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24870438.0,
+        "Position Y": 88911328.0,
+        "Position Z": 174504464.0,
+        "Angle": -0.4188790023,
+        "Model ID": "020_01_1",
+        "AI ID": 2020,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 26,
+        "Model Name": "AITYPE_FRIENDLY",
+        "Graph Name": "Area Between Heli and 2nd Base",
+        "Graph Position": {
+            "Graph": 26,
+            "X": 24865188.0,
+            "Y": 88908880.0,
+            "Z": 174509504.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24885548.0,
+        "Position Y": 88910232.0,
+        "Position Z": 174502656.0,
+        "Angle": 0.4188790023,
+        "Model ID": "021_01_1",
+        "AI ID": 2021,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 26,
+        "Model Name": "HARRISON",
+        "Graph Name": "Area Between Heli and 2nd Base",
+        "Graph Position": {
+            "Graph": 26,
+            "X": 24865188.0,
+            "Y": 88908880.0,
+            "Z": 174509504.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24877900.0,
+        "Position Y": 88902752.0,
+        "Position Z": 174504448.0,
+        "Angle": -0.8377580047,
+        "Model ID": "022_01_1",
+        "AI ID": 2022,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 26,
+        "Model Name": "HARRISON",
+        "Graph Name": "Area Between Heli and 2nd Base",
+        "Graph Position": {
+            "Graph": 26,
+            "X": 24865188.0,
+            "Y": 88908880.0,
+            "Z": 174509504.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24917178.0,
+        "Position Y": 88924448.0,
+        "Position Z": 174504448.0,
+        "Angle": 1.0471980572,
+        "Model ID": "021_01_1",
+        "AI ID": 2023,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 26,
+        "Model Name": "HARRISON",
+        "Graph Name": "Area Between Heli and 2nd Base",
+        "Graph Position": {
+            "Graph": 26,
+            "X": 24865188.0,
+            "Y": 88908880.0,
+            "Z": 174509504.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24910472.0,
+        "Position Y": 88914056.0,
+        "Position Z": 174502656.0,
+        "Angle": 1.1519169807,
+        "Model ID": "020_01_1",
+        "AI ID": 2024,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 26,
+        "Model Name": "AITYPE_FRIENDLY",
+        "Graph Name": "Area Between Heli and 2nd Base",
+        "Graph Position": {
+            "Graph": 26,
+            "X": 24865188.0,
+            "Y": 88908880.0,
+            "Z": 174509504.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24885782.0,
+        "Position Y": 88947496.0,
+        "Position Z": 174500816.0,
+        "Angle": 1.4660769701,
+        "Model ID": "014_02_1",
+        "AI ID": 2025,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 26,
+        "Model Name": "AITYPE_MAFIA2_PATROL_AK",
+        "Graph Name": "Area Between Heli and 2nd Base",
+        "Graph Position": {
+            "Graph": 26,
+            "X": 24865188.0,
+            "Y": 88908880.0,
+            "Z": 174509504.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24888148.0,
+        "Position Y": 88938496.0,
+        "Position Z": 174504512.0,
+        "Angle": 2.8274331093,
+        "Model ID": "009_01_1",
+        "AI ID": 2026,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 26,
+        "Model Name": "AITYPE_JACH_PRIBOI",
+        "Graph Name": "Area Between Heli and 2nd Base",
+        "Graph Position": {
+            "Graph": 26,
+            "X": 24865188.0,
+            "Y": 88908880.0,
+            "Z": 174509504.0
+        }
+    },
+    {
+        "Soldier ID": -1,
+        "Position X": 24864162.0,
+        "Position Y": 88937808.0,
+        "Position Z": 174500800.0,
+        "Angle": -2.3038349152,
+        "Model ID": "014_01_1",
+        "AI ID": 2027,
+        "AI Type": "AITYPE_PATROL_AK",
+        "Graph ID": 26,
+        "Model Name": "AITYPE_MAFIA_PATROL_AK",
+        "Graph Name": "Area Between Heli and 2nd Base",
+        "Graph Position": {
+            "Graph": 26,
+            "X": 24865188.0,
+            "Y": 88908880.0,
+            "Z": 174509504.0
+        }
+    }
+]
