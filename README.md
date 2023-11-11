@@ -37,10 +37,10 @@ IGI-Research-Data 🕵️‍♂️ is a repository that contains all the researc
 | 📜 IGI-QCompiler        | Compile/Decompile game scripts and binary files (QSC -> QVM, QVM -> QSC) | Jones-HM |
 | 🌐 IGI-Mtp_Decoder      | MTP converter for objects (e.g., level1.dat to level1.mtp)     | Unknown |
 | 📡 IGI-EngineExtractor  | Extract variables/data from the game engine and save data externally | Jones-HM |
-| ✏️ QVMEditor            | Powerful tool to view/edit game QVM files with features like model information, syntax highlighting, auto-complete, and more | Jones-HM |
+| ✏️ IGI-QVMEditor            | Powerful tool to view/edit game QVM files with features like model information, syntax highlighting, auto-complete, and more | Jones-HM |
 | 📊 IGI-GraphEditor      | Powerful tool to view/edit game Graphp files (e.g., Graph4019.dat) and analyze nodes, links, and vertices of graphs | Jones-HM |
 | 📋 IGI-Natives-Info     | Tool to view game native methods and get info about their signature and hash | Jones-HM |
-| 🖼️ TGaConv              | Texture converter for objects (e.g., wood_material.tex, concrete_bullet.tex) to convert to PNG format | Jones-HM |
+| 🖼️ IGI-TGaConvertor              | Texture converter for objects (e.g., wood_material.tex, concrete_bullet.tex) to convert to PNG format | Jones-HM |
 
 
 ## Templates - Section
@@ -56,8 +56,9 @@ If you want to use this data, respect fellow researchers and give proper credits
 - [Yoejin Light](https://vk.com/id436486682) 🌟 : _MTP, Models structure_ and information.
 - [Dimon Krevedko](https://vk.com/dimonkrevedko) 🌟 : **Graphs and Nodes** structure and information.
 - [Artiom Rotari](https://github.com/NEWME0) 🌟 : _DConv Tools for Decompiler_ and **Scripts**.
-- [ORWA S](https://www.youtube.com/@totalwartimelapses6359/videos) 🌟 - **Graphs Area and Nodes** compilation of information.
-- [GM123](https://www.youtube.com/@gm1233/videos) 🌟 - **Detailed Models Information**.
+- [ORWA S](https://www.youtube.com/@totalwartimelapses6359) 🌟 - **Graphs Area and Nodes** compilation of information.
+- [GM123](https://www.youtube.com/@gm1233) 🌟 - **Detailed Models Information**.
+- [Dark](https://www.youtube.com/@CRONOQUILLOFFICIAL)🌟 - **Contrinuted on Various Projects and files (Resources,QVM,QSC etc) and UI/UX Designs**.
 - [IGI ResearchDevs@HM](https://vk.com/id679925339) 🌟 - **Maintainer of this repo**.
 - [Chat-GPT Advanced](https://chat.openai.com/) 🌟 - **Understanding complex game mechanics** with _Reverse Engineering_ and **Advaced Data Analysis** of Game files _QVM,QSC,.DAT and more_.
 
