@@ -59,6 +59,7 @@ If you want to use this data, respect fellow researchers and give proper credits
 - [ORWA S](https://www.youtube.com/@totalwartimelapses6359) 🌟 - **Graphs Area and Nodes** compilation of information.
 - [GM123](https://www.youtube.com/@gm1233) 🌟 - **Detailed Models Information**.
 - [Dark](https://www.youtube.com/@CRONOQUILLOFFICIAL)🌟 - **Contrinuted on Various Projects and files (Resources,QVM,QSC etc) and UI/UX Designs**.
+- [Ferit Coder](https://www.youtube.com/channel/UCpn_gZMkFVBUAe9SJK9hYQA) 🌟 - **Helped with IGI 2 Editor **Maps/Models** conversion to IGI 1.**.
 - [IGI ResearchDevs@HM](https://vk.com/id679925339) 🌟 - **Maintainer of this repo**.
 - [Chat-GPT Advanced](https://chat.openai.com/) 🌟 - **Understanding complex game mechanics** with _Reverse Engineering_ and **Advaced Data Analysis** of Game files _QVM,QSC,.DAT and more_.
 
