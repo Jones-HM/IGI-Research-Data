@@ -31,6 +31,7 @@ IGI-Research-Data 🕵️‍♂️ is a repository that contains all the researc
 | 📈 IGI Natives Analyzer | Analyze game natives with detailed insights.                  | [Link](https://igi-natives-analyzer.streamlit.app/) |
 | 🗺️ I.G.I Level Information | Explore data related to I.G.I levels.                      | [Link](https://igi-levels-data.netlify.app/) |
 | 📜 I.G.I AI Data Information | Explore *A.I* information of all I.G.I levels.                      | [Link](https://igi-ai-info.streamlit.app/) |
+| 📜 I.G.I Missions AI Analyzer | Explore Mission *Soldiers* information of all I.G.I levels.                      | [Link](https://igi-missions-analyzer.streamlit.app/) | 
 | 📁 IGI-Resource-Viewer  | View IGI resource files like _.tex, .spr, .tga_ without extraction | Dark  |
 | 📦 IGI-Resource-Convertor | Pack/Unpack IGI resource files like _.res_ Resource files       | Dark/Jones-HM |
 | 🎨 IGI-3dsMax-tools     | Export models from 3ds Max v8-Year 2005 to IGI's MEF format   | IGI-Devs |
