@@ -25,6 +25,7 @@ IGI-Research-Data 🕵️‍♂️ is a repository that contains all the researc
 
 | Tool Name               | Description                                                   | Developer      |
 |-------------------------|---------------------------------------------------------------|----------------|
+| 📜 IGI Compiler     | Compile/Decompile game binary (_QVM_) files on web.      | [Link](https://igi-compiler.streamlit.app/) |
 | 📊 IGI Graph Viewer     | Explore the game's graphs in a user-friendly interface.      | [Link](https://igi-graphviewer-hm.streamlit.app/) |
 | 🔍 IGI Models Search    | Find I.G.I models with ease.                                  | [Link](https://igi-models-search.netlify.app/) |
 | 🕵️ IGI Natives Search  | Search for game natives efficiently.                         | [Link](https://igi-natives-search.netlify.app/) |
